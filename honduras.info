@@ -142,7 +142,9 @@ settings[zurb_foundation_messages_modal] = 0
 settings[zurb_foundation_pager_center] = 1
 
 ; Social Media
-settings[facebook] = 'Facebook Url'
-settings[twitter] = 'Twitter Urls'
-settings[pinterest] = 'Pinterest Urls'
-settings[instagram] = 'Instagram Urls'
+
+settings[icon_using] = 0
+settings[facebook] = 0
+settings[twitter] = 0
+settings[pinterest] = 0
+settings[instagram] = 0

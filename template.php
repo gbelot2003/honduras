@@ -19,7 +19,47 @@ function honduras_preprocess_html(&$variables) {
  *
  */
 function honduras_preprocess_page(&$variables) {
+  
+  /*
+  * Adding jquery.lazy for image rendering
+  */
   drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/bejavior/jquery.lazy.js');
+
+  /*
+  * Adding social media links for themes headers
+  */
+  
+  $variables['icon_using']  = variable_get('icon_using');
+  $variables['facebook']  = variable_get('facebook');  
+  $variables['twitter']  = variable_get('twitter');  
+  $variables['pinterest']  = variable_get('pinterest');  
+  $variables['instagram']  = variable_get('instagram');  
+
+  if($variables['icon_using'] === 1){
+
+      if(!empty($variables['facebook'])){
+        $variables['facebook_url']    = "<a id='facebook_icon' href='" . variable_get('facebook') ."' target='_blank'>facebook</a>";
+      }
+      
+      if(!empty($variables['twitter'])){
+        $variables['twitter_url']     = "<a id='twitter_icon' href='" . variable_get('twitter')."' target='_blank'>twitter</a>";
+      }
+
+      if(!empty($variables['pinterest'])){
+        $variables['pinterest_url']   = "<a id='pinterest_icon' href='" . variable_get('pinterest')."' target='_blank'>pinterest</a>";
+      }
+
+      if(!empty($variables['instagram'])){
+        $variables['instagram_url']   = "<a id='instagram_icon' href='" . variable_get('instagram')."' target='_blank'>instagram</a>";
+      }
+
+  } else {
+      $variables['icon_using']  = NULL;
+      $variables['facebook_url']  = NULL;
+      $variables['twitter_url']   = NULL;
+      $variables['pinterest_url'] = NULL;
+      $variables['instagram_url'] = NULL;
+  }
 }
 
 /**

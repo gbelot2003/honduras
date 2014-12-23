@@ -6,9 +6,29 @@
     
     <div class="header-top">
       <div class="row">
+        <?php if(isset($icon_using) && isset($facebook_url) || isset($twitter_url) || isset($pinterest_url) || isset($instagram_url)): ?>
         <div class="small-12 columns">
-          <p>this text</p>
+          <ul id='social-icons'>
+            
+            <?php if(isset($facebook_url)): ?>
+              <li class="list-inline"><?php print $facebook_url ?></li>
+            <?php endif ?>
+            
+            <?php if(isset($twitter_url)): ?>
+              <li class="list-inline"><?php print $twitter_url ?></li>
+            <?php endif ?>
+
+            <?php if(isset($pinterest_url)): ?>              
+              <li class="list-inline"><?php print $pinterest_url ?></li>
+            <?php endif ?>
+
+            <?php if(isset($instagram_url)): ?>
+              <li class="list-inline"><?php print $instagram_url ?></li>    
+            <?php endif ?>
+
+          </ul>
         </div>
+        <?php endif; ?>
       </div>
     </div>
     
