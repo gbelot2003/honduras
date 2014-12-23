@@ -19,7 +19,7 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    sass (3.4.9)
+    sass (3.3.14)
     zurb-foundation (4.3.2)
       sass (>= 3.2.0)
 
@@ -28,4 +28,5 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  sass (= 3.3.14)
   zurb-foundation (= 4.3.2)
