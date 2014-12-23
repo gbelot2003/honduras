@@ -3,7 +3,15 @@
 
   <!--.l-header region -->
   <header role="banner" class="l-header">
-
+    
+    <div class="header-top">
+      <div class="row">
+        <div class="small-12 columns">
+          <p>this text</p>
+        </div>
+      </div>
+    </div>
+    
     <?php if ($top_bar): ?>
       <!--.top-bar -->
       <?php if ($top_bar_classes): ?>
