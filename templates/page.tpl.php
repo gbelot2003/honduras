@@ -230,8 +230,12 @@
     <!--/.footer-columns-->
   <?php endif; ?>
 
-  <!--.l-footer-->
-  <footer class="l-footer panel row" role="contentinfo">
+  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
+</div>
+
+<!--.l-footer-->
+<footer>
+  <div class="l-footer row" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer large-12 columns">
         <?php print render($page['footer']); ?>
@@ -239,13 +243,21 @@
     <?php endif; ?>
 
     <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
+      <div class="copyright large-10 columns">
+        &copy; <?php print date('Y') . ' ' . "CANATURH" . ' ' . t('All rights reserved.'); ?>
       </div>
     <?php endif; ?>
-  </footer>
-  <!--/.footer-->
+    
+    <div class="large-2 columns">
+      <img src="http://drkuf9gftqtsg.cloudfront.net/atlantida/sites/default/files/logos//marca1.png">
+    </div>
 
-  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
-</div>
+    <?php if(!empty($page['menu_footer'])): ?>
+      <div class="large-12 columns menu-footer">
+        <?php print render($page['menu_footer']); ?>
+      </div>
+    <?php endif; ?>
+  </div>
+</footer>
+  <!--/.footer-->
 <!--/.page -->

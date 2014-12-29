@@ -1,0 +1,16 @@
+footer {
+	padding-top: 1rem;
+	background: #1F1F1F;
+	.copyright, .menu-footer{
+		color: white;
+		line-height: 3rem;
+	}
+	.block-menu-menu-footer-menu ul.menu {
+		text-align: center;
+		li{
+			display: inline;
+			margin-right: 0.9rem;
+			list-style: none;
+		}
+	}
+}
