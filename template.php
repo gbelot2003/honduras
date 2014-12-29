@@ -43,7 +43,7 @@ function honduras_links__topbar_main_menu($variables) {
     }
   }
   $output = _honduras_links($links);
-    $variables['attributes']['class'][] = 'left';
+    $variables['attributes']['class'][] = 'right';
 
   return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
 }
@@ -57,6 +57,19 @@ function _honduras_links($links) {
   }
 
   return $output;
+}
+
+/**
+ * Implements theme_links() targeting the secondary menu specifically.
+ * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html
+ */
+function honduras_links__topbar_secondary_menu($variables) {
+  // We need to fetch the links ourselves because we need the entire tree.
+  $links = menu_tree_output(menu_tree_all_data(variable_get('menu_secondary_links_source', 'user-menu')));
+  $output = _zurb_foundation_links($links);
+  $variables['attributes']['class'][] = 'left';
+
+  return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
 }
 
 
@@ -147,19 +160,6 @@ function theme_honduras_menu_link($variables) {
     return l( $link['#title'], $link['#href'], $link['#localized_options'] );
   }
 
-}
-
-/**
- * Implements theme_links() targeting the secondary menu specifically.
- * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html
- */
-function honduras_links__topbar_secondary_menu($variables) {
-  // We need to fetch the links ourselves because we need the entire tree.
-  $links = menu_tree_output(menu_tree_all_data(variable_get('menu_secondary_links_source', 'user-menu')));
-  $output = _zurb_foundation_links($links);
-  $variables['attributes']['class'][] = 'right';
-
-  return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
 }
 
 
