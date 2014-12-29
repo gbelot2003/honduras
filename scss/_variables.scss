@@ -85,8 +85,11 @@ $default-float: left;
 // $body-bg: #fff;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
+$body-font-weight: normal;
 // $body-font-style: normal;
+$body-font-style: normal;
 
 // Font-smoothing
 
@@ -169,7 +172,7 @@ $default-float: left;
 //
 
 // $row-width: em-calc(1000);
-$row-width: em-calc(1200);
+$row-width: em-calc(1300);
 // $column-gutter: em-calc(30);
 // $total-columns: 12;
 
@@ -228,8 +231,11 @@ $row-width: em-calc(1200);
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
 // $paragraph-font-size: 1em;
+$paragraph-font-size: 1.2em;
 // $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: em-calc(20);
+$paragraph-margin-bottom: em-calc(20);
 // $paragraph-aside-font-size: em-calc(14);
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;

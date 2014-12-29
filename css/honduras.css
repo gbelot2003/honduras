@@ -483,7 +483,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -590,7 +590,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 75em;
+  max-width: 81.25em;
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
@@ -2012,7 +2012,7 @@ th.hide-for-touch {
 }
 /* line 111, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875em;
+  font-size: 1.41875em;
   line-height: 1.6;
 }
 
@@ -2072,7 +2072,7 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility;
@@ -2175,7 +2175,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   list-style-position: outside;
@@ -4967,7 +4967,7 @@ label.error {
 
   /* line 412, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 75em;
+    max-width: 81.25em;
     margin: 0 auto;
     margin-bottom: 0;
   }
@@ -7334,7 +7334,7 @@ a.th {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 75em;
+  max-width: 81.25em;
   overflow: hidden;
   *zoom: 1;
 }
@@ -8747,6 +8747,57 @@ th.hide-for-touch {
   padding: 0;
   margin: 0;
   display: inline-block;
+}
+
+/* line 19, ../scss/layout/_header.scss */
+.top-bar-section .main-nav > li > a:not(.button) {
+  font-weight: 400;
+  font-size: .92857em;
+  text-transform: uppercase;
+}
+
+/* line 25, ../scss/layout/_header.scss */
+.top-bar-section .main-nav > li > a:not(.button) i {
+  display: block;
+  padding: 20px 0 0 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/* line 7, ../scss/layout/_footer.scss */
+footer {
+  padding-top: 1rem;
+  background: #1F1F1F;
+}
+/* line 10, ../scss/layout/_footer.scss */
+footer .copyright, footer .menu-footer {
+  color: white;
+  line-height: 3rem;
+}
+/* line 14, ../scss/layout/_footer.scss */
+footer .copyright {
+  margin-bottom: 3rem;
+}
+/* line 17, ../scss/layout/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu {
+  text-align: center;
+}
+/* line 19, ../scss/layout/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu li {
+  display: inline;
+  margin-right: 0.9rem;
+  list-style: none;
+  border-left: 1px solid white;
+}
+/* line 24, ../scss/layout/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu li a {
+  padding: 0 0 0 0.9rem;
+  color: white;
+  text-decoration: underline;
+}
+/* line 30, ../scss/layout/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu li:first-child {
+  border-left: none;
 }
 
 /*
@@ -10469,42 +10520,6 @@ th.hide-for-touch {
 /* line 596, ../scss/components/_foundation-icons.scss */
 .fi-zoom-out:before {
   content: "\f21a";
-}
-
-/* line 1, ../scss/components/_footer.scss */
-footer {
-  padding-top: 1rem;
-  background: #1F1F1F;
-}
-/* line 4, ../scss/components/_footer.scss */
-footer .copyright, footer .menu-footer {
-  color: white;
-  line-height: 3rem;
-}
-/* line 8, ../scss/components/_footer.scss */
-footer .copyright {
-  margin-bottom: 3rem;
-}
-/* line 11, ../scss/components/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu {
-  text-align: center;
-}
-/* line 13, ../scss/components/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li {
-  display: inline;
-  margin-right: 0.9rem;
-  list-style: none;
-  border-left: 1px solid white;
-}
-/* line 18, ../scss/components/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li a {
-  padding: 0 0 0 0.9rem;
-  color: white;
-  text-decoration: underline;
-}
-/* line 24, ../scss/components/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li:first-child {
-  border-left: none;
 }
 
 /* line 1, ../scss/theme/_sponsors.scss */

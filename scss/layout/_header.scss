@@ -5,9 +5,26 @@
 // Top Bar
 //--------------------------------------------------
 .top-bar {
+	
   .title-area {}
 }
 
 .top-bar-section {}
 .top-bar-section .left {}
 .top-bar-section .right {}
+
+.top-bar-section ul{
+}
+
+.top-bar-section .main-nav>li>a:not(.button) {
+font-weight: 400;
+font-size: .92857em;
+text-transform: uppercase;
+}
+
+.top-bar-section .main-nav>li>a:not(.button) i{
+	display: block;
+	padding: 20px 0 0 0;
+	font-size: 2.5em;
+	text-align: center;
+}
