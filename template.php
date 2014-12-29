@@ -5,8 +5,6 @@
  *
  */
 
-
-
 function honduras_preprocess_html(&$variables) {
     // Add conditional CSS for IE. To use uncomment below and add IE css file
     drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
@@ -15,9 +13,149 @@ function honduras_preprocess_html(&$variables) {
 }
 
 /**
+ * Implements hook_theme().
+ */
+
+function honduras_theme() {
+  $return = array();
+
+  $return['honduras_menu_link'] = array(
+    'variables' => array('link' => NULL),
+    'function' => 'theme_honduras_menu_link',
+  );
+  return $return;
+}
+
+
+/**
+ * Implements theme_links() targeting the main menu specifically.
+ * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html
+ */
+function honduras_links__topbar_main_menu($variables) {
+  // We need to fetch the links ourselves because we need the entire tree.
+  $links = menu_tree_output(menu_tree_all_data(variable_get('menu_main_links_source', 'main-menu')));
+  
+  $i = 1;
+  foreach ($links as $key => $value) {
+    if(is_numeric($key)){
+      $links[$key]['#attributes']['class'][] = 'color-'. $i;
+      $i++;
+    }
+  }
+  $output = _honduras_links($links);
+  //$variables['attributes']['class'][] = 'right';
+
+  return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
+}
+
+
+function _honduras_links($links) {
+  $output = '';
+
+  foreach (element_children($links) as $key) {
+    $output .= _honduras_render_link($links[$key]);
+  }
+
+  return $output;
+}
+
+
+/**
+ * Helper function to recursively render sub-menus.
+ *
+ * @param array
+ *   An array of menu links.
+ *
+ * @return string
+ *   A rendered list of links, with no <ul> or <ol> wrapper.
+ *
+ * @see _zurb_foundation_links()
+ */
+function _honduras_render_link($link) {
+  $output = '';
+
+  // This is a duplicate link that won't get the dropdown class and will only
+  // show up in small-screen.
+  $small_link = $link;
+
+  if (!empty($link['#below'])) {
+    $link['#attributes']['class'][] = 'has-dropdown';
+  }
+
+  // Render top level and make sure we have an actual link.
+  if (!empty($link['#href'])) {
+    $rendered_link = NULL;
+
+    // Foundation offers some of the same functionality as Special Menu Items;
+    // ie: Dividers and Labels in the top bar. So let's make sure that we
+    // render them the Foundation way.
+    if (module_exists('special_menu_items')) {
+      if ($link['#href'] === '<nolink>') {
+        $rendered_link = '<label>' . $link['#title'] . '</label>';
+      }
+      else if ($link['#href'] === '<separator>') {
+        $link['#attributes']['class'][] = 'divider';
+        $rendered_link = '';
+      }
+    }
+
+    if (!isset($rendered_link)) {
+      $rendered_link = theme('honduras_menu_link', array('link' => $link));
+    }
+
+    // Test for localization options and apply them if they exist.
+    if (isset($link['#localized_options']['attributes']) && is_array($link['#localized_options']['attributes'])) {
+      $link['#attributes'] = array_merge($link['#attributes'], $link['#localized_options']['attributes']);
+    }
+    $output .= '<li' . drupal_attributes($link['#attributes']) . '>' . $rendered_link;
+
+    if (!empty($link['#below'])) {
+      // Add repeated link under the dropdown for small-screen.
+      $small_link['#attributes']['class'][] = 'show-for-small';
+      $sub_menu = '<li' . drupal_attributes($small_link['#attributes']) . '>' . l($link['#title'], $link['#href'], $link['#localized_options']);
+
+      // Build sub nav recursively.
+      foreach ($link['#below'] as $sub_link) {
+        if (!empty($sub_link['#href'])) {
+          $sub_menu .= _zurb_foundation_render_link($sub_link);
+        }
+      }
+
+      $output .= '<ul class="dropdown">' . $sub_menu . '</ul>';
+    }
+
+    $output .=  '</li>';
+  }
+
+  return $output;
+}
+
+/**
+ * Theme function to render a single top bar menu link.
+ */
+function theme_honduras_menu_link($variables) {
+  $link = $variables['link'];
+  
+  if( $link['#original_link']['plid'] == 0  &&  isset( $link['#localized_options']['menu_icon_awesome'] ) ){
+    $link['#localized_options']['html'] = TRUE;
+    $link['#localized_options']['attributes']['class'][] = 'has-icon';
+
+    return l( '<i class="fa ' . $link['#localized_options']['menu_icon_awesome'] . '"></i>' 
+           . $link['#title'], $link['#href'], $link['#localized_options']);
+  
+  }else{
+    return l( $link['#title'], $link['#href'], $link['#localized_options'] );
+  }
+
+}
+
+
+
+/**
  * Implements template_preprocess_page
  *
  */
+
 function honduras_preprocess_page(&$variables) {
   
   /*
@@ -61,6 +199,10 @@ function honduras_preprocess_page(&$variables) {
       $variables['instagram_url'] = NULL;
   }
 }
+
+
+
+
 
 /**
  * Implements template_preprocess_node
