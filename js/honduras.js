@@ -2,7 +2,7 @@
 
   Drupal.behaviors.honduras = {
     attach: function(context, settings) {
-      // Get your Yeti started.
+
     }
   };
 

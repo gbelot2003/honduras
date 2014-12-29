@@ -10482,12 +10482,59 @@ footer .copyright, footer .menu-footer {
   line-height: 3rem;
 }
 /* line 8, ../scss/components/_footer.scss */
+footer .copyright {
+  margin-bottom: 3rem;
+}
+/* line 11, ../scss/components/_footer.scss */
 footer .block-menu-menu-footer-menu ul.menu {
   text-align: center;
 }
-/* line 10, ../scss/components/_footer.scss */
+/* line 13, ../scss/components/_footer.scss */
 footer .block-menu-menu-footer-menu ul.menu li {
   display: inline;
   margin-right: 0.9rem;
   list-style: none;
+  border-left: 1px solid white;
+}
+/* line 18, ../scss/components/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu li a {
+  padding: 0 0 0 0.9rem;
+  color: white;
+  text-decoration: underline;
+}
+/* line 24, ../scss/components/_footer.scss */
+footer .block-menu-menu-footer-menu ul.menu li:first-child {
+  border-left: none;
+}
+
+/* line 1, ../scss/theme/_sponsors.scss */
+#sponsored {
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+}
+
+/* line 7, ../scss/theme/_sponsors.scss */
+.sponsor {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* line 16, ../scss/theme/_sponsors.scss */
+.sponsorFlip {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  /*background:url("img/background.jpg") no-repeat center center #f9f9f9;*/
+}
+
+/* line 22, ../scss/theme/_sponsors.scss */
+.sponsorFlip:hover {
+  border: 1px solid #999;
+  -moz-box-shadow: 0 0 30px #999 inset;
+  -webkit-box-shadow: 0 0 30px #999 inset;
+  box-shadow: 0 0 30px #999 inset;
 }
