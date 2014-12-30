@@ -1,16 +1,5 @@
 <?php
 
-/**
- * Implements template_preprocess_html().
- *
- */
-
-function honduras_preprocess_html(&$variables) {
-    // Add conditional CSS for IE. To use uncomment below and add IE css file
-    drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
-    // Need legacy support for IE downgrade to Foundation 2 or use JS file below
-    drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
-}
 
 /**
  * Implements hook_theme().
@@ -24,6 +13,80 @@ function honduras_theme() {
     'function' => 'theme_honduras_menu_link',
   );
   return $return;
+}
+
+/**
+ * Implements template_preprocess_html().
+ *
+ */
+
+function honduras_preprocess_html(&$variables) {
+    /**
+     * Add Color module hooks
+     */
+    if (module_exists('color')) {
+      _color_page_alter($variables);
+    }
+    
+    // Add conditional CSS for IE. To use uncomment below and add IE css file
+    drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
+    // Need legacy support for IE downgrade to Foundation 2 or use JS file below
+    drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
+}
+
+
+/**
+ * Implements hook_preprocess_page
+ */
+
+function honduras_preprocess_page(&$variables) {
+    /**
+     * Add Color module hooks
+     */
+    if (module_exists('color')) {
+      _color_page_alter($variables);
+    }
+  
+  /*
+  * Adding jquery.lazy for image rendering
+  */
+  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/bejavior/jquery.lazy.js');
+
+  /*
+  * Adding social media links for themes headers
+  */
+  
+  $variables['icon_using']  = variable_get('icon_using');
+  $variables['facebook']  = variable_get('facebook');  
+  $variables['twitter']  = variable_get('twitter');  
+  $variables['pinterest']  = variable_get('pinterest');  
+  $variables['instagram']  = variable_get('instagram');  
+
+  if($variables['icon_using'] === 1){
+
+      if(!empty($variables['facebook'])){
+        $variables['facebook_url']    = "<a id='facebook_icon' href='" . variable_get('facebook') ."' target='_blank'>facebook</a>";
+      }
+      
+      if(!empty($variables['twitter'])){
+        $variables['twitter_url']     = "<a id='twitter_icon' href='" . variable_get('twitter')."' target='_blank'>twitter</a>";
+      }
+
+      if(!empty($variables['pinterest'])){
+        $variables['pinterest_url']   = "<a id='pinterest_icon' href='" . variable_get('pinterest')."' target='_blank'>pinterest</a>";
+      }
+
+      if(!empty($variables['instagram'])){
+        $variables['instagram_url']   = "<a id='instagram_icon' href='" . variable_get('instagram')."' target='_blank'>instagram</a>";
+      }
+
+  } else {
+      $variables['icon_using']  = NULL;
+      $variables['facebook_url']  = NULL;
+      $variables['twitter_url']   = NULL;
+      $variables['pinterest_url'] = NULL;
+      $variables['instagram_url'] = NULL;
+  }
 }
 
 
@@ -167,51 +230,6 @@ function theme_honduras_menu_link($variables) {
  * Implements template_preprocess_page
  *
  */
-
-function honduras_preprocess_page(&$variables) {
-  
-  /*
-  * Adding jquery.lazy for image rendering
-  */
-  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/bejavior/jquery.lazy.js');
-
-  /*
-  * Adding social media links for themes headers
-  */
-  
-  $variables['icon_using']  = variable_get('icon_using');
-  $variables['facebook']  = variable_get('facebook');  
-  $variables['twitter']  = variable_get('twitter');  
-  $variables['pinterest']  = variable_get('pinterest');  
-  $variables['instagram']  = variable_get('instagram');  
-
-  if($variables['icon_using'] === 1){
-
-      if(!empty($variables['facebook'])){
-        $variables['facebook_url']    = "<a id='facebook_icon' href='" . variable_get('facebook') ."' target='_blank'>facebook</a>";
-      }
-      
-      if(!empty($variables['twitter'])){
-        $variables['twitter_url']     = "<a id='twitter_icon' href='" . variable_get('twitter')."' target='_blank'>twitter</a>";
-      }
-
-      if(!empty($variables['pinterest'])){
-        $variables['pinterest_url']   = "<a id='pinterest_icon' href='" . variable_get('pinterest')."' target='_blank'>pinterest</a>";
-      }
-
-      if(!empty($variables['instagram'])){
-        $variables['instagram_url']   = "<a id='instagram_icon' href='" . variable_get('instagram')."' target='_blank'>instagram</a>";
-      }
-
-  } else {
-      $variables['icon_using']  = NULL;
-      $variables['facebook_url']  = NULL;
-      $variables['twitter_url']   = NULL;
-      $variables['pinterest_url'] = NULL;
-      $variables['instagram_url'] = NULL;
-  }
-}
-
 
 
 

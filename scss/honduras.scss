@@ -43,6 +43,7 @@
 //
 // Styling for elements.
 @import "base/elements";
+@import "base/colors";
 //
 
 // Layout
@@ -60,7 +61,10 @@
 @import "components/type";
 @import "components/forms";
 @import "components/foundation-icons";
+@import "components/main-menu";
+
 @import "theme/sponsors";
+
 // Themes
 // @import "theme/button-light";
 // IE8 Grid Support

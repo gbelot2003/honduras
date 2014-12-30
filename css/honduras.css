@@ -2012,7 +2012,7 @@ th.hide-for-touch {
 }
 /* line 111, ../../../../../../../../home/vagrant/.rvm/gems/ruby-1.9.3-p551/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.41875em;
+  font-size: 1.21875em;
   line-height: 1.6;
 }
 
@@ -2072,7 +2072,7 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility;
@@ -2175,7 +2175,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   list-style-position: outside;
@@ -8722,6 +8722,11 @@ th.hide-for-touch {
     clear: both;
   }
 }
+/* line 9, ../scss/base/_common.scss */
+.list-inline {
+  display: inline;
+}
+
 /* line 4, ../scss/base/_drupal.scss */
 .admin-menu .fixed {
   top: 1.8125em;
@@ -8749,14 +8754,44 @@ th.hide-for-touch {
   display: inline-block;
 }
 
-/* line 19, ../scss/layout/_header.scss */
+/* line 5, ../scss/layout/_header.scss */
+#header-top {
+  background: #0047ba;
+}
+
+/* line 9, ../scss/layout/_header.scss */
+.contain-to-grid {
+  background: none;
+}
+
+/* line 15, ../scss/layout/_header.scss */
+.top-bar {
+  background: none;
+  height: 100%;
+}
+/* line 22, ../scss/layout/_header.scss */
+.top-bar .name h1 a {
+  display: inline-block;
+  width: 165px;
+  height: 0px;
+  overflow: hidden;
+  padding-top: 85px;
+  background: url("../images/logo2.png") top center no-repeat;
+}
+
+/* line 44, ../scss/layout/_header.scss */
+.top-bar-section .left li a:not(.button) {
+  background: #0047ba 50%;
+}
+
+/* line 49, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
-  font-weight: 400;
-  font-size: .92857em;
+  font-weight: 300;
+  font-size: .72857em;
   text-transform: uppercase;
 }
 
-/* line 25, ../scss/layout/_header.scss */
+/* line 55, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -10520,6 +10555,31 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
 /* line 596, ../scss/components/_foundation-icons.scss */
 .fi-zoom-out:before {
   content: "\f21a";
+}
+
+/* line 2, ../scss/components/_main-menu.scss */
+.color-1 a {
+  background: #e60000 !important;
+}
+
+/* line 3, ../scss/components/_main-menu.scss */
+.color-2 a {
+  background: #ff751a !important;
+}
+
+/* line 4, ../scss/components/_main-menu.scss */
+.color-3 a {
+  background: #fbb820 !important;
+}
+
+/* line 5, ../scss/components/_main-menu.scss */
+.color-4 a {
+  background: #94e107 !important;
+}
+
+/* line 6, ../scss/components/_main-menu.scss */
+.color-5 a {
+  background: #009ae7 !important;
 }
 
 /* line 1, ../scss/theme/_sponsors.scss */

@@ -2,23 +2,53 @@
 
 .l-header {}
 
+#header-top{
+	background: $color-honduras;
+}
+
+.contain-to-grid {
+	background:none;
+}
+
 // Top Bar
 //--------------------------------------------------
 .top-bar {
-	
-  .title-area {}
+	background:none;
+	height: 100%;
+  .title-area {
+
+  }
+  
+  .name h1 a{
+	display: inline-block;
+	width: 165px;
+	height: 0px;
+	overflow: hidden;
+	padding-top: 85px;
+	background:url('../images/logo2.png') top center no-repeat;
+  }// name h1 a
 }
 
 .top-bar-section {}
-.top-bar-section .left {}
-.top-bar-section .right {}
+.top-bar-section .left {
+
+}
+.top-bar-section .right {
+
+}
 
 .top-bar-section ul{
 }
 
+
+.top-bar-section .left li a:not(.button){
+	background: $color-honduras(50%);
+}
+
+
 .top-bar-section .main-nav>li>a:not(.button) {
-font-weight: 400;
-font-size: .92857em;
+font-weight: 300;
+font-size: .72857em;
 text-transform: uppercase;
 }
 
@@ -28,3 +58,4 @@ text-transform: uppercase;
 	font-size: 2.5em;
 	text-align: center;
 }
+
