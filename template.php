@@ -87,6 +87,12 @@ function honduras_preprocess_page(&$variables) {
       $variables['pinterest_url'] = NULL;
       $variables['instagram_url'] = NULL;
   }
+
+  /**
+   * Adding path to logos images
+   */
+  
+  
 }
 
 
