@@ -50,7 +50,7 @@ function honduras_preprocess_page(&$variables) {
   /*
   * Adding jquery.lazy for image rendering
   */
-  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/bejavior/jquery.lazy.js');
+  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/behavior/jquery.lazy.js');
 
   /*
   * Adding social media links for themes headers
@@ -65,19 +65,19 @@ function honduras_preprocess_page(&$variables) {
   if($variables['icon_using'] === 1){
 
       if(!empty($variables['facebook'])){
-        $variables['facebook_url']    = "<a id='facebook_icon' href='" . variable_get('facebook') ."' target='_blank'>facebook</a>";
+        $variables['facebook_url']    = "<a id='facebook_icon' title='facebook' href='" . variable_get('facebook') ."' target='_blank'><i class='fa-facebook'></i></a>";
       }
       
       if(!empty($variables['twitter'])){
-        $variables['twitter_url']     = "<a id='twitter_icon' href='" . variable_get('twitter')."' target='_blank'>twitter</a>";
+        $variables['twitter_url']     = "<a id='twitter_icon' title='twitter' href='" . variable_get('twitter')."' target='_blank'><i class='fa-twitter'></i></a>";
       }
 
       if(!empty($variables['pinterest'])){
-        $variables['pinterest_url']   = "<a id='pinterest_icon' href='" . variable_get('pinterest')."' target='_blank'>pinterest</a>";
+        $variables['pinterest_url']   = "<a id='pinterest_icon' title='pinterest' href='" . variable_get('pinterest')."' target='_blank'><i class='fa-pinterest'></i></a>";
       }
 
       if(!empty($variables['instagram'])){
-        $variables['instagram_url']   = "<a id='instagram_icon' href='" . variable_get('instagram')."' target='_blank'>instagram</a>";
+        $variables['instagram_url']   = "<a id='instagram_icon' title='instagram' href='" . variable_get('instagram')."' target='_blank'><i class='fa-instagram'></i></a>";
       }
 
   } else {
@@ -223,6 +223,45 @@ function theme_honduras_menu_link($variables) {
     return l( $link['#title'], $link['#href'], $link['#localized_options'] );
   }
 
+}
+
+
+/**
+ * [honduras_links__locale_block description]
+ * @param  [type] &$vars [description]
+ * @return [type]        [description]
+ */
+
+function honduras_links__locale_block(&$variables) {
+  // an array of list items
+  $items = array();
+  foreach($variables['links'] as $language => $info) 
+  {
+    $name = $info['language']->native;
+    $href = isset($info['href']) ? $info['href'] : '';
+    $li_classes = array('list-inline');
+    $link_classes = array('link-class1', 'link-class2');
+    $options = array('attributes' => array('class'    => $link_classes), 'language' => $info['language'], 'html' => true);
+    $link = l($name, $href, $options);
+    // display only translated links
+    if ($href) $items[] = array('data' => $link, 'class' => $li_classes);
+  }
+    // output
+    $attributes = array('class' => array('horizontal-list-right'));   
+    $output = theme_item_list(array('items' => $items, 'title' => '', 'type'  => 'ul', 'attributes' => $attributes ));
+    return $output;
+}
+
+/**
+ * Implement function block_render to enable automaticly languages swich
+ */
+
+function block_render($module, $block_id) {
+  $block = block_load($module, $block_id);
+  $block_content = _block_render_blocks(array($block));
+  $build = _block_get_renderable_array($block_content);
+  $block_rendered = drupal_render($build);
+  return $block_rendered;
 }
 
 

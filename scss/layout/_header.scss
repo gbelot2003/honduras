@@ -1,22 +1,39 @@
 // Non-modular or client styles for .l-header region.
 
-.l-header {}
+.l-header {
+	#social-icons{
+		padding-top:0.3rem;
+		a{
+			color:white !important;
+			font-size: 1.2rem;
+		}
+	}
+}
+
+.l-main {
+	clear:both;
+}
 
 #header-top{
 	background: $color-honduras;
 }
 
 .contain-to-grid {
-	background:none;
+	background:white;
 }
 
+.fixed .main-nav i {
+	display:none !important;
+}
+.fixed .top-bar-section .main-nav>li>a:not(.button).has-icon{
+	line-height: 5rem;
+}
 // Top Bar
 //--------------------------------------------------
 .top-bar {
-	background:none;
-	height: 100%;
-  .title-area {
+	background:white;
 
+  .title-area {
   }
   
   .name h1 a{
@@ -29,6 +46,7 @@
   }// name h1 a
 }
 
+
 .top-bar-section {}
 .top-bar-section .left {
 
@@ -40,16 +58,24 @@
 .top-bar-section ul{
 }
 
+.top-bar .toggle-topbar.menu-icon a span {
+	box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
+	color: #777;
+}
 
 .top-bar-section .left li a:not(.button){
 	background: $color-honduras(50%);
 }
 
+.top-bar-section .main-nav>li>a:not(.button).has-icon{
+	text-align: center;
+}
 
 .top-bar-section .main-nav>li>a:not(.button) {
-font-weight: 300;
-font-size: .72857em;
-text-transform: uppercase;
+	font-weight: 300;
+	font-size: .72857em;
+	text-transform: uppercase;
+	padding: 0 2rem;
 }
 
 .top-bar-section .main-nav>li>a:not(.button) i{
@@ -57,5 +83,18 @@ text-transform: uppercase;
 	padding: 20px 0 0 0;
 	font-size: 2.5em;
 	text-align: center;
+
 }
 
+@media only screen and (max-width: 40em) {
+	.top-bar, .title-area {
+		height: 4rem;
+	}
+	.top-bar .name h1 a{
+		background: url('../images/logo3.png') no-repeat;
+	}
+
+	.top-bar.expanded .title-area{
+		background:white !important;  	
+  	}
+}

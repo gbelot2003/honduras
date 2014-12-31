@@ -8722,11 +8722,44 @@ th.hide-for-touch {
     clear: both;
   }
 }
-/* line 9, ../scss/base/_common.scss */
+/**
+ * List inine 
+ */
+/* line 13, ../scss/base/_common.scss */
 .list-inline {
   display: inline;
+  margin-right: 0.7rem;
 }
 
+/**
+ * Centering lists
+ * li of horizonal-list must have a "display:inline" property
+ */
+/* line 23, ../scss/base/_common.scss */
+.list-centered {
+  display: table;
+  /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+/* line 28, ../scss/base/_common.scss */
+ul.horizontal-list {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* line 33, ../scss/base/_common.scss */
+ul.horizontal-list-right {
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 39, ../scss/base/_common.scss */
+  ul.horizontal-list-right {
+    text-align: center;
+  }
+}
 /* line 4, ../scss/base/_drupal.scss */
 .admin-menu .fixed {
   top: 1.8125em;
@@ -8754,22 +8787,46 @@ th.hide-for-touch {
   display: inline-block;
 }
 
-/* line 5, ../scss/layout/_header.scss */
+/* line 4, ../scss/layout/_header.scss */
+.l-header #social-icons {
+  padding-top: 0.3rem;
+}
+/* line 6, ../scss/layout/_header.scss */
+.l-header #social-icons a {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+/* line 13, ../scss/layout/_header.scss */
+.l-main {
+  clear: both;
+}
+
+/* line 17, ../scss/layout/_header.scss */
 #header-top {
   background: #0047ba;
 }
 
-/* line 9, ../scss/layout/_header.scss */
+/* line 21, ../scss/layout/_header.scss */
 .contain-to-grid {
-  background: none;
+  background: white;
 }
 
-/* line 15, ../scss/layout/_header.scss */
-.top-bar {
-  background: none;
-  height: 100%;
+/* line 25, ../scss/layout/_header.scss */
+.fixed .main-nav i {
+  display: none !important;
 }
-/* line 22, ../scss/layout/_header.scss */
+
+/* line 28, ../scss/layout/_header.scss */
+.fixed .top-bar-section .main-nav > li > a:not(.button).has-icon {
+  line-height: 5rem;
+}
+
+/* line 33, ../scss/layout/_header.scss */
+.top-bar {
+  background: white;
+}
+/* line 39, ../scss/layout/_header.scss */
 .top-bar .name h1 a {
   display: inline-block;
   width: 165px;
@@ -8779,19 +8836,31 @@ th.hide-for-touch {
   background: url("../images/logo2.png") top center no-repeat;
 }
 
-/* line 44, ../scss/layout/_header.scss */
+/* line 61, ../scss/layout/_header.scss */
+.top-bar .toggle-topbar.menu-icon a span {
+  box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
+  color: #777;
+}
+
+/* line 66, ../scss/layout/_header.scss */
 .top-bar-section .left li a:not(.button) {
   background: #0047ba 50%;
 }
 
-/* line 49, ../scss/layout/_header.scss */
+/* line 70, ../scss/layout/_header.scss */
+.top-bar-section .main-nav > li > a:not(.button).has-icon {
+  text-align: center;
+}
+
+/* line 74, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
   font-weight: 300;
   font-size: .72857em;
   text-transform: uppercase;
+  padding: 0 2rem;
 }
 
-/* line 55, ../scss/layout/_header.scss */
+/* line 81, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -8799,6 +8868,22 @@ th.hide-for-touch {
   text-align: center;
 }
 
+@media only screen and (max-width: 40em) {
+  /* line 90, ../scss/layout/_header.scss */
+  .top-bar, .title-area {
+    height: 4rem;
+  }
+
+  /* line 93, ../scss/layout/_header.scss */
+  .top-bar .name h1 a {
+    background: url("../images/logo3.png") no-repeat;
+  }
+
+  /* line 97, ../scss/layout/_header.scss */
+  .top-bar.expanded .title-area {
+    background: white !important;
+  }
+}
 /* line 7, ../scss/layout/_footer.scss */
 footer {
   padding-top: 1rem;

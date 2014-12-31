@@ -6,6 +6,37 @@
 // %font-sans-serif { font-family: sans-serif; }
 // %font-serif      { font-family: serif; }
 
+/**
+ * List inine 
+ */
+
 .list-inline{
 	display:inline;
+	margin-right:0.7rem;
+}
+
+/**
+ * Centering lists
+ * li of horizonal-list must have a "display:inline" property
+ */
+
+.list-centered{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul.horizontal-list{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+ul.horizontal-list-right{
+	text-align:right;
+	margin-bottom: 0px;	
+}
+
+@media only screen and (max-width: 40em) {
+	ul.horizontal-list-right{
+		text-align: center;
+	}
 }

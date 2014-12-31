@@ -7,28 +7,29 @@
     <div id="header-top" class="header-top">
       <div class="row">
         <?php if(isset($icon_using) && isset($facebook_url) || isset($twitter_url) || isset($pinterest_url) || isset($instagram_url)): ?>
-        <div class="small-12 columns">
-          <ul id='social-icons'>
-            
-            <?php if(isset($facebook_url)): ?>
-              <li class="list-inline"><?php print $facebook_url ?></li>
-            <?php endif ?>
-            
-            <?php if(isset($twitter_url)): ?>
-              <li class="list-inline"><?php print $twitter_url ?></li>
-            <?php endif ?>
+          <div id='social-icons' class="list-centered small-12  large-2 columns">
+            <ul class="horizontal-list">
+              <?php if(isset($facebook_url)): ?>
+                <li class="list-inline"><?php print $facebook_url ?></li>
+              <?php endif ?>
+              
+              <?php if(isset($twitter_url)): ?>
+                <li class="list-inline"><?php print $twitter_url ?></li>
+              <?php endif ?>
 
-            <?php if(isset($pinterest_url)): ?>              
-              <li class="list-inline"><?php print $pinterest_url ?></li>
-            <?php endif ?>
+              <?php if(isset($pinterest_url)): ?>              
+                <li class="list-inline"><?php print $pinterest_url ?></li>
+              <?php endif ?>
 
-            <?php if(isset($instagram_url)): ?>
-              <li class="list-inline"><?php print $instagram_url ?></li>    
-            <?php endif ?>
-
-          </ul>
-        </div>
+              <?php if(isset($instagram_url)): ?>
+                <li class="list-inline"><?php print $instagram_url ?></li>    
+              <?php endif ?>
+            </ul>
+          </div>
         <?php endif; ?>
+        <div id="block-locale-language" class="small-12 large-10 columns">
+          <?php print block_render('locale', 'language'); ?>
+        </div>
       </div>
     </div>
     
@@ -106,7 +107,6 @@
       </section>
       <!--/.l-header-region -->
     <?php endif; ?>
-
   </header>
   <!--/.l-header -->
 
@@ -202,8 +202,10 @@
     </section>
     <!--/.triptych -->
   <?php endif; ?>
+</div>
 
-  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
+<div class="l-sub-footer">
+    <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
     <section class="row l-footer-columns">
       <?php if (!empty($page['footer_firstcolumn'])): ?>
@@ -229,8 +231,6 @@
     </section>
     <!--/.footer-columns-->
   <?php endif; ?>
-
-  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 
 <!--.l-footer-->
@@ -324,6 +324,7 @@
       </div>
     <?php endif; ?>
   </div>
+    <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </footer>
   <!--/.footer-->
 <!--/.page -->
