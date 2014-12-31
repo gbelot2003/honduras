@@ -8938,16 +8938,17 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
 /* line 28, ../scss/components/_blocks.scss */
 #block-locale-language li a.active {
   background: #ff751a;
+  font-weight: bold;
 }
-/* line 31, ../scss/components/_blocks.scss */
+/* line 32, ../scss/components/_blocks.scss */
 #block-locale-language li a.esp {
   padding: 0.4rem 0.7rem 0.4rem 0.3rem;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px 0 0 5px;
 }
-/* line 35, ../scss/components/_blocks.scss */
+/* line 36, ../scss/components/_blocks.scss */
 #block-locale-language li a.eng {
   padding: 0.4rem 0.3rem 0.4rem 0.7rem;
-  border-radius: 5px 0 0 5px;
+  border-radius: 0 5px 5px 0;
 }
 
 /*
