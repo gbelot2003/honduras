@@ -8920,6 +8920,36 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
   border-left: none;
 }
 
+/**
+ * swish lenguage block
+ */
+/* line 16, ../scss/components/_blocks.scss */
+#block-locale-language li.list-inline {
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 22, ../scss/components/_blocks.scss */
+#block-locale-language li a {
+  color: white;
+  background: #fbb820;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+/* line 28, ../scss/components/_blocks.scss */
+#block-locale-language li a.active {
+  background: #ff751a;
+}
+/* line 31, ../scss/components/_blocks.scss */
+#block-locale-language li a.esp {
+  padding: 0.4rem 0.7rem 0.4rem 0.3rem;
+  border-radius: 0 5px 5px 0;
+}
+/* line 35, ../scss/components/_blocks.scss */
+#block-locale-language li a.eng {
+  padding: 0.4rem 0.3rem 0.4rem 0.7rem;
+  border-radius: 5px 0 0 5px;
+}
+
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3

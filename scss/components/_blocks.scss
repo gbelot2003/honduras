@@ -12,15 +12,29 @@
  * swish lenguage block
  */
 
-.block-locale-language{
+#block-locale-language{
+	li.list-inline {
+		margin: 0 auto;
+		padding: 0;
+	}
+
 	li {
-		
 		a {
-			
+			color: white;
+			background: $color-3;
+			line-height: 2rem;
+			font-size: 0.8rem;
 		}
-
 		a.active {
-
+			background: $color-2; 
+		}
+		a.esp {
+			padding: 0.4rem 0.7rem 0.4rem 0.3rem;
+			border-radius: 0 5px 5px 0;
+		}
+		a.eng {
+			padding: 0.4rem 0.3rem 0.4rem 0.7rem;
+			border-radius: 5px 0 0 5px;
 		}
 	}
 }

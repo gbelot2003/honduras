@@ -240,8 +240,8 @@ function honduras_links__locale_block(&$variables) {
     $name = $info['language']->native;
     $href = isset($info['href']) ? $info['href'] : '';
     $li_classes = array('list-inline');
-    $link_classes = array('link-class1', 'link-class2');
-    $options = array('attributes' => array('class'    => $link_classes), 'language' => $info['language'], 'html' => true);
+    $link_classes = array('link-class1');
+    $options = array('attributes' => array('class' => $link_classes), 'language' => $info['language'], 'html' => true);
     $link = l($name, $href, $options);
     // display only translated links
     if ($href) $items[] = array('data' => $link, 'class' => $li_classes);
