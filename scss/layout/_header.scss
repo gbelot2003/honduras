@@ -86,12 +86,39 @@
 
 }
 
+#secondary-menu li a{
+	background:white;
+	color: black;
+}
+
 @media only screen and (max-width: 40em) {
+	.fixed .main-nav i {
+		display:inline !important;
+	}
+
 	.top-bar, .title-area {
 		height: 4rem;
 	}
 	.top-bar .name h1 a{
 		background: url('../images/logo3.png') no-repeat;
+	}
+
+	/**
+	 * Icon Area
+	 * @type {[type]}
+	 */
+	.top-bar-section .main-nav>li>a:not(.button).has-icon {
+		text-align:left;
+		padding: 0.3rem 0.3rem;
+		font-size: 1.6rem;
+	}
+
+	.top-bar-section .main-nav>li>a:not(.button) i{
+		text-align: left;
+		display: inline;
+		padding-right: 1.2rem;
+		line-height: 1.5rem;
+		font-size: 2.1rem;
 	}
 
 	.top-bar.expanded .title-area{

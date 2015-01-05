@@ -8868,18 +8868,49 @@ ul.horizontal-list-right {
   text-align: center;
 }
 
+/* line 89, ../scss/layout/_header.scss */
+#secondary-menu li a {
+  background: white;
+  color: black;
+}
+
 @media only screen and (max-width: 40em) {
-  /* line 90, ../scss/layout/_header.scss */
+  /* line 95, ../scss/layout/_header.scss */
+  .fixed .main-nav i {
+    display: inline !important;
+  }
+
+  /* line 99, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 93, ../scss/layout/_header.scss */
+  /* line 102, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
 
-  /* line 97, ../scss/layout/_header.scss */
+  /**
+   * Icon Area
+   * @type {[type]}
+   */
+  /* line 110, ../scss/layout/_header.scss */
+  .top-bar-section .main-nav > li > a:not(.button).has-icon {
+    text-align: left;
+    padding: 0.3rem 0.3rem;
+    font-size: 1.6rem;
+  }
+
+  /* line 116, ../scss/layout/_header.scss */
+  .top-bar-section .main-nav > li > a:not(.button) i {
+    text-align: left;
+    display: inline;
+    padding-right: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 2.1rem;
+  }
+
+  /* line 124, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }
@@ -8939,16 +8970,17 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
 #block-locale-language li a.active {
   background: #ff751a;
   font-weight: bold;
+  text-decoration: underline;
 }
-/* line 32, ../scss/components/_blocks.scss */
+/* line 33, ../scss/components/_blocks.scss */
 #block-locale-language li a.esp {
   padding: 0.4rem 0.7rem 0.4rem 0.3rem;
-  border-radius: 5px 0 0 5px;
+  border-radius: 0 5px 5px 0;
 }
-/* line 36, ../scss/components/_blocks.scss */
+/* line 38, ../scss/components/_blocks.scss */
 #block-locale-language li a.eng {
   padding: 0.4rem 0.3rem 0.4rem 0.7rem;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px 0 0 5px;
 }
 
 /*

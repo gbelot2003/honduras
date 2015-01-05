@@ -294,7 +294,7 @@
 
           <div title="Aeropuertos de Honduras" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print $base_url . '/' . ssdrupal_get_path('theme', 'honduras'); ?>/images/logos/aeropuertos.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/aeropuertos.jpg">
             </div>
           </div>
 
