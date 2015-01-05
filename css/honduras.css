@@ -10730,6 +10730,127 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
   background: #009ae7 !important;
 }
 
+/* line 1, ../scss/components/_calendar.scss */
+.calendar-calendar thead tr {
+  background: none;
+}
+
+/* line 4, ../scss/components/_calendar.scss */
+.calendar-calendar th.days {
+  background: #000000;
+  opacity: 0.3;
+  border: none;
+  padding: 5px 0;
+  color: #ffffff;
+}
+
+/* line 12, ../scss/components/_calendar.scss */
+.view .date-nav-wrapper .date-nav {
+  color: #cccccc;
+  background: url(../images/cal-header.png);
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  width: 890px;
+  text-shadow: 1px 1px 0px #000000;
+  margin: 0;
+}
+
+/* line 21, ../scss/components/_calendar.scss */
+.view .date-nav-wrapper .date-prev {
+  float: left;
+  position: relative;
+  right: 0;
+  text-align: right;
+  width: 80px;
+  background: url(../images/prev.png);
+  padding: 5px 15px 5px 0;
+  width: 85px;
+  height: 20px;
+}
+
+/* line 32, ../scss/components/_calendar.scss */
+.view .date-nav-wrapper .date-next {
+  float: right;
+  position: relative;
+  right: 0;
+  text-align: left;
+  width: 80px;
+  background: url(../images/next.png);
+  padding: 5px 0 5px 15px;
+  width: 85px;
+  height: 20px;
+}
+
+/* line 43, ../scss/components/_calendar.scss */
+.view .date-nav-wrapper .date-heading {
+  float: left;
+  width: 650px;
+}
+
+/* line 49, ../scss/components/_calendar.scss */
+.calendar-calendar td {
+  border: 1px solid #dadada;
+  border-right-color: #dadada;
+  border-bottom-color: #e3e3e3;
+}
+
+/* line 54, ../scss/components/_calendar.scss */
+.calendar-calendar td.empty {
+  border-color: #dadada;
+  color: #dadada;
+}
+
+/* line 58, ../scss/components/_calendar.scss */
+.calendar-calendar .month-view .full td.date-box.today,
+.calendar-calendar .month-view .full tr td.multi-day.ends-today,
+.calendar-calendar .month-view .full tr td.single-day.today {
+  border-color: #999999;
+}
+
+/* line 63, ../scss/components/_calendar.scss */
+td.single-day {
+  background: url(../images/cell-bg.png) bottom repeat-x;
+}
+
+/* line 66, ../scss/components/_calendar.scss */
+td.single-day .inner {
+  min-height: 50px;
+}
+
+/* line 71, ../scss/components/_calendar.scss */
+.calendar-calendar .month-view .full td.multi-day div.monthview,
+.calendar-calendar .week-view .full td.multi-day div.weekview,
+.calendar-calendar .day-view .full td.multi-day div.dayview,
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .continues,
+.calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff,
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .continues,
+.calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff {
+  background: url(../images/event-bg.png) bottom repeat-x;
+  border-radius: 10px;
+}
+
+/* line 81, ../scss/components/_calendar.scss */
+.calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents,
+.calendar-calendar .week-view .full td.multi-day .calendar.weekview .contents {
+  top: 2px;
+}
+
+/* line 85, ../scss/components/_calendar.scss */
+.calendar-calendar .item {
+  color: #333333;
+}
+
+/* line 88, ../scss/components/_calendar.scss */
+.calendar-calendar .item a {
+  color: #333333;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+
+/* line 92, ../scss/components/_calendar.scss */
+.calendar-calendar .item .continues {
+  color: #333333;
+}
+
 /* line 1, ../scss/theme/_sponsors.scss */
 #sponsored {
   margin: 10px auto;
