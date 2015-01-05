@@ -1,4 +1,5 @@
 <!--.page -->
+<?php global $base_url; ?>
 <div role="document" class="page">
 
   <!--.l-header region -->
@@ -243,57 +244,57 @@
 
           <div title="Canaturh" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/canaturh.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/canaturh.jpg">
             </div>
           </div>
 
           <div title="IHT" class="sponsor slarege">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/iht.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/iht.jpg">
             </div>
           </div>
 
           <div title="USAID/Proparque" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/proparque.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/proparque.jpg">
             </div>
           </div>
 
         
           <div title="IMC" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/imc.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/imc.jpg">
             </div>
           </div>
 
 
           <div title="Cerveceria Hondureña S.A" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/cerveceria.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/cerveceria.jpg">
             </div>
           </div>
 
           <div title="DIVESA" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/divesa.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/divesa.jpg">
             </div>
           </div>
 
           <div title="Hedman Alas" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/hedman.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/hedman.jpg">
             </div>
           </div>
 
           <div title="Viajes Credomatic" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/credomatic.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/credomatic.jpg">
             </div>
           </div>
 
           <div title="Aeropuertos de Honduras" class="sponsor">
             <div class="sponsorFlip">
-              <img alt="More about google" src="<?php print drupal_get_path('theme', 'honduras'); ?>/images/logos/aeropuertos.jpg">
+              <img alt="More about google" src="<?php print $base_url . '/' . ssdrupal_get_path('theme', 'honduras'); ?>/images/logos/aeropuertos.jpg">
             </div>
           </div>
 
