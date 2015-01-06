@@ -150,7 +150,6 @@
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->
   
   <main role="main" class="row l-main">
-
     <?php if ($messages && !$zurb_foundation_messages_modal): ?>
     <!--/.l-messages -->
     <section class="l-messages row">
@@ -160,7 +159,6 @@
     </section>
     <!--/.l-messages -->
   <?php endif; ?>
-  
     <div class="<?php print $main_grid; ?> main columns">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">

@@ -9262,24 +9262,24 @@ footer .copyright {
   margin-bottom: 3rem;
 }
 /* line 17, ../scss/layout/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu {
+footer .block-menu-menu-sitemap-menu ul.menu {
   text-align: center;
 }
 /* line 19, ../scss/layout/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li {
+footer .block-menu-menu-sitemap-menu ul.menu li {
   display: inline;
   margin-right: 0.9rem;
   list-style: none;
   border-left: 1px solid white;
 }
 /* line 24, ../scss/layout/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li a {
+footer .block-menu-menu-sitemap-menu ul.menu li a {
   padding: 0 0 0 0.9rem;
   color: white;
   text-decoration: underline;
 }
 /* line 30, ../scss/layout/_footer.scss */
-footer .block-menu-menu-footer-menu ul.menu li:first-child {
+footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
   border-left: none;
 }
 
