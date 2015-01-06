@@ -185,6 +185,8 @@
         <?php print render($page['sidebar_second']); ?>
       </aside>
     <?php endif; ?>
+
+    <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
   </main>
   <!--/.main-->
 
@@ -325,7 +327,7 @@
       </div>
     <?php endif; ?>
   </div>
-    <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
+
 </footer>
   <!--/.footer-->
 <!--/.page -->

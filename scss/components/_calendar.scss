@@ -1,3 +1,15 @@
+
+/**
+ * Popup Calendar styles 
+ */
+
+.ui-dialog {
+	width:90% !important;
+	right: 20px;
+}
+
+/* __ Calendar styles __*/
+
 .calendar-calendar thead tr {
   background:none;
 }
@@ -9,13 +21,13 @@
   color:#ffffff;
 }
 
-.view .date-nav-wrapper .date-nav {
+.view .date-nav-wrapper {
   color:#cccccc;
-  background:url(../images/cal-header.png);
+  background:$color-honduras;
   border-radius:8px 8px 0 0;
   padding:20px;
-  width:890px;
-  text-shadow:1px 1px 0px #000000;
+  width:100%;
+  text-shadow:1px 1px 0px #FFF;
   margin:0;
 }
 .view .date-nav-wrapper .date-prev {
@@ -24,10 +36,11 @@
   right:0;
   text-align:right;
   width:80px;
-  background:url(../images/prev.png);
-  padding:5px 15px 5px 0;
+  background:none;
+  padding:5px 15px 10px 0;
   width:85px;
   height:20px;
+
 }
 .view .date-nav-wrapper .date-next {
   float:right;
@@ -35,14 +48,18 @@
   right:0;
   text-align:left;
   width:80px;
-  background:url(../images/next.png);
-  padding:5px 0 5px 15px;
+  background:none;
+  padding:5px 0 10px 15px;
   width:85px;
   height:20px;
 }
 .view .date-nav-wrapper .date-heading {
   float:left;
-  width:650px;
+  width:70%;
+}
+
+.view .date-nav-wrapper .date-heading h3{
+	text-align:left;
 }
 
 
