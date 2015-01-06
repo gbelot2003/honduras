@@ -13,13 +13,13 @@
 // 1. Variable settings are set as !default so they can be overriden inside the
 //    classes or a seperate file.
 // ------------------------------------------------------
-// $button-light-bg: #fff !default; /* 1 */
-// $button-light-color: #333 !default;
+$button-light-bg: #fff !default; /* 1 */
+$button-light-color: #333 !default;
 
-// .t-button-light {
-//   background-color: $button-light-bg;
-//   color: $button-light-color;
-// }
+.t-button-light {
+	background-color: $button-light-bg;
+	color: $button-light-color;
+ }
 
 // // Buttons: Dark
 // // ------------------------------------------------------

@@ -215,6 +215,8 @@ $header-font-color: #222;
 // $h5-font-size: em-calc(18);
 // $h6-font-size: 1em;
 
+
+
 // Control how subheaders are styled.
 
 // $subheader-line-height: 1.4;
@@ -286,6 +288,15 @@ $hr-margin: em-calc(20);
 // $blockquote-cite-font-size: em-calc(13);
 // $blockquote-cite-font-color: lighten($header-font-color, 20%);
 // $blockquote-cite-link-color: $blockquote-cite-font-color;
+
+
+$blockquote-font-color: lighten($header-font-color, 30%);
+$blockquote-padding: em-calc(9, 20);
+$blockquote-border: 1px solid #ddd;
+$blockquote-cite-font-size: em-calc(13.1);
+$blockquote-cite-font-color: lighten($header-font-color, 20%);
+$blockquote-cite-link-color: $blockquote-cite-font-color;
+
 
 // Acronym styles
 

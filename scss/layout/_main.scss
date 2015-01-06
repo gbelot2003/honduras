@@ -2,7 +2,62 @@
 
 .l-main {}
 
+.l-slider{
+	background: url('../images/bgs_2.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 22rem;
+	display: block;
+	font-style: hondurean;
+	
+	.front-title {
+		font-family: Hondurean;
+		text-align: center;
+		font-size: 4rem;
+		margin-bottom: 0;
+	}
+
+	.front-message{
+		padding: 55px 0;
+	}
+
+	.guara {
+		/*color: rgb(0, 71, 186) !important;*/
+		font-size:4.5rem !important;
+		margin-top:25px;
+		text-align:center;
+		color:white;
+		font-size:2.5rem;
+		margin-bottom: 0;
+		text-shadow: 2px 2px 1px black;
+	}
+
+	.guara span {
+		display:inline-block;
+		height:0px;
+		padding-top:80px;
+		overflow:hidden;
+		background: url("../images/marca1.png") no-repeat right bottom;
+		width: 195px;
+		margin-top: -50px;
+	}
+	
+	.explora {
+		 color:rgb(0, 71, 186);
+	}
+
+	.portal {
+		/*color:rgb(0,71,186)!important;
+		/*Color del portal*/
+		color: white;
+		text-align:center;
+		font-size: 2rem;
+		text-shadow: 2px 2px 1px black;
+	}
+}
+
 .node {}
 .body {}
 .image {}
 .breadcrumb {}
+

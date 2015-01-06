@@ -111,6 +111,20 @@
   </header>
   <!--/.l-header -->
 
+  <div class="l-slider">     
+    <div class="front-message">
+      <h2 class="front-title"><span class="guara"><?php print t("Explore") ?> <span>Honduras</span> </span></h2>
+      <h5 class="portal"><?php print t("the heart of Central America") ?></h5>
+      <div class="hash">
+        <div class="row">
+          <div class="large-12 columns text-center">
+            <?php print render($page['hash']) ?></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
     <section class="l-featured row">
@@ -155,9 +169,7 @@
 
       <a id="main-content"></a>
 
-      <div class="slider">
-        
-      </div>
+
 
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
@@ -251,14 +263,12 @@
               <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/proparque.jpg">
             </div>
           </div>
-
         
           <div title="IMC" class="sponsor">
             <div class="sponsorFlip">
               <img alt="More about google" src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/logos/imc.jpg">
             </div>
           </div>
-
 
           <div title="Cerveceria Hondureña S.A" class="sponsor">
             <div class="sponsorFlip">
@@ -308,7 +318,7 @@
     <?php endif; ?>
 
     <div class="large-2 columns">
-      <img src="http://drkuf9gftqtsg.cloudfront.net/atlantida/sites/default/files/logos//marca1.png">
+      <img src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/marca1.png">
     </div>
 
     <?php if(!empty($page['menu_footer'])): ?>
