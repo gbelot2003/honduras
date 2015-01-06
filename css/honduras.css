@@ -8723,9 +8723,17 @@ th.hide-for-touch {
   }
 }
 /**
- * List inine 
+ * Tables general
  */
 /* line 13, ../scss/base/_common.scss */
+table {
+  width: 100%;
+}
+
+/**
+ * List inine 
+ */
+/* line 21, ../scss/base/_common.scss */
 .list-inline {
   display: inline;
   margin-right: 0.7rem;
@@ -8735,27 +8743,27 @@ th.hide-for-touch {
  * Centering lists
  * li of horizonal-list must have a "display:inline" property
  */
-/* line 23, ../scss/base/_common.scss */
+/* line 31, ../scss/base/_common.scss */
 .list-centered {
   display: table;
   /* Allow the centering to work */
   margin: 0 auto;
 }
 
-/* line 28, ../scss/base/_common.scss */
+/* line 36, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 33, ../scss/base/_common.scss */
+/* line 41, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 39, ../scss/base/_common.scss */
+  /* line 47, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
