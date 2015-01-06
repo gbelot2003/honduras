@@ -9062,7 +9062,7 @@ h4, h5, h6 {
 
 /* line 3, ../scss/layout/_header.scss */
 .l-header {
-  height: 7.5rem;
+  height: 8rem;
 }
 /* line 5, ../scss/layout/_header.scss */
 .l-header #social-icons {
@@ -9283,6 +9283,12 @@ footer .block-menu-menu-footer-menu ul.menu li:first-child {
   border-left: none;
 }
 
+@media only screen and (max-width: 40em) {
+  /* line 37, ../scss/layout/_footer.scss */
+  .l-marca {
+    text-align: center;
+  }
+}
 /**
  * swish lenguage block
  */

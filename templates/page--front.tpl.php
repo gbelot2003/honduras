@@ -135,16 +135,6 @@
     <!--/.l-featured -->
   <?php endif; ?>
 
-  <?php if ($messages && !$zurb_foundation_messages_modal): ?>
-    <!--/.l-messages -->
-    <section class="l-messages row">
-      <div class="large-12 columns">
-        <?php if ($messages): print $messages; endif; ?>
-      </div>
-    </section>
-    <!--/.l-messages -->
-  <?php endif; ?>
-
   <?php if (!empty($page['help'])): ?>
     <!--/.l-help -->
     <section class="l-help row">
@@ -160,6 +150,17 @@
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->
   
   <main role="main" class="row l-main">
+
+    <?php if ($messages && !$zurb_foundation_messages_modal): ?>
+    <!--/.l-messages -->
+    <section class="l-messages row">
+      <div class="large-12 columns">
+        <?php if ($messages): print $messages; endif; ?>
+      </div>
+    </section>
+    <!--/.l-messages -->
+  <?php endif; ?>
+  
     <div class="<?php print $main_grid; ?> main columns">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">
@@ -317,7 +318,7 @@
       </div>
     <?php endif; ?>
 
-    <div class="large-2 columns">
+    <div class="l-marca large-2 columns">
       <img src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/marca1.png">
     </div>
 
