@@ -184,16 +184,16 @@
       <div id="l-row-first" class="large-12 columns">
         <div class="row">
         
-          <div class="large-6 columns">
-            
+          <div id="l-row-news" class="large-6 columns">
+            <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>          
           </div>
 
-          <div id="main-image" class="large-6 columns">
+          <div id="l-row-image" class="large-6 columns">
              <?php print views_embed_view('front_page', $display_id = 'block');  ?>
           </div>
         
         </div>
-        
+
       </div>
       
 

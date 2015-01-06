@@ -56,7 +56,7 @@
 // developer experience. Additionally, grids can be declared in layouts as well.
 @import "layout/header";
 @import "layout/main";
-@import "layer/front";
+@import "layout/front";
 @import "layout/aside";
 @import "layout/triptych";
 @import "layout/footer";
@@ -69,7 +69,6 @@
 @import "components/foundation-icons";
 @import "components/main-menu";
 @import "components/calendar";
-
 
 @import "theme/sponsors";
 
