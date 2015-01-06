@@ -61,22 +61,33 @@ function honduras_block_list_alter(&$blocks) {
  */
 
 function honduras_preprocess_page(&$variables) {
+  
+   /*
+  * Adding jquery.lazy for image rendering
+  */
+  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/behavior/jquery.lazy.js');
+
   /**
   * Add Color module hooks
   */
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
+ 
+  /**
+   * Setting greed for main page 
+   */
 
-  /*
-  * Adding jquery.lazy for image rendering
-  */
-  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/behavior/jquery.lazy.js');
-
+  if (drupal_is_front_page()) {
+    $variables['main_grid'] = 'large-12';  
+    unset($variables['sidebar_first_grid']);
+    unset($variables['sidebar_sec_grid']);    
+  }
+  
   /*
   * Adding social media links for themes headers
   */
-  
+
   $variables['icon_using']  = variable_get('icon_using');
   $variables['facebook']  = variable_get('facebook');  
   $variables['twitter']  = variable_get('twitter');  

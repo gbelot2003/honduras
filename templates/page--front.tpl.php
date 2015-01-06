@@ -168,7 +168,7 @@
 
       <a id="main-content"></a>
 
-
+    
 
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
@@ -180,6 +180,18 @@
           <?php print render($action_links); ?>
         </ul>
       <?php endif; ?>
+      
+      <div class="large-12 columns">
+        
+        <div class="large-6 columns">
+          
+        </div>
+
+        <div id="main-image" class="large-6 columns">
+           <?php print views_embed_view('front_page', $display_id = 'block');  ?>
+        </div>
+      </div>
+      
 
       <?php print render($page['content']); ?>
     </div>
