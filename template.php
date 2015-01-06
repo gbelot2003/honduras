@@ -36,17 +36,38 @@ function honduras_preprocess_html(&$variables) {
 
 
 /**
+ * [honduras_block_list_alter description]
+ * @param  [type] &$blocks [description]
+ * @return [type]          [description]
+ *
+ * Removing content on frontPage
+ * 
+ */
+function honduras_block_list_alter(&$blocks) {
+  if (drupal_is_front_page()) {
+    foreach ($blocks as $key => $block) {
+      if ($block->module == 'system' && $block->delta == 'main') {
+        unset($blocks[$key]);
+      }
+    }
+
+    drupal_set_page_content();
+  }
+}
+
+
+/**
  * Implements hook_preprocess_page
  */
 
 function honduras_preprocess_page(&$variables) {
-    /**
-     * Add Color module hooks
-     */
-    if (module_exists('color')) {
-      _color_page_alter($variables);
-    }
-  
+  /**
+  * Add Color module hooks
+  */
+  if (module_exists('color')) {
+    _color_page_alter($variables);
+  }
+
   /*
   * Adding jquery.lazy for image rendering
   */
@@ -269,14 +290,6 @@ function block_render($module, $block_id) {
   $block_rendered = drupal_render($build);
   return $block_rendered;
 }
-
-
-/**
- * Implements template_preprocess_page
- *
- */
-
-
 
 
 /**
