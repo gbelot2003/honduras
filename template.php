@@ -62,11 +62,6 @@ function honduras_block_list_alter(&$blocks) {
 
 function honduras_preprocess_page(&$variables) {
   
-   /*
-  * Adding jquery.lazy for image rendering
-  */
-  drupal_add_js(drupal_get_path('theme', 'honduras') .'/js/behavior/jquery.lazy.js');
-
   /**
   * Add Color module hooks
   */
@@ -301,7 +296,6 @@ function block_render($module, $block_id) {
   $block_rendered = drupal_render($build);
   return $block_rendered;
 }
-
 
 /**
  * Implements template_preprocess_node
