@@ -183,13 +183,15 @@
       
       <div id="l-row-first" class="large-12 columns">
         <div class="row">
-        
-          <div id="l-row-news" class="large-6 columns">
-            <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>          
+          
+          <div id="l-row-image" class="large-6 columns">
+             <h3><?php print t('Destinations') ?></h3>
+             <?php print views_embed_view('front_page', $display_id = 'block');  ?>
           </div>
 
-          <div id="l-row-image" class="large-6 columns">
-             <?php print views_embed_view('front_page', $display_id = 'block');  ?>
+          <div id="l-row-news" class="large-6 columns">
+            <h3><?php print t('News') ?></h3>
+            <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>          
           </div>
         
         </div>
