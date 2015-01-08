@@ -85,15 +85,6 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 
-  <?php if ($display_submitted): ?>
-    <div class="posted">
-      <?php if ($user_picture): ?>
-        <?php print $user_picture; ?>
-      <?php endif; ?>
-      <?php print $submitted; ?>
-    </div>
-  <?php endif; ?>
-
   <?php
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
