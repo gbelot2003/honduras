@@ -186,11 +186,14 @@
           
           <div id="l-row-image" class="large-6 columns">
              <h3><?php print t('Destinations') ?></h3>
+             <p><?php print t("Discover Honduras in all it's splendor") ?></p>
              <?php print views_embed_view('front_page', $display_id = 'block');  ?>
+             <?php print views_embed_view('front_page', $display_id = 'block_2'); ?>
           </div>
 
           <div id="l-row-news" class="large-6 columns">
             <h3><?php print t('News') ?></h3>
+            <p><?php print t('Intresting news and tips for travelers') ?></p>
             <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>          
           </div>
         

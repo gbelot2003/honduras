@@ -8984,7 +8984,7 @@ button.large, .button.large {
 /**
  * Tables general
  */
-/* line 13, ../scss/base/_common.scss */
+/* line 14, ../scss/base/_common.scss */
 table {
   width: 100%;
 }
@@ -8992,7 +8992,7 @@ table {
 /**
  * List inine 
  */
-/* line 21, ../scss/base/_common.scss */
+/* line 22, ../scss/base/_common.scss */
 .list-inline {
   display: inline;
   margin-right: 0.7rem;
@@ -9002,27 +9002,27 @@ table {
  * Centering lists
  * li of horizonal-list must have a "display:inline" property
  */
-/* line 31, ../scss/base/_common.scss */
+/* line 32, ../scss/base/_common.scss */
 .list-centered {
   display: table;
   /* Allow the centering to work */
   margin: 0 auto;
 }
 
-/* line 36, ../scss/base/_common.scss */
+/* line 37, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 41, ../scss/base/_common.scss */
+/* line 42, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 47, ../scss/base/_common.scss */
+  /* line 48, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9253,6 +9253,11 @@ h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
+/* line 10, ../scss/layout/_front.scss */
+.view-display-id-block {
+  margin-bottom: 1.5rem;
+}
+
 /* line 7, ../scss/layout/_footer.scss */
 footer {
   padding-top: 1rem;
@@ -9327,7 +9332,13 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-/* line 10, ../scss/components/_type.scss */
+/* line 4, ../scss/components/_type.scss */
+.title {
+  color: #FF751A;
+  text-shadow: 2px 2px #F6F6F6;
+}
+
+/* line 14, ../scss/components/_type.scss */
 .front-title {
   font-weight: 100;
 }
