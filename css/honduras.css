@@ -9333,12 +9333,22 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
 }
 
 /* line 4, ../scss/components/_type.scss */
-.title {
-  color: #FF751A;
-  text-shadow: 2px 2px #F6F6F6;
+#l-title, .title {
+  background: #0047ba;
 }
 
-/* line 14, ../scss/components/_type.scss */
+/* line 8, ../scss/components/_type.scss */
+#l-title {
+  margin-bottom: 1.5rem;
+}
+
+/* line 12, ../scss/components/_type.scss */
+.title {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+/* line 22, ../scss/components/_type.scss */
 .front-title {
   font-weight: 100;
 }

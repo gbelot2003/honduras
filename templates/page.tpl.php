@@ -162,7 +162,7 @@
         </div>
       <?php endif; ?>
 
-      <a id="main-content"></a>s
+      <a id="main-content"></a>
 
       <?php if ($breadcrumb): print $breadcrumb; endif; ?>
 

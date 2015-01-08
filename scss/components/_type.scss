@@ -1,9 +1,17 @@
 // Docs: http://foundation.zurb.com/docs/components/type.html
 // Before adding styles be sure to modify variables.
 
+#l-title, .title {
+	background: $color-honduras;
+}
+
+#l-title {
+	margin-bottom: 1.5rem;
+}
+
 .title {
-	color:#FF751A;
-	text-shadow:  2px 2px #F6F6F6;
+	color:white;
+	text-shadow:  2px 2px black;
 }
 
 .node-title {}
