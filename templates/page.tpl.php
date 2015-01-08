@@ -163,8 +163,16 @@
       <?php endif; ?>
 
       <a id="main-content"></a>
-
-      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+      <div class="large-12">
+        <div class="row">
+          <div class="large-8 columns">
+            <?php if ($breadcrumb): print $breadcrumb; endif; ?>                 
+          </div>
+          <div class="large-4 columns">
+            <p>any</p>
+          </div>
+        </div>
+      </div>
 
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>

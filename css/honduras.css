@@ -9248,6 +9248,19 @@ h4, h5, h6 {
   text-shadow: 2px 2px 1px black;
 }
 
+/* line 66, ../scss/layout/_main.scss */
+article .image {
+  width: 50%;
+  float: left;
+}
+
+/* line 71, ../scss/layout/_main.scss */
+.breadcrumbs {
+  border-style: none;
+  border: none;
+  background: none;
+}
+
 /* line 2, ../scss/layout/_front.scss */
 #l-row-first {
   margin-bottom: 2rem;

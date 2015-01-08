@@ -90,7 +90,6 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
-    hide($content['language']);
     print render($content);
   ?>
 
@@ -99,5 +98,6 @@
   <?php endif; ?>
 
   <?php print render($content['links']); ?>
+  <?php print render($content['comments']); ?>
 
 </article>

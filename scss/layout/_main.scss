@@ -58,7 +58,19 @@
 }
 
 .node {}
+
 .body {}
-.image {}
-.breadcrumb {}
+
+.image{}
+
+article .image {
+	width: 50%;
+	float: left;
+}
+
+.breadcrumbs {
+	border-style: none;
+	border: none;
+	background: none;
+}
 
