@@ -131,6 +131,18 @@
     <!--/.l-help -->
   <?php endif; ?>
 
+  <section id="l-title" class="columns large-12">
+    <div class="row">
+      <div class="contain-to-grid">
+        <?php if ($title && !$is_front): ?>
+          <?php print render($title_prefix); ?>
+          <h1 id="page-title" class="title"><?php print $title; ?></h1>
+          <?php print render($title_suffix); ?>
+        <?php endif; ?>
+      </div>
+    </div>
+  </section>
+
   <main role="main" class="row l-main">
     
     <?php if ($messages && !$zurb_foundation_messages_modal): ?>
@@ -150,13 +162,7 @@
         </div>
       <?php endif; ?>
 
-      <a id="main-content"></a>
-      
-      <?php if ($title && !$is_front): ?>
-        <?php print render($title_prefix); ?>
-        <h1 id="page-title" class="title"><?php print $title; ?></h1>
-        <?php print render($title_suffix); ?>
-      <?php endif; ?>
+      <a id="main-content"></a>s
 
       <?php if ($breadcrumb): print $breadcrumb; endif; ?>
 
