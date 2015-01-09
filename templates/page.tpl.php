@@ -165,11 +165,14 @@
       <a id="main-content"></a>
       <div class="large-12">
         <div class="row">
-          <div class="large-8 columns">
+          <div class="large-7 columns">
             <?php if ($breadcrumb): print $breadcrumb; endif; ?>                 
           </div>
-          <div class="large-4 columns">
-            <p>any</p>
+          <div class="large-5 columns">
+            <?php 
+              $block = module_invoke('sharethis', 'block_view', 'sharethis_block');
+              print render($block['content']);
+             ?>
           </div>
         </div>
       </div>
