@@ -9248,17 +9248,32 @@ h4, h5, h6 {
   text-shadow: 2px 2px 1px black;
 }
 
-/* line 66, ../scss/layout/_main.scss */
-article .image {
-  width: 50%;
-  float: left;
-}
-
-/* line 71, ../scss/layout/_main.scss */
+/* line 61, ../scss/layout/_main.scss */
 .breadcrumbs {
   border-style: none;
   border: none;
   background: none;
+}
+
+/* line 73, ../scss/layout/_main.scss */
+article .image, article .image a {
+  float: left;
+}
+
+/**
+ *
+ * 	Destinos Turisticos
+ * 
+ */
+/* line 85, ../scss/layout/_main.scss */
+.node-type-destinos-turisticos .group-top {
+  padding: 0.5rem 0 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+/* line 90, ../scss/layout/_main.scss */
+.group-top .image a {
+  display: inline !important;
 }
 
 /* line 2, ../scss/layout/_front.scss */

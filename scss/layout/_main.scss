@@ -57,20 +57,38 @@
 	}
 }
 
-.node {}
-
-.body {}
-
-.image{}
-
-article .image {
-	width: 50%;
-	float: left;
-}
 
 .breadcrumbs {
 	border-style: none;
 	border: none;
 	background: none;
 }
+
+.node {}
+
+.body {}
+
+.image{}
+
+article .image, article .image a {
+//	width: 50%;
+	float: left;
+}
+
+
+/**
+ *
+ * 	Destinos Turisticos
+ * 
+ */
+
+.node-type-destinos-turisticos .group-top {
+	padding: 0.5rem 0 0.5rem 0;
+	margin-bottom: 1rem;
+}
+
+.group-top .image a{
+	display: inline !important;
+}
+
 
