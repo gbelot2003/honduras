@@ -297,6 +297,51 @@ function block_render($module, $block_id) {
   return $block_rendered;
 }
 
+
+function honduras_field__taxonomy_term_reference(&$variables){
+
+   //dpm($variables);
+   if($variables['element']['#field_name'] == 'field_rel_explorar'){
+     $output = '';
+      // Render the label, if it's not hidden.
+      if (!$variables['label_hidden']) {
+        $output .= '<h3 class="field-label">' . $variables['label'] . ': </h3>';
+      }
+      // Render the items.
+      $output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links">';
+      foreach ($variables['items'] as $delta => $item) {
+        // allow html
+        $item['#options']['html'] = TRUE;
+        // set html
+
+        $output .= '<li class="test taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+      }
+      $output .= '</ul>';
+      // Render the top-level DIV.
+      $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
+      return $output;
+
+    } else {
+        $output = '';
+        // Render the label, if it's not hidden.
+        if (!$variables['label_hidden']) {
+          $output .= '<h3 class="field-label">' . $variables['label'] . ': </h3>';
+        }
+        // Render the items.
+        $output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links">';
+        foreach ($variables['items'] as $delta => $item) {
+          // allow html
+          $item['#options']['html'] = TRUE;
+          // set html
+          $output .= '<li class="taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+        }
+        $output .= '</ul>';
+        // Render the top-level DIV.
+        $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
+        return $output;
+    }
+}
+
 /**
  * Implements template_preprocess_node
  *
