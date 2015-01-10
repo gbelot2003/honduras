@@ -9391,18 +9391,26 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
   background: #0047ba;
 }
 
-/* line 8, ../scss/components/_type.scss */
+/**
+ * Group fiels themen
+ */
+/* line 12, ../scss/components/_type.scss */
+.group-encontrar {
+  padding-top: 0.5rem;
+}
+
+/* line 18, ../scss/components/_type.scss */
 #l-title {
   margin-bottom: 1.5rem;
 }
 
-/* line 12, ../scss/components/_type.scss */
+/* line 22, ../scss/components/_type.scss */
 .title {
   color: white;
   text-shadow: 2px 2px black;
 }
 
-/* line 22, ../scss/components/_type.scss */
+/* line 32, ../scss/components/_type.scss */
 .front-title {
   font-weight: 100;
 }

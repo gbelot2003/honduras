@@ -302,7 +302,7 @@ function honduras_field__taxonomy_term_reference(&$variables){
 
 
    if($variables['element']['#field_name'] == 'field_rel_explorar'){
-     //dpm($variables);
+     //dpm($variables['element']);
      $output = '';
       // Render the label, if it's not hidden.
       if (!$variables['label_hidden']) {
@@ -315,10 +315,13 @@ function honduras_field__taxonomy_term_reference(&$variables){
         $item['#options']['html'] = TRUE;
         
         // set class for span 
-        $iclass = $item['#title'];
+        
+        $cclass = trim($item['#title']);
+        $iclass = "fa-" . strtolower($cclass);
+
 
         // set html
-        $item['#title'] = '<span class="label '.$iclass.' label-info">'.$item['#title'].'</span>';
+        $item['#title'] = '<span class="label '.$iclass.' label-info"></span>';
         $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
       }
       $output .= '</ul>';
