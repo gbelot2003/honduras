@@ -99,10 +99,17 @@ article .image, article .image a {
  * 
  */
 
+
+
 .flexslider {
 	width: 60%;
 	float: left;
 	margin: 0 1rem 2rem 0;
+}
+
+.node-type-atracciones-turisticas .flexslider {
+	width:100%;
+	float: none;
 }
 
 @media only screen and (max-width: 40em) {

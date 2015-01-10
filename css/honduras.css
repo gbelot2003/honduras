@@ -9281,15 +9281,21 @@ article .image, article .image a {
  * Blogs & Calendar 
  * 
  */
-/* line 102, ../scss/layout/_main.scss */
+/* line 104, ../scss/layout/_main.scss */
 .flexslider {
   width: 60%;
   float: left;
   margin: 0 1rem 2rem 0;
 }
 
+/* line 110, ../scss/layout/_main.scss */
+.node-type-atracciones-turisticas .flexslider {
+  width: 100%;
+  float: none;
+}
+
 @media only screen and (max-width: 40em) {
-  /* line 109, ../scss/layout/_main.scss */
+  /* line 116, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
