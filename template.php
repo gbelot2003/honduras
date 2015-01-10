@@ -300,8 +300,9 @@ function block_render($module, $block_id) {
 
 function honduras_field__taxonomy_term_reference(&$variables){
 
-   //dpm($variables);
+
    if($variables['element']['#field_name'] == 'field_rel_explorar'){
+     //dpm($variables);
      $output = '';
       // Render the label, if it's not hidden.
       if (!$variables['label_hidden']) {
@@ -312,9 +313,13 @@ function honduras_field__taxonomy_term_reference(&$variables){
       foreach ($variables['items'] as $delta => $item) {
         // allow html
         $item['#options']['html'] = TRUE;
-        // set html
+        
+        // set class for span 
+        $iclass = $item['#title'];
 
-        $output .= '<li class="test taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+        // set html
+        $item['#title'] = '<span class="label '.$iclass.' label-info">'.$item['#title'].'</span>';
+        $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
       }
       $output .= '</ul>';
       // Render the top-level DIV.
