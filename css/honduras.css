@@ -9009,20 +9009,28 @@ table {
   margin: 0 auto;
 }
 
-/* line 37, ../scss/base/_common.scss */
+/**
+ * Icons default 
+**/
+/* line 42, ../scss/base/_common.scss */
+.icon {
+  font-size: 2.5rem;
+}
+
+/* line 47, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 42, ../scss/base/_common.scss */
+/* line 52, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 48, ../scss/base/_common.scss */
+  /* line 58, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9315,7 +9323,7 @@ article .image, article .image a {
 /* line 7, ../scss/layout/_footer.scss */
 footer {
   padding-top: 1rem;
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 /* line 10, ../scss/layout/_footer.scss */
 footer .copyright, footer .menu-footer {
@@ -9402,15 +9410,16 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
 /* line 18, ../scss/components/_type.scss */
 #l-title {
   margin-bottom: 1.5rem;
+  z-index: 1;
 }
 
-/* line 22, ../scss/components/_type.scss */
+/* line 23, ../scss/components/_type.scss */
 .title {
   color: white;
   text-shadow: 2px 2px black;
 }
 
-/* line 32, ../scss/components/_type.scss */
+/* line 33, ../scss/components/_type.scss */
 .front-title {
   font-weight: 100;
 }
@@ -11329,3 +11338,51 @@ td.single-day .inner {
   -webkit-box-shadow: 0 0 30px #999 inset;
   box-shadow: 0 0 30px #999 inset;
 }
+
+/* line 2, ../scss/theme/_icons-colors.scss */
+.fa-arqueologia, .fa-archeology {
+  color: #501602;
+}
+
+/* line 6, ../scss/theme/_icons-colors.scss */
+.fa-aventura, .fa-adventure {
+  color: #ff7600;
+}
+
+/* line 10, ../scss/theme/_icons-colors.scss */
+.fa-aviturismo, .fa-birding {
+  color: #0073c4;
+}
+
+/* line 15, ../scss/theme/_icons-colors.scss */
+.fa-buceo, .fa-diving {
+  color: #474aa3;
+}
+
+/* line 19, ../scss/theme/_icons-colors.scss */
+.fa-culturas, .fa-living {
+  /*culturas vivas*/
+  color: #00ab9e;
+}
+
+/* line 23, ../scss/theme/_icons-colors.scss */
+.fa-gastronomia, .fa-gastronomy {
+  color: #f76aa4;
+}
+
+/* line 27, ../scss/theme/_icons-colors.scss */
+.fa-naturaleza, .fa-nature {
+  color: #7cc100;
+}
+
+/* line 31, ../scss/theme/_icons-colors.scss */
+.fa-solyplaya, .fa-sol, .fa-sun {
+  color: #ff7600;
+}
+
+/* line 35, ../scss/theme/_icons-colors.scss */
+.fa-cultura, .fa-culture {
+  color: #0d776e;
+}
+
+/* Welcome to Compass. Use this file to write IE specific override styles. */

@@ -71,8 +71,10 @@
 @import "components/calendar";
 
 @import "theme/sponsors";
+@import "theme/icons-colors";
+
 
 // Themes
 // @import "theme/button-light";
 // IE8 Grid Support
-//@import "ie";
+@import "ie";

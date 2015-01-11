@@ -309,7 +309,7 @@ function honduras_field__taxonomy_term_reference(&$variables){
         $output .= '<h3 class="field-label">' . $variables['label'] . ': </h3>';
       }
       // Render the items.
-      $output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links">';
+      $output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links rel-explorar">';
       foreach ($variables['items'] as $delta => $item) {
         // allow html
         $item['#options']['html'] = TRUE;
@@ -321,7 +321,7 @@ function honduras_field__taxonomy_term_reference(&$variables){
 
 
         // set html
-        $item['#title'] = '<span class="label '.$iclass.' label-info"></span>';
+        $item['#title'] = '<i class="'.$iclass.' icon"></i>' . $item['#title'];
         $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
       }
       $output .= '</ul>';
