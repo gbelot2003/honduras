@@ -25,7 +25,6 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
-@import url("../fonts/hondurean/hondurean.css");
 /*
  * Theme specific variables. This takes the place of the normal _settings.scss.
  * See the STARTER/README.txt file regarding "CHANGING FOUNDATION DEFAULT
@@ -8981,18 +8980,27 @@ button.large, .button.large {
     display: inline-block;
   }
 }
+@font-face {
+  font-family: 'Hondurean';
+  src: url("../fonts/hondurean/Hondurean.eot?") format("eot"), url("../fonts/hondurean/Hondurean.woff") format("woff"), url("../fonts/hondurean/Hondurean.ttf") format("truetype"), url("../fonts/hondurean/Hondurean.svg#Hondurean") format("svg");
+}
 /**
  * Tables general
  */
-/* line 14, ../scss/base/_common.scss */
+/* line 21, ../scss/base/_common.scss */
 table {
   width: 100%;
+}
+
+/* line 25, ../scss/base/_common.scss */
+.field-name-body {
+  text-align: justify;
 }
 
 /**
  * List inine 
  */
-/* line 22, ../scss/base/_common.scss */
+/* line 33, ../scss/base/_common.scss */
 .list-inline {
   display: inline;
   margin-right: 0.7rem;
@@ -9002,7 +9010,7 @@ table {
  * Centering lists
  * li of horizonal-list must have a "display:inline" property
  */
-/* line 32, ../scss/base/_common.scss */
+/* line 43, ../scss/base/_common.scss */
 .list-centered {
   display: table;
   /* Allow the centering to work */
@@ -9012,25 +9020,25 @@ table {
 /**
  * Icons default 
 **/
-/* line 42, ../scss/base/_common.scss */
+/* line 52, ../scss/base/_common.scss */
 .icon {
   font-size: 2.5rem;
 }
 
-/* line 47, ../scss/base/_common.scss */
+/* line 56, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 52, ../scss/base/_common.scss */
+/* line 61, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 58, ../scss/base/_common.scss */
+  /* line 67, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9110,8 +9118,9 @@ h4, h5, h6 {
 /* line 34, ../scss/layout/_header.scss */
 .top-bar {
   background: white;
+  z-index: 10;
 }
-/* line 40, ../scss/layout/_header.scss */
+/* line 41, ../scss/layout/_header.scss */
 .top-bar .name h1 a {
   display: inline-block;
   width: 165px;
@@ -9121,23 +9130,23 @@ h4, h5, h6 {
   background: url("../images/logo2.png") top center no-repeat;
 }
 
-/* line 62, ../scss/layout/_header.scss */
+/* line 63, ../scss/layout/_header.scss */
 .top-bar .toggle-topbar.menu-icon a span {
   box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
   color: #777;
 }
 
-/* line 67, ../scss/layout/_header.scss */
+/* line 68, ../scss/layout/_header.scss */
 .top-bar-section .left li a:not(.button) {
   background: #0047ba 50%;
 }
 
-/* line 71, ../scss/layout/_header.scss */
+/* line 72, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button).has-icon {
   text-align: center;
 }
 
-/* line 75, ../scss/layout/_header.scss */
+/* line 76, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
   font-weight: 300;
   font-size: .72857em;
@@ -9145,7 +9154,7 @@ h4, h5, h6 {
   padding: 0 2rem;
 }
 
-/* line 82, ../scss/layout/_header.scss */
+/* line 83, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -9153,24 +9162,24 @@ h4, h5, h6 {
   text-align: center;
 }
 
-/* line 90, ../scss/layout/_header.scss */
+/* line 91, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 96, ../scss/layout/_header.scss */
+  /* line 97, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 100, ../scss/layout/_header.scss */
+  /* line 101, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 103, ../scss/layout/_header.scss */
+  /* line 104, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -9179,14 +9188,14 @@ h4, h5, h6 {
    * Icon Area
    * @type {[type]}
    */
-  /* line 111, ../scss/layout/_header.scss */
+  /* line 112, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 117, ../scss/layout/_header.scss */
+  /* line 118, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9195,7 +9204,7 @@ h4, h5, h6 {
     font-size: 2.1rem;
   }
 
-  /* line 125, ../scss/layout/_header.scss */
+  /* line 126, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }
@@ -9263,25 +9272,42 @@ h4, h5, h6 {
   background: none;
 }
 
-/* line 73, ../scss/layout/_main.scss */
-article .image, article .image a {
-  float: left;
+/**
+ *
+ * 	Detinos Turisticos
+ * 
+ */
+/* line 79, ../scss/layout/_main.scss */
+.image a {
+  display: inline !important;
 }
 
 /**
  *
- * 	Destinos Turisticos
+ * 	Atracciones Turisticas
  * 
  */
-/* line 85, ../scss/layout/_main.scss */
+/* line 89, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 90, ../scss/layout/_main.scss */
+/* line 94, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
+}
+
+/* line 98, ../scss/layout/_main.scss */
+.rel-explorar {
+  border-bottom: 1px solid silver;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+/* line 110, ../scss/layout/_main.scss */
+.rel-explorar i {
+  font-size: 2.5rem;
+  font-weight: 100;
 }
 
 /**
@@ -9289,21 +9315,21 @@ article .image, article .image a {
  * Blogs & Calendar 
  * 
  */
-/* line 104, ../scss/layout/_main.scss */
+/* line 126, ../scss/layout/_main.scss */
 .flexslider {
   width: 60%;
   float: left;
   margin: 0 1rem 2rem 0;
 }
 
-/* line 110, ../scss/layout/_main.scss */
-.node-type-atracciones-turisticas .flexslider {
+/* line 132, ../scss/layout/_main.scss */
+.node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider {
   width: 100%;
   float: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 116, ../scss/layout/_main.scss */
+  /* line 138, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
@@ -11307,6 +11333,85 @@ td.single-day .inner {
   color: #333333;
 }
 
+/* line 2, ../scss/components/_jquery-tabs.scss */
+.ui-widget-header {
+  background: none;
+  border: none;
+}
+
+/* line 6, ../scss/components/_jquery-tabs.scss */
+.ui-widget-content {
+  background: none;
+  border: none;
+}
+
+/* line 13, ../scss/components/_jquery-tabs.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+}
+
+/* line 17, ../scss/components/_jquery-tabs.scss */
+.ui-tabs {
+  /*font-family: "Josefin San" !important*/
+  font-size: 1rem;
+}
+
+/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+/* line 18, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav {
+  background: white;
+  padding: 0;
+}
+
+/* line 19, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav li {
+  border-bottom: none;
+  background-color: white !important;
+}
+
+/* line 20, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav li a {
+  color: black;
+  border-radius: 5px 5px 0 0;
+  font-size: 1em !important;
+}
+
+/* line 21, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav li a:hover {
+  color: red;
+}
+
+/* line 22, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav li.ui-state-active a {
+  color: red;
+  background-color: #E7F0D7;
+}
+
+/* line 25, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+  border-bottom: 1px solid #c0c0c0;
+  color: red;
+  background: #D8D0CD;
+}
+
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+/* line 30, ../scss/components/_jquery-tabs.scss */
+.ui-tabs .ui-tabs-panel {
+  background-color: #E7F0D7;
+  padding: 2em 2.4em;
+  color: black;
+  min-height: 26rem;
+}
+
+/*add responsive for heigth*/
+/* line 32, ../scss/components/_jquery-tabs.scss */
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 /* line 1, ../scss/theme/_sponsors.scss */
 #sponsored {
   margin: 10px auto;
@@ -11354,33 +11459,33 @@ td.single-day .inner {
   color: #0073c4;
 }
 
-/* line 15, ../scss/theme/_icons-colors.scss */
+/* line 14, ../scss/theme/_icons-colors.scss */
 .fa-buceo, .fa-diving {
   color: #474aa3;
 }
 
-/* line 19, ../scss/theme/_icons-colors.scss */
+/* line 18, ../scss/theme/_icons-colors.scss */
 .fa-culturas, .fa-living {
   /*culturas vivas*/
   color: #00ab9e;
 }
 
-/* line 23, ../scss/theme/_icons-colors.scss */
+/* line 22, ../scss/theme/_icons-colors.scss */
 .fa-gastronomia, .fa-gastronomy {
   color: #f76aa4;
 }
 
-/* line 27, ../scss/theme/_icons-colors.scss */
+/* line 26, ../scss/theme/_icons-colors.scss */
 .fa-naturaleza, .fa-nature {
   color: #7cc100;
 }
 
-/* line 31, ../scss/theme/_icons-colors.scss */
+/* line 30, ../scss/theme/_icons-colors.scss */
 .fa-solyplaya, .fa-sol, .fa-sun {
   color: #ff7600;
 }
 
-/* line 35, ../scss/theme/_icons-colors.scss */
+/* line 34, ../scss/theme/_icons-colors.scss */
 .fa-cultura, .fa-culture {
   color: #0d776e;
 }

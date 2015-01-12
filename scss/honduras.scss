@@ -26,10 +26,6 @@
  * - http://smacss.com/
  */
 
-
-//Importing custom font styles
-@import url('../fonts/hondurean/hondurean.css');
-
 // Base
 //
 // Init file contains required imports. Here's where we include normalize,
@@ -69,6 +65,7 @@
 @import "components/foundation-icons";
 @import "components/main-menu";
 @import "components/calendar";
+@import "components/jquery-tabs";
 
 @import "theme/sponsors";
 @import "theme/icons-colors";

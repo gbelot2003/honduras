@@ -6,6 +6,13 @@
 // %font-sans-serif { font-family: sans-serif; }
 // %font-serif      { font-family: serif; }
 
+@font-face {
+	font-family: 'Hondurean';
+	src: url('../fonts/hondurean/Hondurean.eot?') format('eot'), 
+	     url('../fonts/hondurean/Hondurean.woff') format('woff'), 
+	     url('../fonts/hondurean/Hondurean.ttf')  format('truetype'),
+	     url('../fonts/hondurean/Hondurean.svg#Hondurean') format('svg');
+}
 
 /**
  * Tables general
@@ -13,6 +20,10 @@
 
 table {
 	width:100%;
+}
+
+.field-name-body {
+	text-align: justify;
 }
 
 /**
@@ -34,7 +45,6 @@ table {
 	margin: 0 auto;
 }
 
-
 /**
  * Icons default 
 **/
@@ -42,7 +52,6 @@ table {
 .icon{
 	font-size: 2.5rem;
 }
-
 
 ul.horizontal-list{
 	text-align: center;

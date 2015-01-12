@@ -321,7 +321,7 @@ function honduras_field__taxonomy_term_reference(&$variables){
 
 
         // set html
-        $item['#title'] = '<i class="'.$iclass.' icon"></i>' . $item['#title'];
+        $item['#title'] = '<i data-tooltip aria-haspopup="true" class="icon '.$iclass.' has-tip" data-options="show_on:large" title="' . $item['#title'] .'"></i>';
         $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
       }
       $output .= '</ul>';
