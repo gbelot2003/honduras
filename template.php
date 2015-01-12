@@ -319,7 +319,7 @@ function honduras_field__taxonomy_term_reference(&$variables){
         
         // set class for span 
         $cclass = trim($item['#title']);
-        $iclass = "fa-" . strtolower($cclass);
+        $iclass = "fa-" . strtolower(str_replace('í', 'i', $cclass));
 
         // set contextual url
         $explore = 'explore';
