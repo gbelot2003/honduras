@@ -301,9 +301,12 @@ function block_render($module, $block_id) {
 function honduras_field__taxonomy_term_reference(&$variables){
 
 
-   if($variables['element']['#field_name'] == 'field_rel_explorar'){
-     //dpm($variables['element']);
-     $output = '';
+    if($variables['element']['#field_name'] == 'field_rel_explorar'){
+      $fts = $variables['element']['#object']->field_turistic_section['und'][0]['taxonomy_term']->name;
+      $ftsl = strtolower($fts);
+      $newurl = str_replace(' ', '-', $ftsl);
+
+      $output = '';
       // Render the label, if it's not hidden.
       if (!$variables['label_hidden']) {
         $output .= '<h3 class="field-label">' . $variables['label'] . ': </h3>';
@@ -315,15 +318,24 @@ function honduras_field__taxonomy_term_reference(&$variables){
         $item['#options']['html'] = TRUE;
         
         // set class for span 
-        
         $cclass = trim($item['#title']);
         $iclass = "fa-" . strtolower($cclass);
 
+        // set contextual url
+        $explore = 'explore';
+        if($variables['element']['#object']->language == 'es'){
+          $explore = 'explorar';
+        }
+        $term = strtolower($cclass);
+        $termName = str_replace(' ', '-', $term);
+        $href = $explore;
 
+        $item['#href'] = $newurl .'/'. $href . '/' . $termName;
         // set html
         $item['#title'] = '<i data-tooltip aria-haspopup="true" class="icon '.$iclass.' has-tip" data-options="show_on:large" title="' . $item['#title'] .'"></i>';
         $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
       }
+      
       $output .= '</ul>';
       // Render the top-level DIV.
       $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
