@@ -299,13 +299,11 @@ function block_render($module, $block_id) {
 
 
 function honduras_field__taxonomy_term_reference(&$variables){
-
+    global $language;
 
     if($variables['element']['#field_name'] == 'field_rel_explorar'){
       $fts = $variables['element']['#object']->field_turistic_section['und'][0]['tid'];
-      $lang = $variables['element']['#object']->language;
-      //$ftsl = strtolower($fts);
-      //$newurl = str_replace(' ', '-', $ftsl);
+      $lang = $language->language;
       $newurl = set_section_value($fts, $lang);
 
       $output = '';
