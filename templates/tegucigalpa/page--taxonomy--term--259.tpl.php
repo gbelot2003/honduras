@@ -1,3 +1,4 @@
+<!-- Tegucigalpa -->
 <!--.page -->
 <?php global $base_url; ?>
 <div role="document" class="page">
@@ -113,8 +114,8 @@
 
   <div class="l-slider">     
     <div class="front-message">
-      <h2 class="front-title"><span class="guara"><?php print t("Explore") ?> <span>Honduras</span> </span></h2>
-      <h5 class="portal"><?php print t("the heart of Central America") ?></h5>
+      <h2 class="front-title"><span><?php print t('Diverse Tegucigalpa') ?></span></h2>
+      <h5 class="portal"><?php print t("the center of Honduras") ?></h5>
       <div class="hash">
         <div class="row">
           <div class="large-12 columns text-center">

@@ -9076,51 +9076,109 @@ h4, h5, h6 {
   font-family: hondurean;
 }
 
+/** Color context sections */
 /* line 3, ../scss/layout/_header.scss */
+.section-atlantida #header-top,
+.section-atlantida .top-bar-section .left li a:not(.button),
+.section-atlantida #l-title,
+.section-atlantida .title {
+  background: #00b1d3 !important;
+}
+
+/* line 11, ../scss/layout/_header.scss */
+.section-bay-island #header-top,
+.section-bay-island .top-bar-section .left li a:not(.button),
+.section-bay-island #l-title,
+.section-bay-island .title {
+  background: #efc644 !important;
+}
+
+/* line 19, ../scss/layout/_header.scss */
+.section-copan-ruinas-and-west #header-top,
+.section-copan-ruinas-and-west .top-bar-section .left li a:not(.button),
+.section-copan-ruinas-and-west #l-title,
+.section-copan-ruinas-and-west .title {
+  background: #efc644 !important;
+}
+
+/* line 27, ../scss/layout/_header.scss */
+.section-san-pedro-sula #header-top,
+.section-san-pedro-sula .top-bar-section .left li a:not(.button),
+.section-san-pedro-sula #l-title,
+.section-san-pedro-sula .title {
+  background: #b1639f !important;
+}
+
+/* line 35, ../scss/layout/_header.scss */
+.section-lake-yojoa #header-top,
+.section-lake-yojoa .top-bar-section .left li a:not(.button),
+.section-lake-yojoa #l-title,
+.section-lake-yojoa .title {
+  background: #009de0 !important;
+}
+
+/* line 43, ../scss/layout/_header.scss */
+.section-tegucigalpa #header-top,
+.section-tegucigalpa .top-bar-section .left li a:not(.button),
+.section-tegucigalpa #l-title,
+.section-tegucigalpa .title {
+  background: #597303 !important;
+}
+
+/* line 51, ../scss/layout/_header.scss */
+.section-others #header-top,
+.section-others .top-bar-section .left li a:not(.button),
+.section-others #l-title,
+.section-others .title {
+  background: #769899 !important;
+}
+
+/* line 61, ../scss/layout/_header.scss */
 .l-header {
   height: 8rem;
 }
-/* line 5, ../scss/layout/_header.scss */
+/* line 63, ../scss/layout/_header.scss */
 .l-header #social-icons {
   padding-top: 0.3rem;
 }
-/* line 7, ../scss/layout/_header.scss */
+/* line 65, ../scss/layout/_header.scss */
 .l-header #social-icons a {
   color: white !important;
   font-size: 1.2rem;
 }
 
-/* line 14, ../scss/layout/_header.scss */
+/* line 72, ../scss/layout/_header.scss */
 .l-main {
   clear: both;
 }
 
-/* line 18, ../scss/layout/_header.scss */
+/* line 76, ../scss/layout/_header.scss */
 #header-top {
   background: #0047ba;
 }
 
-/* line 22, ../scss/layout/_header.scss */
+/***************************/
+/* line 83, ../scss/layout/_header.scss */
 .contain-to-grid {
   background: white;
 }
 
-/* line 26, ../scss/layout/_header.scss */
+/* line 87, ../scss/layout/_header.scss */
 .fixed .main-nav i {
   display: none !important;
 }
 
-/* line 29, ../scss/layout/_header.scss */
+/* line 90, ../scss/layout/_header.scss */
 .fixed .top-bar-section .main-nav > li > a:not(.button).has-icon {
   line-height: 5rem;
 }
 
-/* line 34, ../scss/layout/_header.scss */
+/* line 95, ../scss/layout/_header.scss */
 .top-bar {
   background: white;
   z-index: 10;
 }
-/* line 41, ../scss/layout/_header.scss */
+/* line 102, ../scss/layout/_header.scss */
 .top-bar .name h1 a {
   display: inline-block;
   width: 165px;
@@ -9130,23 +9188,23 @@ h4, h5, h6 {
   background: url("../images/logo2.png") top center no-repeat;
 }
 
-/* line 63, ../scss/layout/_header.scss */
+/* line 124, ../scss/layout/_header.scss */
 .top-bar .toggle-topbar.menu-icon a span {
   box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
   color: #777;
 }
 
-/* line 68, ../scss/layout/_header.scss */
+/* line 129, ../scss/layout/_header.scss */
 .top-bar-section .left li a:not(.button) {
   background: #0047ba 50%;
 }
 
-/* line 72, ../scss/layout/_header.scss */
+/* line 133, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button).has-icon {
   text-align: center;
 }
 
-/* line 76, ../scss/layout/_header.scss */
+/* line 137, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
   font-weight: 300;
   font-size: .72857em;
@@ -9154,7 +9212,7 @@ h4, h5, h6 {
   padding: 0 2rem;
 }
 
-/* line 83, ../scss/layout/_header.scss */
+/* line 144, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -9162,24 +9220,24 @@ h4, h5, h6 {
   text-align: center;
 }
 
-/* line 91, ../scss/layout/_header.scss */
+/* line 152, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 97, ../scss/layout/_header.scss */
+  /* line 158, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 101, ../scss/layout/_header.scss */
+  /* line 162, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 104, ../scss/layout/_header.scss */
+  /* line 165, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -9188,14 +9246,14 @@ h4, h5, h6 {
    * Icon Area
    * @type {[type]}
    */
-  /* line 112, ../scss/layout/_header.scss */
+  /* line 173, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 118, ../scss/layout/_header.scss */
+  /* line 179, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9204,7 +9262,7 @@ h4, h5, h6 {
     font-size: 2.1rem;
   }
 
-  /* line 126, ../scss/layout/_header.scss */
+  /* line 187, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }

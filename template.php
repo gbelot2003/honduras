@@ -32,6 +32,7 @@ function honduras_preprocess_html(&$variables) {
     drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
     // Need legacy support for IE downgrade to Foundation 2 or use JS file below
     drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
+
 }
 
 
@@ -114,14 +115,29 @@ function honduras_preprocess_page(&$variables) {
       $variables['pinterest_url'] = NULL;
       $variables['instagram_url'] = NULL;
   }
-
-  /**
-   * Adding path to logos images
-   */
-  
   
 }
 
+  /**
+   * [hook_preprocess_node description]
+   * @param  [type] &$variables [description]
+   * @return [type]             [description]
+   */
+  
+function honduras_preprocess_node(&$variables){
+   
+   /**
+   * Adding secction clases to body 
+   */
+  
+    $node = $variables["node"];
+    if(isset($node->field_turistic_section['und'][0]["taxonomy_term"])){
+      foreach ($node->field_turistic_section["und"] as $foo){
+        $term = $foo["taxonomy_term"];
+        $variables["classes_array"][] = "term-" . str_replace(" ", "-", strtolower($term->name));
+      }
+    }
+}
 
 /**
  * Implements theme_links() targeting the main menu specifically.

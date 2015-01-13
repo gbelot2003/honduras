@@ -1,3 +1,61 @@
+/** Color context sections */
+
+.section-atlantida #header-top, 
+.section-atlantida .top-bar-section .left li a:not(.button),
+.section-atlantida #l-title, 
+.section-atlantida .title 
+{
+	background: $color-atlantida !important;
+}
+
+.section-bay-island #header-top, 
+.section-bay-island .top-bar-section .left li a:not(.button),
+.section-bay-island #l-title, 
+.section-bay-island .title
+{
+	background: $color-islas !important;
+}
+
+.section-copan-ruinas-and-west #header-top, 
+.section-copan-ruinas-and-west .top-bar-section .left li a:not(.button),
+.section-copan-ruinas-and-west #l-title, 
+.section-copan-ruinas-and-west .title
+{
+	background: $color-islas !important;
+}
+
+.section-san-pedro-sula #header-top, 
+.section-san-pedro-sula .top-bar-section .left li a:not(.button),
+.section-san-pedro-sula #l-title, 
+.section-san-pedro-sula .title
+{
+	background: $color-sanpedro !important;
+}
+
+.section-lake-yojoa #header-top, 
+.section-lake-yojoa .top-bar-section .left li a:not(.button),
+.section-lake-yojoa #l-title, 
+.section-lake-yojoa .title
+{
+	background: $color-lago !important;
+}
+
+.section-tegucigalpa #header-top, 
+.section-tegucigalpa .top-bar-section .left li a:not(.button),
+.section-tegucigalpa #l-title, 
+.section-tegucigalpa .title
+{
+	background: $color-tegucigalpa !important;
+}
+
+.section-others #header-top, 
+.section-others .top-bar-section .left li a:not(.button),
+.section-others #l-title, 
+.section-others .title
+{
+	background: $color-otros !important;
+}
+
 // Non-modular or client styles for .l-header region.
 
 .l-header {
@@ -18,6 +76,9 @@
 #header-top{
 	background: $color-honduras;
 }
+
+
+/***************************/
 
 .contain-to-grid {
 	background:white;
