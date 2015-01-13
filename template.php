@@ -302,9 +302,11 @@ function honduras_field__taxonomy_term_reference(&$variables){
 
 
     if($variables['element']['#field_name'] == 'field_rel_explorar'){
-      $fts = $variables['element']['#object']->field_turistic_section['und'][0]['taxonomy_term']->name;
-      $ftsl = strtolower($fts);
-      $newurl = str_replace(' ', '-', $ftsl);
+      $fts = $variables['element']['#object']->field_turistic_section['und'][0]['tid'];
+      $lang = $variables['element']['#object']->language;
+      //$ftsl = strtolower($fts);
+      //$newurl = str_replace(' ', '-', $ftsl);
+      $newurl = set_section_value($fts, $lang);
 
       $output = '';
       // Render the label, if it's not hidden.
@@ -328,9 +330,9 @@ function honduras_field__taxonomy_term_reference(&$variables){
         }
         $term = strtolower($cclass);
         $termName = str_replace(' ', '-', $term);
-        $href = $explore;
 
-        $item['#href'] = $newurl .'/'. $href . '/' . $termName;
+
+        $item['#href'] = $explore .'/'. $newurl . '/' . $termName;
         // set html
         $item['#title'] = '<i data-tooltip aria-haspopup="true" class="icon '.$iclass.' has-tip" data-options="show_on:large" title="' . $item['#title'] .'"></i>';
         $output .= '<li class="list-inline taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
@@ -360,6 +362,70 @@ function honduras_field__taxonomy_term_reference(&$variables){
         $output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '"' . $variables['attributes'] .'>' . $output . '</div>';
         return $output;
     }
+}
+
+function set_section_value($variable, $lang){
+
+    switch ($variable) {
+      case 256:
+        if($lang == 'en'){
+          $name = 'copan-ruinas-and-west';
+        } else {
+          $name = 'copán-ruinas-y-occidente';
+        }
+        return $name;
+      break;
+
+      case 253:
+        $name = 'atlantida';
+        return $name;
+      break;
+
+      case 258:
+        $name = 'san-pedro-sula';
+        return $name;
+      break;
+
+      case 259:
+        $name = 'tegucigalpa';
+          return $name;
+      break;
+
+      case 257:
+        if($lang == 'en'){
+          $name = 'others';
+        } else {
+          $name = 'otros';
+        }
+
+        return $name;
+      break;
+
+      case 255:
+        if($lang == 'en'){
+          $name = 'lake-yojoa';
+        } else {
+          $name = 'lago-de-yojoa';
+        }
+        return $name;
+      break;
+
+      case 254:
+        if($lang == 'en'){
+          $name = 'bay-island';
+        } else {
+          $name = 'islas-de-la-bahia';
+        }
+        return $name;
+      break;
+
+      default:
+        $name = 'honduras';
+        return $name;
+      break;
+    }
+
+
 }
 
 /**
