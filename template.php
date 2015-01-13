@@ -422,10 +422,23 @@ function set_section_value($variable, $lang){
         return $name;
       break;
     }
-
-
 }
 
+function honduras_url_outbound_alter(&$path, &$options, $original_path) {
+    $alias = drupal_get_path_alias($original_path);
+    $url = parse_url($alias);
+    //dpm($original_path);
+    if (isset($url['fragment'])){
+        //set path without the fragment
+        $path = $url['path'];
+
+        //prevent URL from re-aliasing
+        $options['alias'] = TRUE;
+
+        //set fragment
+        $options['fragment'] = $url['fragment'];
+    }
+}
 /**
  * Implements template_preprocess_node
  *
