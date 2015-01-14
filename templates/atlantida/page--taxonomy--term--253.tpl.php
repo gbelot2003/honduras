@@ -202,11 +202,10 @@
 
       </div>
       
-      <?php hide($page['content']['#children']); ?>
       <?php print render($page['content']); ?>
+
     </div>
     <!--/.main region -->
-
     <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
   </main>
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->

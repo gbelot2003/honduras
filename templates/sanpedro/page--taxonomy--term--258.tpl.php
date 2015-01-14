@@ -201,8 +201,7 @@
         </div>
 
       </div>
-      
-      <?php hide($page['content']['#children']); ?>
+ 
       <?php print render($page['content']); ?>
     </div>
     <!--/.main region -->

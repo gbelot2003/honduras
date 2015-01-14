@@ -115,6 +115,18 @@ function honduras_preprocess_page(&$variables) {
       $variables['pinterest_url'] = NULL;
       $variables['instagram_url'] = NULL;
   }
+
+  /**
+   * Remove anoin default taxonomy listing
+   */
+
+  if(arg(0) == "taxonomy" && arg(1) == "term") {
+    $variables['page']['content']['system_main']['nodes'] = null;
+    unset($variables['page']['content']['system_main']['no_content']);
+    unset($variables['page']['content']['system_main']['pager']);
+  }
+
+
   
 }
 
