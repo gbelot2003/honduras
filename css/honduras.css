@@ -9076,6 +9076,146 @@ h4, h5, h6 {
   font-family: hondurean;
 }
 
+/* line 63, ../scss/base/_elements.scss */
+.views-exposed-widget {
+  width: 100%;
+}
+
+/* We use this to get basic styling on all basic form elements */
+/* line 69, ../scss/base/_elements.scss */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+}
+
+/* line 104, ../scss/base/_elements.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  -webkit-box-shadow: 0 0 5px #999999;
+  -moz-box-shadow: 0 0 5px #999999;
+  box-shadow: 0 0 5px #999999;
+  border-color: #999999;
+}
+
+/* line 122, ../scss/base/_elements.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  background: #fafafa;
+  border-color: #999999;
+  outline: none;
+}
+
+/* line 139, ../scss/base/_elements.scss */
+input[type="text"][disabled],
+input[type="password"][disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="month"][disabled],
+input[type="week"][disabled],
+input[type="email"][disabled],
+input[type="number"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+textarea[disabled] {
+  background-color: #dddddd;
+}
+
+/* line 155, ../scss/base/_elements.scss */
+select.form-select {
+  top: 0;
+  height: 2.3125em;
+  margin-bottom: 1.25em;
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
+  line-height: 30px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 0.875em;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+/* line 172, ../scss/base/_elements.scss */
+options {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0 0;
+  padding: 0 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
 /** Color context sections */
 /* line 3, ../scss/layout/_header.scss */
 .section-atlantida #header-top,
@@ -9277,18 +9417,18 @@ h4, h5, h6 {
   font-style: hondurean;
   margin-bottom: 2rem;
 }
-/* line 14, ../scss/layout/_main.scss */
+/* line 16, ../scss/layout/_main.scss */
 .l-slider .front-title {
   font-family: Hondurean;
   text-align: center;
   font-size: 4rem;
   margin-bottom: 0;
 }
-/* line 21, ../scss/layout/_main.scss */
+/* line 23, ../scss/layout/_main.scss */
 .l-slider .front-message {
   padding: 55px 0;
 }
-/* line 25, ../scss/layout/_main.scss */
+/* line 27, ../scss/layout/_main.scss */
 .l-slider .guara {
   /*color: rgb(0, 71, 186) !important;*/
   font-size: 4.5rem !important;
@@ -9299,7 +9439,7 @@ h4, h5, h6 {
   margin-bottom: 0;
   text-shadow: 2px 2px 1px black;
 }
-/* line 36, ../scss/layout/_main.scss */
+/* line 38, ../scss/layout/_main.scss */
 .l-slider .guara span {
   display: inline-block;
   height: 0px;
@@ -9309,11 +9449,11 @@ h4, h5, h6 {
   width: 195px;
   margin-top: -50px;
 }
-/* line 46, ../scss/layout/_main.scss */
+/* line 48, ../scss/layout/_main.scss */
 .l-slider .explora {
   color: #0047ba;
 }
-/* line 50, ../scss/layout/_main.scss */
+/* line 52, ../scss/layout/_main.scss */
 .l-slider .portal {
   /*color:rgb(0,71,186)!important;
   /*Color del portal*/
@@ -9323,7 +9463,7 @@ h4, h5, h6 {
   text-shadow: 2px 2px 1px black;
 }
 
-/* line 61, ../scss/layout/_main.scss */
+/* line 63, ../scss/layout/_main.scss */
 .breadcrumbs {
   border-style: none;
   border: none;
@@ -9335,7 +9475,7 @@ h4, h5, h6 {
  * 	Detinos Turisticos
  * 
  */
-/* line 79, ../scss/layout/_main.scss */
+/* line 81, ../scss/layout/_main.scss */
 .image a {
   display: inline !important;
 }
@@ -9345,24 +9485,24 @@ h4, h5, h6 {
  * 	Atracciones Turisticas
  * 
  */
-/* line 89, ../scss/layout/_main.scss */
+/* line 91, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 94, ../scss/layout/_main.scss */
+/* line 96, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
 }
 
-/* line 98, ../scss/layout/_main.scss */
+/* line 100, ../scss/layout/_main.scss */
 .rel-explorar {
   border-bottom: 1px solid silver;
   padding: 1rem;
   margin-bottom: 0.8rem;
 }
-/* line 110, ../scss/layout/_main.scss */
+/* line 112, ../scss/layout/_main.scss */
 .rel-explorar i {
   font-size: 2.5rem;
   font-weight: 100;
@@ -9373,21 +9513,21 @@ h4, h5, h6 {
  * Blogs & Calendar 
  * 
  */
-/* line 126, ../scss/layout/_main.scss */
+/* line 128, ../scss/layout/_main.scss */
 .flexslider {
   width: 60%;
   float: left;
   margin: 0 1rem 2rem 0;
 }
 
-/* line 132, ../scss/layout/_main.scss */
+/* line 134, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider {
   width: 100%;
   float: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 138, ../scss/layout/_main.scss */
+  /* line 140, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
