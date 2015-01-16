@@ -187,7 +187,7 @@
           
           <div id="l-row-image" class="large-6 columns">
              <h3><?php print t('Destinations') ?></h3>
-             <p><?php print t("Discover Honduras in all it's splendor") ?></p>
+             <p><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
              <?php print views_embed_view('front_page', $display_id = 'block_3');  ?>
              <?php print views_embed_view('front_page', $display_id = 'block_5'); ?>
           </div>
