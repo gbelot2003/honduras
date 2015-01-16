@@ -40,28 +40,42 @@ h4, h5, h6 {
 // textarea {
 // }
 
-
-// input[type="text"],
-// input[type="password"],
-// input[type="date"],
-// input[type="datetime"],
-// input[type="datetime-local"],
-// input[type="month"],
-// input[type="week"],
-// input[type="email"],
-// input[type="number"],
-// input[type="search"],
-// input[type="tel"],
-// input[type="time"],
-// input[type="url"],
-// textarea {
-
-// }
-
-// select {}
-
-.views-exposed-widget {
+select {
+	top: 0;
+	height: 2.3125em;
+	margin-bottom: 1.25em;
+	margin-top: 0px;
+	padding: 0px;
 	width: 100%;
+	line-height: 30px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 0.875em;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+.views-exposed-widget{
+	width: 100%;
+	label {
+		color: gray;
+		font-style: italic;
+		font-size: 0.7rem;
+		font-weight: bold;
+	}
+}
+
+.form-item-field-tipo-de-transporte-value select{
+	margin-bottom: 0.2rem !important;
+}
+
+.description{
+	color: $aventura;
+	font-style: italic;
+	font-size: 0.7rem;
+	font-weight: bold;	
 }
 
 /* We use this to get basic styling on all basic form elements */
@@ -80,27 +94,29 @@ input[type="tel"],
 input[type="time"],
 input[type="url"],
 textarea {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  background-color: white;
-  font-family: inherit;
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.75);
-  display: block;
-  font-size: 0.875rem;
-  margin: 0 0 1rem 0;
-  padding: 0.5rem;
-  height: 2.3125rem;
-  width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+	  -webkit-appearance: none;
+	  -webkit-border-radius: 0;
+	  border-radius: 0;
+	  background-color: white;
+	  font-family: inherit;
+	  border: 1px solid #cccccc;
+	  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	  color: rgba(0, 0, 0, 0.75);
+	  display: block;
+	  font-size: 0.875rem;
+	  margin: 0 0 1rem 0;
+	  padding: 0.5rem;
+	  height: 2.3125rem;
+	  width: 100%;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+	  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+	  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; 
+	  background: #DDDDDD;
+  }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -151,23 +167,6 @@ textarea {
   input[type="url"][disabled],
   textarea[disabled] {
     background-color: #dddddd; }
-
-   select.form-select{
-	top: 0;
-	height: 2.3125em;
-	margin-bottom: 1.25em;
-	margin-top: 0px;
-	padding: 0px;
-	width: 100%;
-	line-height: 30px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	font-size: 0.875em;
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	border: 1px solid #ccc;
-}
 
 options {
 	display: none;
