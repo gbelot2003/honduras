@@ -9430,37 +9430,37 @@ options {
 }
 /* line 5, ../scss/layout/_main.scss */
 .section-atlantida .l-slider {
-  background: url("../images/bg_atlantida");
+  background: url("../images/sections/bg_atlantida.jpg");
 }
 
 /* line 9, ../scss/layout/_main.scss */
 .section-bay-island .l-slider {
-  background: url("../images/bg_islas");
+  background: url("../images/sections/bg_islas.jpg");
 }
 
 /* line 13, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west .l-slider {
-  background: url("../images/bg_occidente");
+  background: url("../images/sections/bg_occidente.jpg");
 }
 
 /* line 16, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider {
-  background: url("../images/bg_sanpedro");
+  background: url("../images/sections/bg_sanpedro.jpg");
 }
 
 /* line 20, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider {
-  background: url("../images/bg_yojoa");
+  background: url("../images/sections/bg_yojoa.jpg");
 }
 
 /* line 24, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider {
-  background: url("../images/bg_tegus");
+  background: url("../images/sections/bg_tegus.jpg");
 }
 
 /* line 28, ../scss/layout/_main.scss */
 .section-others .l-slider {
-  background: url("../images/bg_otros");
+  background: url("../images/sections/bg_otros.jpg");
 }
 
 /* line 33, ../scss/layout/_main.scss */
