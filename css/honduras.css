@@ -9381,24 +9381,37 @@ options {
   text-align: center;
 }
 
-/* line 152, ../scss/layout/_header.scss */
+/* line 151, ../scss/layout/_header.scss */
+.top-bar-section .dropdown li a {
+  background: white !important;
+  color: black;
+}
+
+/* line 156, ../scss/layout/_header.scss */
+.top-bar-section .dropdown li a:hover {
+  text-decoration: underline;
+  background: silver !important;
+  color: red;
+}
+
+/* line 162, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 158, ../scss/layout/_header.scss */
+  /* line 168, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 162, ../scss/layout/_header.scss */
+  /* line 172, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 165, ../scss/layout/_header.scss */
+  /* line 175, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -9407,14 +9420,14 @@ options {
    * Icon Area
    * @type {[type]}
    */
-  /* line 173, ../scss/layout/_header.scss */
+  /* line 183, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 179, ../scss/layout/_header.scss */
+  /* line 189, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9423,7 +9436,7 @@ options {
     font-size: 2.1rem;
   }
 
-  /* line 187, ../scss/layout/_header.scss */
+  /* line 197, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }

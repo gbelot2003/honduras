@@ -146,7 +146,17 @@
 	padding: 20px 0 0 0;
 	font-size: 2.5em;
 	text-align: center;
+}
 
+.top-bar-section .dropdown li a{
+	background: white !important;
+	color: black;
+}
+
+.top-bar-section .dropdown li a:hover{
+	text-decoration: underline;
+	background: silver !important;
+	color: red;
 }
 
 #secondary-menu li a{
