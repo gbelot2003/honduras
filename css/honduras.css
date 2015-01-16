@@ -9621,7 +9621,7 @@ options {
  * 	Detinos Turisticos
  * 
  */
-/* line 175, ../scss/layout/_main.scss */
+/* line 176, ../scss/layout/_main.scss */
 .image a {
   display: inline !important;
 }
@@ -9631,24 +9631,24 @@ options {
  * 	Atracciones Turisticas
  * 
  */
-/* line 185, ../scss/layout/_main.scss */
+/* line 186, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 190, ../scss/layout/_main.scss */
+/* line 191, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
 }
 
-/* line 194, ../scss/layout/_main.scss */
+/* line 195, ../scss/layout/_main.scss */
 .rel-explorar {
   border-bottom: 1px solid silver;
   padding: 1rem;
   margin-bottom: 0.8rem;
 }
-/* line 206, ../scss/layout/_main.scss */
+/* line 207, ../scss/layout/_main.scss */
 .rel-explorar i {
   font-size: 2.5rem;
   font-weight: 100;
@@ -9659,26 +9659,26 @@ options {
  * Blogs & Calendar 
  * 
  */
-/* line 220, ../scss/layout/_main.scss */
+/* line 221, ../scss/layout/_main.scss */
 .flexslider {
   width: 60%;
   float: left;
   margin: 0 1rem 2rem 0;
 }
 
-/* line 226, ../scss/layout/_main.scss */
+/* line 227, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider {
   width: 100%;
   float: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 233, ../scss/layout/_main.scss */
+  /* line 234, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 238, ../scss/layout/_main.scss */
+  /* line 239, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
@@ -9693,6 +9693,34 @@ options {
 /* line 10, ../scss/layout/_front.scss */
 .view-display-id-block {
   margin-bottom: 1.5rem;
+}
+
+/* line 2, ../scss/layout/_views.scss */
+.views-responsive-grid-vertical .views-field-title {
+  position: absolute;
+  top: 0px;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  width: 89.5%;
+  padding: 0.5rem;
+}
+
+/* line 11, ../scss/layout/_views.scss */
+.views-responsive-grid-vertical .views-field-title a {
+  color: white;
+}
+
+/* line 15, ../scss/layout/_views.scss */
+.views-responsive-grid-vertical .views-field-title a:hover {
+  text-decoration: underline;
+}
+
+/* line 19, ../scss/layout/_views.scss */
+.views-responsive-grid-vertical .views-field-body {
+  font-size: 0.8rem;
+  color: black;
+  text-align: justify;
+  text-shadow: 1px 1px 2px silver;
 }
 
 /* line 7, ../scss/layout/_footer.scss */

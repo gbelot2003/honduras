@@ -1,0 +1,24 @@
+
+.views-responsive-grid-vertical  .views-field-title {
+	position: absolute;
+	top: 0px;
+	display: block;
+	background: rgba(0,0,0,0.5);
+	width: 89.5%;
+	padding: 0.5rem;
+}
+
+.views-responsive-grid-vertical  .views-field-title a {
+	color: white;
+}
+
+.views-responsive-grid-vertical  .views-field-title a:hover {
+	text-decoration: underline;
+}
+
+.views-responsive-grid-vertical .views-field-body {
+	font-size: 0.8rem;
+	color:black;
+	text-align: justify;
+	text-shadow: 1px 1px 2px silver;
+}
