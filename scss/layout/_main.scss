@@ -4,29 +4,95 @@
 
 .section-atlantida .l-slider{
 	background:url('../images/sections/bg_atlantida.jpg');
+	background-size: cover;
+	.front-title{
+		color: $color-atlantida;
+		text-shadow: 2px 2px 2px rgb(69,39,47);
+	}
+	h5.guara{
+		font-size: 3rem !important;
+		font-weight: 300 !important;
+	}
+
+	.guara{
+		color: $color-occidente;
+		text-shadow: 2px 2px 2px rgb(69,39,47);		
+	}
 }
 
 .section-bay-island .l-slider{
 	background:url('../images/sections/bg_islas.jpg');
+	background-size: cover;
+	.guara, .mportal {
+		text-shadow: 2px 2px 2px rgb(1,47,47);
+	}
+	.mportal{
+		color:$color-islas;
+	}
 }
 
 .section-copan-ruinas-and-west .l-slider{
 	background:url('../images/sections/bg_occidente.jpg');
+	background-size: cover;
+	.mportal{
+		color: $color-occidente;
+		text-shadow: 2px 2px 2px black;
+	}
+
+	.portal{
+		color:rgb(252, 160, 39);
+	}
 }
 .section-san-pedro-sula .l-slider{
 	background:url('../images/sections/bg_sanpedro.jpg');
+	background-size: cover;
+	.front-title {
+		color: $color-sanpedro;
+		text-shadow: 2px 2px 2px black;
+	}
+	.portal {
+		color: $color-occidente;
+	}
+
 }
 
 .section-lake-yojoa .l-slider{
 	background:url('../images/sections/bg_yojoa.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	.front-title {
+		color: $color-occidente;
+		text-shadow: 2px 2px 2px rgb(92,38,41);
+	}
+	.portal{
+		text-shadow: 2px 2px 1px rgb(92,38,41);
+	}
 }
 
 .section-tegucigalpa .l-slider{
 	background:url('../images/sections/bg_tegus.jpg');
+	background-size: cover;
+	.front-title{
+		color: $color-occidente;
+		text-shadow: 2px 2px 1px white;
+	}
+
+	h5.portal .guara{
+		font-size: 3rem !important;
+		font-weight: 300 !important;
+	}
 }
 
 .section-others .l-slider{
 	background:url('../images/sections/bg_otros.jpg');
+	background-size: cover;
+	.front-title {
+		color: $color-occidente;
+		text-shadow: 2px 2px 2px rgb(92,38,41);
+	}
+	.portal{
+		text-shadow: 2px 2px 1px rgb(92,38,41);
+	}
 }
 
 
@@ -34,7 +100,7 @@
 	background: url('../images/bgs_2.jpg');
 	background-size: cover;
 	background-position: center center;
-	height: 22rem;
+	height: 25rem;
 	display: block;
 	font-style: hondurean;
 	margin-bottom:2rem;
@@ -49,7 +115,7 @@
 	}
 
 	.front-message{
-		padding: 55px 0;
+		padding: 90px 0;
 	}
 
 	.guara {
@@ -151,8 +217,6 @@
  * 
  */
 
-
-
 .flexslider {
 	width: 60%;
 	float: left;
@@ -165,6 +229,12 @@
 }
 
 @media only screen and (max-width: 40em) {
+	.l-slider{
+		.front-message{
+			padding: 70px 0;
+		}
+	}
+
 	.flexslider {
 		width: 100%;
 		float: none;

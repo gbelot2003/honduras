@@ -9431,60 +9431,137 @@ options {
 /* line 5, ../scss/layout/_main.scss */
 .section-atlantida .l-slider {
   background: url("../images/sections/bg_atlantida.jpg");
+  background-size: cover;
+}
+/* line 8, ../scss/layout/_main.scss */
+.section-atlantida .l-slider .front-title {
+  color: #00b1d3;
+  text-shadow: 2px 2px 2px #45272f;
+}
+/* line 12, ../scss/layout/_main.scss */
+.section-atlantida .l-slider h5.guara {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+}
+/* line 17, ../scss/layout/_main.scss */
+.section-atlantida .l-slider .guara {
+  color: #cc7c1a;
+  text-shadow: 2px 2px 2px #45272f;
 }
 
-/* line 9, ../scss/layout/_main.scss */
+/* line 23, ../scss/layout/_main.scss */
 .section-bay-island .l-slider {
   background: url("../images/sections/bg_islas.jpg");
+  background-size: cover;
+}
+/* line 26, ../scss/layout/_main.scss */
+.section-bay-island .l-slider .guara, .section-bay-island .l-slider .mportal {
+  text-shadow: 2px 2px 2px #012f2f;
+}
+/* line 29, ../scss/layout/_main.scss */
+.section-bay-island .l-slider .mportal {
+  color: #efc644;
 }
 
-/* line 13, ../scss/layout/_main.scss */
+/* line 34, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west .l-slider {
   background: url("../images/sections/bg_occidente.jpg");
+  background-size: cover;
+}
+/* line 37, ../scss/layout/_main.scss */
+.section-copan-ruinas-and-west .l-slider .mportal {
+  color: #cc7c1a;
+  text-shadow: 2px 2px 2px black;
+}
+/* line 42, ../scss/layout/_main.scss */
+.section-copan-ruinas-and-west .l-slider .portal {
+  color: #fca027;
 }
 
-/* line 16, ../scss/layout/_main.scss */
+/* line 46, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider {
   background: url("../images/sections/bg_sanpedro.jpg");
+  background-size: cover;
+}
+/* line 49, ../scss/layout/_main.scss */
+.section-san-pedro-sula .l-slider .front-title {
+  color: #b1639f;
+  text-shadow: 2px 2px 2px black;
+}
+/* line 53, ../scss/layout/_main.scss */
+.section-san-pedro-sula .l-slider .portal {
+  color: #cc7c1a;
 }
 
-/* line 20, ../scss/layout/_main.scss */
+/* line 59, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider {
   background: url("../images/sections/bg_yojoa.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+/* line 63, ../scss/layout/_main.scss */
+.section-lake-yojoa .l-slider .front-title {
+  color: #cc7c1a;
+  text-shadow: 2px 2px 2px #5c2629;
+}
+/* line 67, ../scss/layout/_main.scss */
+.section-lake-yojoa .l-slider .portal {
+  text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 24, ../scss/layout/_main.scss */
+/* line 72, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider {
   background: url("../images/sections/bg_tegus.jpg");
+  background-size: cover;
+}
+/* line 75, ../scss/layout/_main.scss */
+.section-tegucigalpa .l-slider .front-title {
+  color: #cc7c1a;
+  text-shadow: 2px 2px 1px white;
+}
+/* line 80, ../scss/layout/_main.scss */
+.section-tegucigalpa .l-slider h5.portal .guara {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
 }
 
-/* line 28, ../scss/layout/_main.scss */
+/* line 86, ../scss/layout/_main.scss */
 .section-others .l-slider {
   background: url("../images/sections/bg_otros.jpg");
+  background-size: cover;
+}
+/* line 89, ../scss/layout/_main.scss */
+.section-others .l-slider .front-title {
+  color: #cc7c1a;
+  text-shadow: 2px 2px 2px #5c2629;
+}
+/* line 93, ../scss/layout/_main.scss */
+.section-others .l-slider .portal {
+  text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 33, ../scss/layout/_main.scss */
+/* line 99, ../scss/layout/_main.scss */
 .l-slider {
   background: url("../images/bgs_2.jpg");
   background-size: cover;
   background-position: center center;
-  height: 22rem;
+  height: 25rem;
   display: block;
   font-style: hondurean;
   margin-bottom: 2rem;
 }
-/* line 44, ../scss/layout/_main.scss */
+/* line 110, ../scss/layout/_main.scss */
 .l-slider .front-title {
   font-family: Hondurean;
   text-align: center;
   font-size: 4rem;
   margin-bottom: 0;
 }
-/* line 51, ../scss/layout/_main.scss */
+/* line 117, ../scss/layout/_main.scss */
 .l-slider .front-message {
-  padding: 55px 0;
+  padding: 90px 0;
 }
-/* line 55, ../scss/layout/_main.scss */
+/* line 121, ../scss/layout/_main.scss */
 .l-slider .guara {
   /*color: rgb(0, 71, 186) !important;*/
   font-size: 4.5rem !important;
@@ -9495,7 +9572,7 @@ options {
   margin-bottom: 0;
   text-shadow: 2px 2px 1px black;
 }
-/* line 66, ../scss/layout/_main.scss */
+/* line 132, ../scss/layout/_main.scss */
 .l-slider .guara span {
   display: inline-block;
   height: 0px;
@@ -9505,11 +9582,11 @@ options {
   width: 195px;
   margin-top: -50px;
 }
-/* line 76, ../scss/layout/_main.scss */
+/* line 142, ../scss/layout/_main.scss */
 .l-slider .explora {
   color: #0047ba;
 }
-/* line 80, ../scss/layout/_main.scss */
+/* line 146, ../scss/layout/_main.scss */
 .l-slider .portal {
   /*color:rgb(0,71,186)!important;
   /*Color del portal*/
@@ -9519,7 +9596,7 @@ options {
   text-shadow: 2px 2px 1px black;
 }
 
-/* line 91, ../scss/layout/_main.scss */
+/* line 157, ../scss/layout/_main.scss */
 .breadcrumbs {
   border-style: none;
   border: none;
@@ -9531,7 +9608,7 @@ options {
  * 	Detinos Turisticos
  * 
  */
-/* line 109, ../scss/layout/_main.scss */
+/* line 175, ../scss/layout/_main.scss */
 .image a {
   display: inline !important;
 }
@@ -9541,24 +9618,24 @@ options {
  * 	Atracciones Turisticas
  * 
  */
-/* line 119, ../scss/layout/_main.scss */
+/* line 185, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 124, ../scss/layout/_main.scss */
+/* line 190, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
 }
 
-/* line 128, ../scss/layout/_main.scss */
+/* line 194, ../scss/layout/_main.scss */
 .rel-explorar {
   border-bottom: 1px solid silver;
   padding: 1rem;
   margin-bottom: 0.8rem;
 }
-/* line 140, ../scss/layout/_main.scss */
+/* line 206, ../scss/layout/_main.scss */
 .rel-explorar i {
   font-size: 2.5rem;
   font-weight: 100;
@@ -9569,21 +9646,26 @@ options {
  * Blogs & Calendar 
  * 
  */
-/* line 156, ../scss/layout/_main.scss */
+/* line 220, ../scss/layout/_main.scss */
 .flexslider {
   width: 60%;
   float: left;
   margin: 0 1rem 2rem 0;
 }
 
-/* line 162, ../scss/layout/_main.scss */
+/* line 226, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider {
   width: 100%;
   float: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 168, ../scss/layout/_main.scss */
+  /* line 233, ../scss/layout/_main.scss */
+  .l-slider .front-message {
+    padding: 70px 0;
+  }
+
+  /* line 238, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
