@@ -2,6 +2,34 @@
 
 .l-main {}
 
+.section-atlantida .l-slider{
+	background:url('../images/bg_atlantida');
+}
+
+.section-bay-island .l-slider{
+	background:url('../images/bg_islas');
+}
+
+.section-copan-ruinas-and-west .l-slider{
+	background:url('../images/bg_occidente');
+}
+.section-san-pedro-sula .l-slider{
+	background:url('../images/bg_sanpedro');
+}
+
+.section-lake-yojoa .l-slider{
+	background:url('../images/bg_yojoa');
+}
+
+.section-tegucigalpa .l-slider{
+	background:url('../images/bg_tegus');
+}
+
+.section-others .l-slider{
+	background:url('../images/bg_otros');
+}
+
+
 .l-slider{
 	background: url('../images/bgs_2.jpg');
 	background-size: cover;
