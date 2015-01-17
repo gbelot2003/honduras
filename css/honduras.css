@@ -9672,13 +9672,17 @@ options {
   float: none;
 }
 
+/**
+ * @param  {[type]} max-width: 40em          [description]
+ * @return {[type]}            [description]
+ */
 @media only screen and (max-width: 40em) {
-  /* line 234, ../scss/layout/_main.scss */
+  /* line 240, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 239, ../scss/layout/_main.scss */
+  /* line 245, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
@@ -9695,34 +9699,105 @@ options {
   margin-bottom: 1.5rem;
 }
 
-/* line 2, ../scss/layout/_views.scss */
+/* line 1, ../scss/layout/_views.scss */
+#l-row-first h3.page-title {
+  color: #e60000;
+  margin-bottom: 0;
+}
+
+/* line 6, ../scss/layout/_views.scss */
+#l-row-first .description {
+  border-bottom: 1px solid #cc7c1a;
+}
+
+/* line 10, ../scss/layout/_views.scss */
+.view-display-id-block .views-row-1 {
+  position: relative;
+}
+
+/* line 15, ../scss/layout/_views.scss */
+#l-row-first .views-field-field-image {
+  width: 100%;
+}
+
+/**
+ * Titulos de bloque en portada
+ */
+/* line 22, ../scss/layout/_views.scss */
 .views-responsive-grid-vertical .views-field-title {
   position: absolute;
   top: 0px;
   display: block;
   background: rgba(0, 0, 0, 0.5);
   width: 89.5%;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
-/* line 11, ../scss/layout/_views.scss */
+/**
+ * Titulos de overlay en noticias
+*/
+/* line 35, ../scss/layout/_views.scss */
 .views-responsive-grid-vertical .views-field-title a {
   color: white;
 }
 
-/* line 15, ../scss/layout/_views.scss */
+/* line 39, ../scss/layout/_views.scss */
 .views-responsive-grid-vertical .views-field-title a:hover {
   text-decoration: underline;
 }
 
-/* line 19, ../scss/layout/_views.scss */
-.views-responsive-grid-vertical .views-field-body {
-  font-size: 0.8rem;
-  color: black;
+/**
+ * Overlay images 
+ */
+/* line 47, ../scss/layout/_views.scss */
+.front-image {
+  position: relative;
+  overflow: hidden;
+}
+/* line 50, ../scss/layout/_views.scss */
+.front-image .overlay {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  height: 100%;
+  padding: 5rem;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 61, ../scss/layout/_views.scss */
+.front-image .overlay p {
+  color: white;
   text-align: justify;
-  text-shadow: 1px 1px 2px silver;
 }
 
+/* line 70, ../scss/layout/_views.scss */
+.front-image:hover .overlay {
+  opacity: 1;
+}
+
+/**
+ * [and description]
+ * @param  {[type]} max-width: 40em          [description]
+ * @return {[type]}            [description]
+ */
+@media only screen and (max-width: 40em) {
+  /* line 82, ../scss/layout/_views.scss */
+  #l-row-first .view-display-id-block {
+    overflow: hidden;
+  }
+
+  /* line 88, ../scss/layout/_views.scss */
+  .front-image .overlay {
+    padding: 0.5rem;
+  }
+  /* line 90, ../scss/layout/_views.scss */
+  .front-image .overlay p {
+    font-size: 1rem;
+  }
+}
 /* line 7, ../scss/layout/_footer.scss */
 footer {
   padding-top: 1rem;
