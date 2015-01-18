@@ -40,11 +40,32 @@
 	text-decoration: underline;
 }
 
+
+
+
 /**
  * Overlay images 
  */
 
-.front-image {
+/**
+ * Main image title stile
+ */
+
+.view-display-id-block .views-field-title{
+	position: absolute;
+	z-index: 5;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.view-display-id-block:hover .views-field-title {
+	opacity:0;
+}
+
+
+.view-display-id-block .front-image{
 	position: relative;
 	overflow: hidden;
 	.overlay{
@@ -61,16 +82,64 @@
 		p{
 			color: white;
 			text-align: justify;
-
+		}
+		span {
+			color: white;
 		}
 	}
 }
 
-.front-image:hover {
+.view-display-id-block:hover .front-image{
 	.overlay{
 		 opacity:1;
 	}
 }
+
+.view-display-id-block  .views-field-title h3 {
+	color: #2795B6;
+	padding: 0 0 0 0.5rem;
+	margin-bottom: 0.1rem;
+}
+
+.view-display-id-block  .views-field-title h3:hover{
+	text-decoration: underline;
+}
+
+.view-display-id-block  .views-field-title p{
+	padding: 0 0 0 0.5rem;
+	a{
+		color: white;
+	}
+	i {
+		color: $color-2;
+	}
+}
+
+/**
+ * Front Secundary Images 
+ */
+
+.view-display-id-block_2 .front-image {
+	position: relative;
+	overflow: hidden;
+	.overlay{
+		position: absolute;
+		text-align:center;
+		width: 100%;
+		top: 0px;
+		height: 100%;
+		padding: 5rem;
+		opacity:0;
+		background:rgba(0,0,0,.75);
+		-webkit-transition: opacity .25s ease;
+		-moz-transition: opacity .25s ease;
+		p{
+			color: white;
+			text-align: justify;
+		}
+	}
+}
+
 
 /**
  * [and description]
@@ -86,9 +155,9 @@
 	
 	.front-image{
 		.overlay{
-			padding: 0.5rem;
+			padding: 0.5rem !important;
 			p{
-				font-size: 1rem;
+				@include font-size(0.8);
 			}
 		}
 	} 

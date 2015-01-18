@@ -9749,13 +9749,31 @@ options {
 /**
  * Overlay images 
  */
-/* line 47, ../scss/layout/_views.scss */
-.front-image {
+/**
+ * Main image title stile
+ */
+/* line 54, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title {
+  position: absolute;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+/* line 63, ../scss/layout/_views.scss */
+.view-display-id-block:hover .views-field-title {
+  opacity: 0;
+}
+
+/* line 68, ../scss/layout/_views.scss */
+.view-display-id-block .front-image {
   position: relative;
   overflow: hidden;
 }
-/* line 50, ../scss/layout/_views.scss */
-.front-image .overlay {
+/* line 71, ../scss/layout/_views.scss */
+.view-display-id-block .front-image .overlay {
   position: absolute;
   text-align: center;
   width: 100%;
@@ -9767,15 +9785,44 @@ options {
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
 }
-/* line 61, ../scss/layout/_views.scss */
-.front-image .overlay p {
+/* line 82, ../scss/layout/_views.scss */
+.view-display-id-block .front-image .overlay p {
   color: white;
   text-align: justify;
 }
+/* line 86, ../scss/layout/_views.scss */
+.view-display-id-block .front-image .overlay span {
+  color: white;
+}
 
-/* line 70, ../scss/layout/_views.scss */
-.front-image:hover .overlay {
+/* line 93, ../scss/layout/_views.scss */
+.view-display-id-block:hover .front-image .overlay {
   opacity: 1;
+}
+
+/* line 98, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title h3 {
+  color: #2795B6;
+  padding: 0 0 0 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+/* line 104, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title h3:hover {
+  text-decoration: underline;
+}
+
+/* line 108, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title p {
+  padding: 0 0 0 0.5rem;
+}
+/* line 110, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title p a {
+  color: white;
+}
+/* line 111, ../scss/layout/_views.scss */
+.view-display-id-block .views-field-title p i {
+  color: #ff751a;
 }
 
 /**
@@ -9784,18 +9831,19 @@ options {
  * @return {[type]}            [description]
  */
 @media only screen and (max-width: 40em) {
-  /* line 82, ../scss/layout/_views.scss */
+  /* line 123, ../scss/layout/_views.scss */
   #l-row-first .view-display-id-block {
     overflow: hidden;
   }
 
-  /* line 88, ../scss/layout/_views.scss */
+  /* line 129, ../scss/layout/_views.scss */
   .front-image .overlay {
-    padding: 0.5rem;
+    padding: 0.5rem !important;
   }
-  /* line 90, ../scss/layout/_views.scss */
+  /* line 131, ../scss/layout/_views.scss */
   .front-image .overlay p {
-    font-size: 1rem;
+    font-size: 8px;
+    font-size: 0.8rem;
   }
 }
 /* line 7, ../scss/layout/_footer.scss */
