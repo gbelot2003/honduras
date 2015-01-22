@@ -103,7 +103,7 @@ td.single-day .inner {
 }
 .calendar-calendar .item a {
   color:#333333;
-  text-shadow:1px 1px 0px #ffffff;
+  text-shadow:1px 1px 0px scale-color(#fff, $lightness: 10%);
 }
 .calendar-calendar .item .continues {
   color:#333333;
@@ -124,7 +124,7 @@ td.single-day .inner {
 */
 
 .ui-widget-overlay{
-  background: rgba(0,0,0,0.5);
+  background: scale-color(#fff, $lightness: 10%);
 }
 
 .ui-widget-content { 
@@ -133,6 +133,7 @@ td.single-day .inner {
 
 .ui-corner-all .ui-front {
   border: 5px solid black;
+  border-radius: 5px;
 }
 
 .ui-dialog-title {

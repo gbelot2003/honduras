@@ -11930,7 +11930,7 @@ td.single-day .inner {
 /* line 104, ../scss/components/_calendar.scss */
 .calendar-calendar .item a {
   color: #333333;
-  text-shadow: 1px 1px 0px #ffffff;
+  text-shadow: 1px 1px 0px white;
 }
 
 /* line 108, ../scss/components/_calendar.scss */
@@ -11953,7 +11953,7 @@ td.single-day .inner {
 */
 /* line 126, ../scss/components/_calendar.scss */
 .ui-widget-overlay {
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
 }
 
 /* line 130, ../scss/components/_calendar.scss */
@@ -11964,9 +11964,10 @@ td.single-day .inner {
 /* line 134, ../scss/components/_calendar.scss */
 .ui-corner-all .ui-front {
   border: 5px solid black;
+  border-radius: 5px;
 }
 
-/* line 138, ../scss/components/_calendar.scss */
+/* line 139, ../scss/components/_calendar.scss */
 .ui-dialog-title {
   font-family: hondurean;
 }
