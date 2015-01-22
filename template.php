@@ -183,6 +183,18 @@ function _honduras_links($links) {
   return $output;
 }
 
+
+function honduras_links__system_explore_honduras_menu(&$variables){
+  $output = '';
+
+  foreach ($variables['links'] as $link) {
+    dpm($links);
+  }
+  return $output;
+}
+
+
+
 /**
  * Implements theme_links() targeting the secondary menu specifically.
  * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html

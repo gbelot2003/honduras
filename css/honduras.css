@@ -8997,20 +8997,25 @@ table {
   text-align: justify;
 }
 
+/* line 29, ../scss/base/_common.scss */
+.views-responsive-grid .field-content {
+  word-wrap: break-word;
+}
+
 /**
  * List inine 
  */
-/* line 33, ../scss/base/_common.scss */
-.list-inline {
+/* line 37, ../scss/base/_common.scss */
+.list-inline, .item-list ul li.list-inline {
   display: inline;
-  margin-right: 0.7rem;
+  margin: 0 0.25rem 0 0;
 }
 
 /**
  * Centering lists
  * li of horizonal-list must have a "display:inline" property
  */
-/* line 43, ../scss/base/_common.scss */
+/* line 47, ../scss/base/_common.scss */
 .list-centered {
   display: table;
   /* Allow the centering to work */
@@ -9020,25 +9025,35 @@ table {
 /**
  * Icons default 
 **/
-/* line 52, ../scss/base/_common.scss */
+/* line 56, ../scss/base/_common.scss */
 .icon {
   font-size: 2.5rem;
 }
 
-/* line 56, ../scss/base/_common.scss */
+/* line 60, ../scss/base/_common.scss */
+.fa-air {
+  font-size: 2.5rem !important;
+}
+
+/* line 64, ../scss/base/_common.scss */
+.views-responsive-grid .icon {
+  font-size: 1.5rem;
+}
+
+/* line 69, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 61, ../scss/base/_common.scss */
+/* line 74, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 67, ../scss/base/_common.scss */
+  /* line 80, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9694,6 +9709,26 @@ options {
   margin-bottom: 2rem;
 }
 
+/* line 9, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li, .sidebar-first .block-menu-menu-with-whom ul.menu li {
+  list-style: none;
+  list-style-type: none;
+}
+/* line 12, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li a, .sidebar-first .block-menu-menu-with-whom ul.menu li a {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid silver;
+  padding: 0.5rem 0 0.3rem 0.3rem;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+}
+/* line 20, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li a:hover, .sidebar-first .block-menu-menu-with-whom ul.menu li a:hover {
+  background: rgba(0, 71, 186, 0.3);
+  color: white;
+}
+
 /* line 1, ../scss/layout/_views.scss */
 #l-row-first h3.page-title {
   color: #e60000;
@@ -9729,7 +9764,7 @@ options {
 /**
  * Titulos de bloque en portada
  */
-/* line 34, ../scss/layout/_views.scss */
+/* line 33, ../scss/layout/_views.scss */
 .views-responsive-grid-vertical .views-field-title {
   position: absolute;
   top: 0px;
@@ -9737,6 +9772,7 @@ options {
   background: rgba(0, 0, 0, 0.5);
   width: 89.5%;
   padding: 0.3rem;
+  z-index: 10;
 }
 
 /**
@@ -11868,7 +11904,7 @@ td.single-day .inner {
   min-height: 50px;
 }
 
-/* line 88, ../scss/components/_calendar.scss */
+/* line 87, ../scss/components/_calendar.scss */
 .calendar-calendar .month-view .full td.multi-day div.monthview,
 .calendar-calendar .week-view .full td.multi-day div.weekview,
 .calendar-calendar .day-view .full td.multi-day div.dayview,
@@ -11880,26 +11916,59 @@ td.single-day .inner {
   border-radius: 10px;
 }
 
-/* line 98, ../scss/components/_calendar.scss */
+/* line 97, ../scss/components/_calendar.scss */
 .calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents,
 .calendar-calendar .week-view .full td.multi-day .calendar.weekview .contents {
   top: 2px;
 }
 
-/* line 102, ../scss/components/_calendar.scss */
+/* line 101, ../scss/components/_calendar.scss */
 .calendar-calendar .item {
   color: #333333;
 }
 
-/* line 105, ../scss/components/_calendar.scss */
+/* line 104, ../scss/components/_calendar.scss */
 .calendar-calendar .item a {
   color: #333333;
   text-shadow: 1px 1px 0px #ffffff;
 }
 
-/* line 109, ../scss/components/_calendar.scss */
+/* line 108, ../scss/components/_calendar.scss */
 .calendar-calendar .item .continues {
   color: #333333;
+}
+
+/**
+ * Calendar Content 
+ */
+/* line 116, ../scss/components/_calendar.scss */
+.group-float-left {
+  width: 35%;
+  margin: 5px 10px 10px 0;
+  float: left;
+}
+
+/*
+** Calendar pop-up
+*/
+/* line 126, ../scss/components/_calendar.scss */
+.ui-widget-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 130, ../scss/components/_calendar.scss */
+.ui-widget-content {
+  background: aliceblue !important;
+}
+
+/* line 134, ../scss/components/_calendar.scss */
+.ui-corner-all .ui-front {
+  border: 5px solid black;
+}
+
+/* line 138, ../scss/components/_calendar.scss */
+.ui-dialog-title {
+  font-family: hondurean;
 }
 
 /* line 2, ../scss/components/_jquery-tabs.scss */

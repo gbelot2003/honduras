@@ -26,13 +26,17 @@ table {
 	text-align: justify;
 }
 
+.views-responsive-grid .field-content {
+	word-wrap: break-word;
+}
+
 /**
  * List inine 
  */
 
-.list-inline{
+.list-inline, .item-list ul li.list-inline{
 	display:inline;
-	margin-right:0.7rem;
+	margin: 0 0.25rem 0 0;
 }
 
 /**
@@ -52,6 +56,15 @@ table {
 .icon{
 	font-size: 2.5rem;
 }
+
+.fa-air {
+	font-size: 2.5rem !important;
+}
+
+.views-responsive-grid .icon {
+	font-size: 1.5rem;
+}
+
 
 ul.horizontal-list{
 	text-align: center;

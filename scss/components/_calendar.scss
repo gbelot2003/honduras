@@ -84,7 +84,6 @@ td.single-day .inner {
   min-height:50px;
 }
 
-
 .calendar-calendar .month-view .full td.multi-day div.monthview,
 .calendar-calendar .week-view .full td.multi-day div.weekview,
 .calendar-calendar .day-view .full td.multi-day div.dayview,
@@ -108,4 +107,34 @@ td.single-day .inner {
 }
 .calendar-calendar .item .continues {
   color:#333333;
+}
+
+/**
+ * Calendar Content 
+ */
+
+.group-float-left {
+    width:35%;
+    margin: 5px 10px 10px 0;
+    float: left;
+}
+
+/*
+** Calendar pop-up
+*/
+
+.ui-widget-overlay{
+  background: rgba(0,0,0,0.5);
+}
+
+.ui-widget-content { 
+  background: aliceblue !important;
+}
+
+.ui-corner-all .ui-front {
+  border: 5px solid black;
+}
+
+.ui-dialog-title {
+  font-family: hondurean;
 }
