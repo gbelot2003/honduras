@@ -78,7 +78,7 @@
   border-color:#999999;
 }
 td.single-day {
-  background:url(../images/cell-bg.png) bottom repeat-x;
+ /* background:url(../images/cell-bg.png) bottom repeat-x;*/
 }
 td.single-day .inner {
   min-height:50px;
@@ -91,7 +91,7 @@ td.single-day .inner {
 .calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff,
 .calendar-calendar .week-view .full td.multi-day .inner .weekview .continues,
 .calendar-calendar .week-view .full td.multi-day .inner .weekview .cutoff {
-  background:url(../images/event-bg.png) bottom repeat-x;
+  /*background:url(../images/event-bg.png) bottom repeat-x;*/
   border-radius:10px;
 }
 .calendar-calendar .month-view .full td.multi-day .calendar.monthview .contents,
@@ -118,6 +118,22 @@ td.single-day .inner {
     margin: 5px 10px 10px 0;
     float: left;
 }
+
+/**
+ * Calendar front-page
+ */
+
+.front {
+  .date-nav-wrapper{
+    padding: 5px 3px;
+    border-radius: 0px 0px !important;
+    .date-heading h3{
+      color:white !important;
+      text-shadow: 2px 2px 2px black !important;
+    }
+  }
+}
+
 
 /*
 ** Calendar pop-up

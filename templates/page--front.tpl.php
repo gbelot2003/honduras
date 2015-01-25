@@ -189,6 +189,17 @@
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
              <?php print views_embed_view('front_page', $display_id = 'block');  ?>
              <?php print views_embed_view('front_page', $display_id = 'block_2'); ?>
+             <div id="link-servicios" class="">
+              <h3 class="page-title front">Turism Services List</h3>
+              <p class="description">Explore and discover Honduras in all it's splendor</p>
+               <ul class="inline">
+                 <li class="list-inline"><a class="hotels" href=""><?php print t("Hotels") ?> <i class="fa-hoteles"></i></a></li>
+                 <li class="list-inline"><a class="restaurants" href=""><?php print t("Restaurants") ?> <i class="fa-restaurantes"></i></a></li>
+                 <li class="list-inline"><a class="transport" href=""><?php print t("Transports") ?> <i class="fa-transporte"></i></a></li>
+                 <li class="list-inline"><a class="diving" href=""><?php print t("Diving") ?> <i class="fa-buceo"></i></a></li>
+                 <li class="list-inline"><a class="tours" href=""><?php print t("Tours") ?> <i class="fa-tours"></i></a></li>
+               </ul>
+             </div>
           </div>
 
           <div id="l-row-news" class="large-6 columns">
@@ -196,7 +207,7 @@
             <p class="description"><?php print t('Intresting news and tips for travelers') ?></p>
             <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>
             <h3 class="page-title front"><?php print t('Calendar Content') ?></h3>  
-              <?php print block_render('views', 'calendar-block_1'); ?>  
+              <?php print views_embed_view('calendar', $display_id = 'page_1'); ?>  
           </div>
         
         </div>
