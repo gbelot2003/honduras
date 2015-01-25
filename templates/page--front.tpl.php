@@ -194,7 +194,9 @@
           <div id="l-row-news" class="large-6 columns">
             <h3 class="page-title front"><?php print t('News') ?></h3>
             <p class="description"><?php print t('Intresting news and tips for travelers') ?></p>
-            <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>          
+            <?php print views_embed_view('front_page', $display_id = 'block_1');  ?>
+            <h3 class="page-title front"><?php print t('Calendar Content') ?></h3>  
+              <?php print block_render('views', 'calendar-block_1'); ?>  
           </div>
         
         </div>
