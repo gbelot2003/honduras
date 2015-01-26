@@ -3,6 +3,66 @@
 	margin-bottom: 2rem;
 }
 
-#ll-row-news{
+#l-row-news{
 	
+}
+
+#link-servicios {
+	ul{
+		text-align: center;
+		li{
+			display: inline-block;
+			width: 6.7rem;
+			margin:0 0.7rem 0 0;
+			div {
+				display: inline;
+				width: 150%;
+				text-align: center;
+				a{
+					color: gray;
+					padding: 0.5rem;
+					font-size: 0.7rem;
+					text-align: center;
+					display: block;
+					border: 1px solid gray;
+					-webkit-transition: all 0.8s ease;
+					-moz-transition: all 0.8s ease;
+					transition: all 0.8s ease;
+					i{
+						display: block;
+						font-size: 5.5rem;
+						color: silver;
+						border:white;
+						-webkit-transition: all 0.8s ease;
+						-moz-transition: all 0.8s ease;
+						transition: all 0.8s ease;
+					}
+				}
+			}
+		}
+	}
+	div a:hover {
+		background:white;
+		color: $color-2;
+		i.fa-hoteles{
+			color: $hoteles;
+		}
+
+		i.fa-restaurantes{
+			color: $restaurante;
+		}
+
+		i.fa-transporte{
+			color: $transporte;
+		}
+
+		i.fa-tours {
+			color: $tours;
+		}
+
+		i.fa-buceo {
+			color: $buceo;
+		}
+
+	}
 }

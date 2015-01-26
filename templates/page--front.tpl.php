@@ -190,14 +190,36 @@
              <?php print views_embed_view('front_page', $display_id = 'block');  ?>
              <?php print views_embed_view('front_page', $display_id = 'block_2'); ?>
              <div id="link-servicios" class="">
-              <h3 class="page-title front">Turism Services List</h3>
-              <p class="description">Explore and discover Honduras in all it's splendor</p>
-               <ul class="inline">
-                 <li class="list-inline"><a class="hotels" href=""><?php print t("Hotels") ?> <i class="fa-hoteles"></i></a></li>
-                 <li class="list-inline"><a class="restaurants" href=""><?php print t("Restaurants") ?> <i class="fa-restaurantes"></i></a></li>
-                 <li class="list-inline"><a class="transport" href=""><?php print t("Transports") ?> <i class="fa-transporte"></i></a></li>
-                 <li class="list-inline"><a class="diving" href=""><?php print t("Diving") ?> <i class="fa-buceo"></i></a></li>
-                 <li class="list-inline"><a class="tours" href=""><?php print t("Tours") ?> <i class="fa-tours"></i></a></li>
+              <h3 class="page-title front"><?php print t("Trust turism services lists") ?></h3>
+              <p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>
+                <ul class="inline">
+                  
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="hotels" title="" rel="" target="" href=""><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="restaurants" title="" rel="" target="" href=""><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="transport" title="" rel="" target="" href=""><i class="fa-transporte"></i> <?php print t("Transports") ?></a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="diving" title="" rel="" target="" href=""><i class="fa-buceo"></i> <?php print t("Diving Centers") ?> </a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="tours" title="" rel="" target="" href=""><i class="fa-tours"></i> <?php print t("Tour Operators") ?></a>
+                    </div>
+                  </li>
+
                </ul>
              </div>
           </div>
