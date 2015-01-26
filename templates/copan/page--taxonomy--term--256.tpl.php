@@ -197,12 +197,12 @@
                   
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="hotels" title="<?php print t("List of Hotels at Honduras") ?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_hotels ?>?field_turistic_section_tid=All"><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
+                      <a class="hotels" title="<?php print t("List of Hotels at Honduras") ?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_hotels ?>?field_turistic_section_tid=256"><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
                     </div>
                   </li>
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="restaurants" title="<?php print t("List of Restaurants at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_restaurants ?>?field_turistic_section_tid=All"><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
+                      <a class="restaurants" title="<?php print t("List of Restaurants at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_restaurants ?>?field_turistic_section_tid=256"><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
                     </div>
                   </li>
                   <li class="list-inline">
