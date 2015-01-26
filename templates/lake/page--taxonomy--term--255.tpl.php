@@ -190,12 +190,47 @@
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
              <?php print views_embed_view('front_page', $display_id = 'block_3');  ?>
              <?php print views_embed_view('front_page', $display_id = 'block_5'); ?>
-          </div>
+             <div id="link-servicios" class="">
+              <h3 class="page-title front"><?php print t("Trust turism services lists") ?></h3>
+              <p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>
+                <ul class="inline">
+                  
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="hotels" title="<?php print t("List of Hotels at Honduras") ?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_hotels ?>?field_turistic_section_tid=All"><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="restaurants" title="<?php print t("List of Restaurants at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_restaurants ?>?field_turistic_section_tid=All"><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="transport" title="<?php print t("List of Transports at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_transports ?>"><i class="fa-transporte"></i> <?php print t("Transports") ?></a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="diving" title="<?php print t("List of Diving Centers at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_diving ?>"><i class="fa-buceo"></i> <?php print t("Diving Centers") ?> </a>
+                    </div>
+                  </li>
+                  <li class="list-inline">
+                    <div class="icon-inside">
+                      <a class="tours" title="<?php print t("List of Tour Operatos at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_tours ?>"><i class="fa-tours"></i> <?php print t("Tour Operators") ?></a>
+                    </div>
+                  </li>
 
+               </ul>
+             </div>
+          </div>
+          
           <div id="l-row-news" class="large-6 columns">
             <h3 class="page-title front"><?php print t('News') ?></h3>
             <p class="description"><?php print t('Intresting news and tips for travelers') ?></p>
-            <?php print views_embed_view('front_page', $display_id = 'block_4');  ?>          
+            <?php print views_embed_view('front_page', $display_id = 'block_4');  ?>         
+            <h3 class="page-title front"><?php print t('Calendar Content') ?></h3>  
+              <?php print views_embed_view('calendar', $display_id = 'page_1'); ?>  
           </div>
         
         </div>
