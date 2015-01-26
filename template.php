@@ -64,8 +64,15 @@ function honduras_block_list_alter(&$blocks) {
 function honduras_preprocess_page(&$variables) {
   
   /**
+  ** Init Lang Variable
+  **/
+  global $language;
+  $lang = $language->language;
+    
+  /**
   * Add Color module hooks
   */
+    
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
@@ -124,6 +131,24 @@ function honduras_preprocess_page(&$variables) {
     $variables['page']['content']['system_main']['nodes'] = null;
     unset($variables['page']['content']['system_main']['no_content']);
     unset($variables['page']['content']['system_main']['pager']);
+  }
+
+  /**
+  ** Front-page services Links
+  **/
+
+  if($lang === 'en'){
+    $variables['link_hotels'] = 'with-whom/hotels';
+    $variables['link_restaurants'] = 'with-whom/restaurants';
+    $variables['link_transports'] = 'with-whom/transports';
+    $variables['link_diving'] = 'with-whom/diving-centers';
+    $variables['link_tours'] = 'with-whom/tour-operators';
+  } else {
+    $variables['link_hotels'] = '';
+    $variables['link_restaurants'] = '';
+    $variables['link_transports'] = '';
+    $variables['link_diving'] = '';
+    $variables['link_tours'] = '';
   }
 
 

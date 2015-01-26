@@ -196,27 +196,27 @@
                   
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="hotels" title="" rel="" target="" href=""><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
+                      <a class="hotels" title="<?php print t("List of Hotels at Honduras") ?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_hotels ?>?field_turistic_section_tid=All"><i class="fa-hoteles"></i> <?php print t("Hotels") ?></a>
                     </div>
                   </li>
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="restaurants" title="" rel="" target="" href=""><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
+                      <a class="restaurants" title="<?php print t("List of Restaurants at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_restaurants ?>?field_turistic_section_tid=All"><i class="fa-restaurantes"></i> <?php print t("Restaurants") ?> </a>
                     </div>
                   </li>
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="transport" title="" rel="" target="" href=""><i class="fa-transporte"></i> <?php print t("Transports") ?></a>
+                      <a class="transport" title="<?php print t("List of Transports at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_transports ?>"><i class="fa-transporte"></i> <?php print t("Transports") ?></a>
                     </div>
                   </li>
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="diving" title="" rel="" target="" href=""><i class="fa-buceo"></i> <?php print t("Diving Centers") ?> </a>
+                      <a class="diving" title="<?php print t("List of Diving Centers at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_diving ?>"><i class="fa-buceo"></i> <?php print t("Diving Centers") ?> </a>
                     </div>
                   </li>
                   <li class="list-inline">
                     <div class="icon-inside">
-                      <a class="tours" title="" rel="" target="" href=""><i class="fa-tours"></i> <?php print t("Tour Operators") ?></a>
+                      <a class="tours" title="<?php print t("List of Tour Operatos at Honduras")?>" rel="<?php print t('List of Services at Honduras') ?>" target="_blanck" href="<?php print $link_tours ?>"><i class="fa-tours"></i> <?php print t("Tour Operators") ?></a>
                     </div>
                   </li>
 
