@@ -204,9 +204,14 @@
       </aside>
     <?php endif; ?>
 
+    <div id="l-row-secund" class="large-12 columns">
+      <?php print render($page['buttom_content']) ?>
+    </div>
+
     <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
   </main>
   <!--/.main-->
+
 
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
     <!--.triptych-->

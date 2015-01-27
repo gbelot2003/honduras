@@ -241,6 +241,10 @@
     </div>
     <!--/.main region -->
 
+    <div id="l-row-secund" class="large-12 columns">
+      <?php print render($page['buttom_content']) ?>
+    </div>
+
     <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
   </main>
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->

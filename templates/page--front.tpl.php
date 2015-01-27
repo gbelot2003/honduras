@@ -183,7 +183,7 @@
       
       <div id="l-row-first" class="large-12 columns">
         <div class="row">
-          
+
           <div id="l-row-image" class="large-6 columns">
              <h3 class="page-title front"><?php print t('Destinations') ?></h3>
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
@@ -235,14 +235,18 @@
         </div>
 
       </div>
-      
-
       <?php print render($page['content']); ?>
+
     </div>
     <!--/.main region -->
+    <div id="l-row-secund" class="large-12 columns">
+      <?php print render($page['buttom_content']) ?>
+    </div>
 
     <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
   </main>
+  
+  
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->
   <!-- /**********  MAIN REGION**************************************************************************************************************** -->

@@ -89,6 +89,7 @@ regions[help]                = Help
 regions[highlighted]         = Highlighted
 regions[featured]            = Featured
 regions[content]             = Content
+regions[buttom_content] 	 = Button Content 
 regions[sidebar_first]       = Left Sidebar
 regions[sidebar_second]      = Right Sidebar
 regions[triptych_first]      = Callout one
