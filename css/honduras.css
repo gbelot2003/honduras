@@ -9052,8 +9052,16 @@ ul.horizontal-list-right {
   margin-bottom: 0px;
 }
 
+/**
+ *  lazy images on body
+ */
+/* line 83, ../scss/base/_common.scss */
+.main .lazyloader-icon {
+  width: 5% !important;
+}
+
 @media only screen and (max-width: 40em) {
-  /* line 80, ../scss/base/_common.scss */
+  /* line 88, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9682,22 +9690,28 @@ options {
 }
 
 /* line 224, ../scss/layout/_main.scss */
-.node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider {
+.node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider
+, .node-type-proveedores-hoteles .flexslider {
   width: 100%;
   float: none;
 }
 
 /**
+ *
+ * Hotels 
+ * 
+ */
+/**
  * @param  {[type]} max-width: 40em          [description]
  * @return {[type]}            [description]
  */
 @media only screen and (max-width: 40em) {
-  /* line 237, ../scss/layout/_main.scss */
+  /* line 246, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 242, ../scss/layout/_main.scss */
+  /* line 251, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;

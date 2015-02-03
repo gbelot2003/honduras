@@ -16,40 +16,40 @@
             /**
             ** Add ico classes to views hotels taxonomy
             */
-            $('.views-field-field-ref-servicios li').addClass('list-inline');
-            $('.views-field-field-ref-servicios a:contains("Air Conditioning")').empty().append("<i class='icon fa-air'></i>");
-            $('.views-field-field-ref-servicios a:contains("Aire Acondicionado")').empty().append("<i class='icon fa-air'></i>");
+            $('.field-name-field-ref-servicios li').addClass('list-inline');
+            $('.field-name-field-ref-servicios a:contains("Air Conditioning")').append("<i class='icon fa-air'></i>");
+            $('.field-name-field-ref-servicios a:contains("Aire Acondicionado")').append("<i class='icon fa-air'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Bar/Restaurant")').empty().append("<i class='icon fa-bar'></i>");
-            $('.views-field-field-ref-servicios a:contains("Bar/Restaurante")').empty().append("<i class='icon fa-bar'></i>");
+            $('.field-name-field-ref-servicios a:contains("Bar/Restaurant")').append("<i class='icon fa-bar'></i>");
+            $('.field-name-field-ref-servicios a:contains("Bar/Restaurante")').append("<i class='icon fa-bar'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Boat Tours")').empty().append("<i class='icon fa-boat'></i>");
-            $('.views-field-field-ref-servicios a:contains("Paseos en Lancha")').empty().append("<i class='icon fa-boat'></i>");
+            $('.field-name-field-ref-servicios a:contains("Boat Tours")').append("<i class='icon fa-boat'></i>");
+            $('.field-name-field-ref-servicios a:contains("Paseos en Lancha")').append("<i class='icon fa-boat'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Laundry")').empty().append("<i class='icon fa-laundry'></i>");
-            $('.views-field-field-ref-servicios a:contains("Lavanderia")').empty().append("<i class='icon fa-laundry'></i>");
+            $('.field-name-field-ref-servicios a:contains("Laundry")').append("<i class='icon fa-laundry'></i>");
+            $('.field-name-field-ref-servicios a:contains("Lavanderia")').append("<i class='icon fa-laundry'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Meeting Room")').empty().append("<i class='icon fa-meeting'></i>");
-            $('.views-field-field-ref-servicios a:contains("Salón de Reuniones")').empty().append("<i class='icon fa-meeting'></i>");
+            $('.field-name-field-ref-servicios a:contains("Meeting Room")').append("<i class='icon fa-meeting'></i>");
+            $('.field-name-field-ref-servicios a:contains("Salón de Reuniones")').append("<i class='icon fa-meeting'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Parking")').empty().append("<i class='icon fa-parking'></i>");
-            $('.views-field-field-ref-servicios a:contains("Parqueo")').empty().append("<i class='icon fa-parking'></i>");
+            $('.field-name-field-ref-servicios a:contains("Parking")').append("<i class='icon fa-parking'></i>");
+            $('.field-name-field-ref-servicios a:contains("Parqueo")').append("<i class='icon fa-parking'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Pool")').empty().append("<i class='icon fa-pool'></i>");
-            $('.views-field-field-ref-servicios a:contains("Pisina")').empty().append("<i class='icon fa-pool'></i>");
+            $('.field-name-field-ref-servicios a:contains("Pool")').append("<i class='icon fa-pool'></i>");
+            $('.field-name-field-ref-servicios a:contains("Pisina")').append("<i class='icon fa-pool'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Room Service")').empty().append("<i class='icon fa-room'></i>");
-            $('.views-field-field-ref-servicios a:contains("Servicio a la Habitación")').empty().append("<i class='icon fa-room'></i>");
+            $('.field-name-field-ref-servicios a:contains("Room Service")').append("<i class='icon fa-room'></i>");
+            $('.field-name-field-ref-servicios a:contains("Servicio a la Habitación")').append("<i class='icon fa-room'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Store")').empty().append("<i class='icon fa-store'></i>");
-            $('.views-field-field-ref-servicios a:contains("Tienda")').empty().append("<i class='icon fa-store'></i>");
+            $('.field-name-field-ref-servicios a:contains("Store")').append("<i class='icon fa-store'></i>");
+            $('.field-name-field-ref-servicios a:contains("Tienda")').append("<i class='icon fa-store'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Terrace View")').empty().append("<i class='icon fa-terrace'></i>");
-            $('.views-field-field-ref-servicios a:contains("Terraza con vista")').empty().append("<i class='icon fa-terrace'></i>");
+            $('.field-name-field-ref-servicios a:contains("Terrace View")').append("<i class='icon fa-terrace'></i>");
+            $('.field-name-field-ref-servicios a:contains("Terraza con vista")').append("<i class='icon fa-terrace'></i>");
 
-            $('.views-field-field-ref-servicios a:contains("Wi-Fi")').empty().append("<i class='icon fa-wifi'></i>");
+            $('.field-name-field-ref-servicios a:contains("Wi-Fi")').append("<i class='icon fa-wifi'></i>");
 
-            var ids = '.views-field-field-ref-servicios a';
+            var ids = '. a';
             $(ids).click(function(event) {event.preventDefault();});
         });
     }
