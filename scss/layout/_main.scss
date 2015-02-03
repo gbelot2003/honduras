@@ -234,7 +234,26 @@
  * 
  */
 
-
+.field-name-field-ref-servicios {
+	li {
+		display: inline-block;
+		width: 112px;
+		margin-bottom: 1rem;
+		a{
+			display: block;
+			font-size: 0.8rem;
+			text-align: center;
+			color: $color-sanpedro;
+			i{
+				display: block;
+				font-size: 3.1rem !important;
+			}
+		}
+		a:hover {
+			color: $color-atlantida;
+		}
+	}
+}
 
 /**
  * @param  {[type]} max-width: 40em          [description]

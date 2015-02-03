@@ -9701,17 +9701,40 @@ options {
  * Hotels 
  * 
  */
+/* line 238, ../scss/layout/_main.scss */
+.field-name-field-ref-servicios li {
+  display: inline-block;
+  width: 112px;
+  margin-bottom: 1rem;
+}
+/* line 242, ../scss/layout/_main.scss */
+.field-name-field-ref-servicios li a {
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #b1639f;
+}
+/* line 247, ../scss/layout/_main.scss */
+.field-name-field-ref-servicios li a i {
+  display: block;
+  font-size: 3.1rem !important;
+}
+/* line 252, ../scss/layout/_main.scss */
+.field-name-field-ref-servicios li a:hover {
+  color: #00b1d3;
+}
+
 /**
  * @param  {[type]} max-width: 40em          [description]
  * @return {[type]}            [description]
  */
 @media only screen and (max-width: 40em) {
-  /* line 246, ../scss/layout/_main.scss */
+  /* line 265, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 251, ../scss/layout/_main.scss */
+  /* line 270, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
