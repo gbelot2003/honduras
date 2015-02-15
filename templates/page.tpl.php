@@ -275,7 +275,7 @@
     <?php endif; ?>
 
     <div class="large-2 columns">
-      <img src="http://drkuf9gftqtsg.cloudfront.net/atlantida/sites/default/files/logos//marca1.png">
+      <img src="<?php print $base_url . '/' . drupal_get_path('theme', 'honduras'); ?>/images/marca1.png">
     </div>
 
     <?php if(!empty($page['menu_footer'])): ?>
