@@ -53,6 +53,7 @@
 
   <?php !empty($content_attributes) ? print '<div ' .  $content_attributes . '>' : ''; ?>
     <?php print $content ?>
+
   <?php !empty($content_attributes) ? print '</div>' : ''; ?>
 
 <?php $block->delta != 'main' ? print '</div>' : ''; ?>

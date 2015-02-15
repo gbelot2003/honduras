@@ -91,8 +91,16 @@
     hide($content['links']);
     hide($content['field_tags']);
     hide($content['language']);
-    print render($content);
+    hide($content['field_image']);
   ?>
+    <div class="row">
+      <div class="columns large-7">
+        <?php print render($content); ?>
+      </div>
+      <div class="columns large-5">
+        <?php print render($content['field_image']); ?>
+      </div>
+    </div>
 
   <?php if (!empty($content['field_tags']) && !$is_front): ?>
     <?php print render($content['field_tags']) ?>

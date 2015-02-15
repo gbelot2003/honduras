@@ -9687,20 +9687,19 @@ options {
  * Blogs & Calendar 
  * 
  */
-/* line 220, ../scss/layout/_main.scss */
+/*
 .flexslider {
-  width: 60%;
-  float: left;
-  margin: 0 1rem 2rem 0;
+	width: 60%;
+	float: left;
+	margin: 0 1rem 2rem 0;
 }
 
-/* line 226, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .flexslider, .node-type-atracciones-turisticas .flexslider
-, .node-type-proveedores-hoteles .flexslider {
-  width: 100%;
-  float: none;
+,.node-type-proveedores-hoteles .flexslider{
+	width:100%;
+	float: none;
 }
-
+*/
 /**
  *
  * Hotels 
