@@ -4,7 +4,7 @@
 
   <!--.l-header region -->
   <header role="banner" class="l-header">
-    
+
     <div id="header-top" class="header-top">
       <div class="row">
         <?php if(isset($icon_using) && isset($facebook_url) || isset($twitter_url) || isset($pinterest_url) || isset($instagram_url)): ?>
@@ -13,17 +13,17 @@
               <?php if(isset($facebook_url)): ?>
                 <li class="list-inline"><?php print $facebook_url ?></li>
               <?php endif ?>
-              
+
               <?php if(isset($twitter_url)): ?>
                 <li class="list-inline"><?php print $twitter_url ?></li>
               <?php endif ?>
 
-              <?php if(isset($pinterest_url)): ?>              
+              <?php if(isset($pinterest_url)): ?>
                 <li class="list-inline"><?php print $pinterest_url ?></li>
               <?php endif ?>
 
               <?php if(isset($instagram_url)): ?>
-                <li class="list-inline"><?php print $instagram_url ?></li>    
+                <li class="list-inline"><?php print $instagram_url ?></li>
               <?php endif ?>
             </ul>
           </div>
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    
+
     <?php if ($top_bar): ?>
       <!--.top-bar -->
       <?php if ($top_bar_classes): ?>
@@ -166,10 +166,10 @@
       <div class="large-12">
         <div class="row">
           <div class="large-9 columns">
-            <?php if ($breadcrumb): print $breadcrumb; endif; ?>                 
+            <?php if ($breadcrumb): print $breadcrumb; endif; ?>
           </div>
           <div class="large-3 columns">
-            <?php 
+            <?php
               $block = module_invoke('sharethis', 'block_view', 'sharethis_block');
               print render($block['content']);
              ?>
