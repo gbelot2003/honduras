@@ -90,12 +90,53 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
+    hide($content['field_image']);
     hide($content['language']);
     hide($content['field_geolocalizaci_n']);
     hide($content['group_info_general']);
     hide($content['group_contact_info']);
     hide($content['field_turistic_section']);
-
-    print render($content);
   ?>
+  <div class="row">
+    
+    <div class="columns large-5">
+      <div class="row">
+        <div class="columns large-12">
+          <?php 
+            $block = module_invoke('search', 'block_view', 'form');
+            print render($block['content']); 
+          ?>
+        </div>
+        
+        <div class="columns large-12">
+          <?php print render($content['field_image']); ?> 
+        </div>
+      
+      </div>
+    </div>
+    
+    <div class="columns large-7">
+      <div class="row">
+      
+        <div class="columns large-12">
+          <?php print render($content['group_info_general']); ?>            
+        </div>
+
+        <div class="columns large-12">
+          <?php print render($content); ?>            
+        </div>      
+
+        <div class="large-12 columns">
+          <?php print render($content['group_contact_info']); ?>
+        </div>
+
+        <div class="large-12 columns">
+          <?php print render($content['field_geolocalizaci_n']); ?>
+        </div>
+     
+      </div>
+    </div>
+  
+  </div>
+
 </article>

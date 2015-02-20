@@ -98,8 +98,57 @@
     hide($content['body']);
     hide($content['field_turistic_section']);
     hide($content['language']);
-   
     print render($content);
-
   ?>
+
+  <div class="row">
+    <div class="column large-12">
+      
+      <div class="columns large-5">
+        <div class="row">
+
+          <div class="columns large-12">
+            <?php 
+              $block = module_invoke('search', 'block_view', 'form');
+              print render($block['content']); 
+            ?>
+          </div>
+        
+          <div class="large-12 columns">
+            <?php print render($content['field_imagen_logo']); ?>
+          </div>
+          
+          <div class="large-12 columns">
+            <?php print render($content['field_operador_slogan']); ?>
+          </div>
+          
+          <div class="large-12 columns">
+            <?php print render($content['body']); ?>
+          </div>
+
+          <div class="large-12 columns">
+            <?php print render($content['group_contact_info']); ?>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="columns large-7">
+        <div class="row">
+
+          <div class="columns large-12">
+            <span><?php print t('Type: ') ?></span>
+            <?php print render($content['field_type_operator']); ?>  
+          </div>
+
+          <div class="columns large-12">
+            <?php print render($content['group_paquetes']); ?>  
+          </div>
+        
+        </div>
+
+      </div>
+    
+    </div>
+  </div>
 </article>
