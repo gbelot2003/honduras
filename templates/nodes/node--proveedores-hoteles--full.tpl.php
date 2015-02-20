@@ -98,7 +98,56 @@
     hide($content['language']);
     hide($content['field_sellos']);
     hide($content['field_hoteles_posicion']);
-    print render($content);
+    
   ?>
+  <div class="row">
+    <div class="columns larges-12">
+      
+      <div class="columns large-5">
+      
+        <div class="row">
+          
+          <div class="columns large-12">
+            <?php 
+              $block = module_invoke('search', 'block_view', 'form');
+              print render($block['content']); 
+            ?>
+          </div>
 
+          <div class="columns large-12">
+            <?php print render($content['field_image']); ?>
+          </div>
+
+          <div class="columns large-12">
+            <?php print render($content['field_geolocalizaci_n']); ?>
+          </div>
+     
+        </div>
+
+      </div>
+      <div class="columns large-7">
+      
+        <div class="row">
+
+          <div class="colums large-12">
+            <?php print render($content['group_info_general']); ?>
+          </div> 
+      
+          <div class="colums large-12">
+            <?php print render($content); ?>
+          </div>
+          
+          <div class="colums large-12">
+            <?php print render($content['group_servicios']); ?>
+          </div> 
+
+          <div class="colums large-12">
+            <?php print render($content['field_sellos']);?>
+          </div> 
+  
+        </div>
+      
+      </div>
+    </div>      
+  </div>
 </article>
