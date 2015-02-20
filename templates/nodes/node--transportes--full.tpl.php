@@ -94,11 +94,40 @@
     hide($content['field_image']);
     hide($content['group_estaciones']);
     hide($content['group_info_general']);
-    hide($content['body']);
-
-    print render($content);
-
-
   ?>
-
+  <div class="row">
+    <div class="columns large-12">
+      
+      <div class="columns large-5">
+        
+        <div class="row">
+          
+          <div class="columns large-12">
+            <?php 
+              $block = module_invoke('search', 'block_view', 'form');
+              print render($block['content']); 
+            ?>
+          </div>
+          
+          <div class="columns large-12">
+            <?php print render($content['field_imagen_logo']); ?>
+          </div>
+          <div class="columns large-12">
+            <?php print render($content['group_info_general']); ?>
+          </div>
+        </div>
+      
+      </div>
+      
+      <div class="columns large-7">
+        <div class="row">
+          <div class="columns large-12">
+            <?php print render($content['field_image']) ?>
+            <?php print render($content) ?>
+            <?php print render($content['group_estaciones']) ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </article>

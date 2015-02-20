@@ -35,6 +35,25 @@ function honduras_preprocess_html(&$variables) {
 
 }
 
+/**
+ * [honduras_form_alter description]
+ * @param  [type] &$form       [description]
+ * @param  [type] &$form_state [description]
+ * @param  [type] $form_id     [description]
+ * @return [type]              [description]
+ */
+function honduras_form_alter(&$form, &$form_state, $form_id){
+  //$form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Buscar';}";
+  if ($form_id == 'search_block_form') 
+  {
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search');
+    $form['search_block_form']['#attributes']['title'] = t('Ingresa el texto que deseas buscar');
+    $form['actions']['#attributes']['class'][] = 'element-invisible';
+    unset($form['actions']['submit']);
+    //$form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/search.png');
+  }
+}
+
 
 /**
  * [honduras_block_list_alter description]
@@ -155,12 +174,11 @@ function honduras_preprocess_page(&$variables) {
   
 }
 
-  /**
-   * [hook_preprocess_node description]
-   * @param  [type] &$variables [description]
-   * @return [type]             [description]
-   */
-  
+/**
+ * [honduras_preprocess_node description]
+ * @param  [type] &$variables [description]
+ * @return [type]             [description]
+ */
 function honduras_preprocess_node(&$variables){
    
    /**

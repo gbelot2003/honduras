@@ -10131,6 +10131,13 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
   border-radius: 5px 0 0 5px;
 }
 
+/* line 45, ../scss/components/_blocks.scss */
+.field-name-field-imagen-logo {
+  text-align: center;
+  outline: 1px solid gray;
+  margin: 2px 0;
+}
+
 /* line 4, ../scss/components/_type.scss */
 #l-title, .title {
   background: #0047ba;
@@ -10159,6 +10166,11 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
 /* line 33, ../scss/components/_type.scss */
 .front-title {
   font-weight: 100;
+}
+
+/* line 7, ../scss/components/_forms.scss */
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-position: 100% 16px !important;
 }
 
 /*
@@ -12171,6 +12183,9 @@ td.single-day .inner {
   border-bottom-left-radius: 0;
 }
 
+/**	
+ * Transporte
+ */
 /* line 1, ../scss/theme/_sponsors.scss */
 #sponsored {
   margin: 10px auto;
