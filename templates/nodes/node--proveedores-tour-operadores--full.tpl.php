@@ -90,14 +90,16 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
+    hide($content['field_operador_slogan']);
+    hide($content['group_paquetes']);
+    hide($content['field_imagen_logo']);
+    hide($content['group_contact_info']);
+    hide($content['field_type_operator']);
+    hide($content['body']);
+    hide($content['field_turistic_section']);
     hide($content['language']);
+   
     print render($content);
+
   ?>
-
-  <?php if (!empty($content['field_tags']) && !$is_front): ?>
-    <?php print render($content['field_tags']) ?>
-  <?php endif; ?>
-
-  <?php print render($content['links']); ?>
-
 </article>

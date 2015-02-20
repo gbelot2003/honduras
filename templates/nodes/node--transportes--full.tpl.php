@@ -89,15 +89,16 @@
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
-    hide($content['field_tags']);
     hide($content['language']);
+    hide($content['field_imagen_logo']);
+    hide($content['field_image']);
+    hide($content['group_estaciones']);
+    hide($content['group_info_general']);
+    hide($content['body']);
+
     print render($content);
+
+
   ?>
-
-  <?php if (!empty($content['field_tags']) && !$is_front): ?>
-    <?php print render($content['field_tags']) ?>
-  <?php endif; ?>
-
-  <?php print render($content['links']); ?>
 
 </article>

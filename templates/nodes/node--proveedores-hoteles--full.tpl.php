@@ -90,14 +90,15 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
+    hide($content['field_image']);
+    hide($content['field_geolocalizaci_n']);
+    hide($content['group_info_general']);
+    hide($content['group_servicios']);
+    hide($content['field_turistic_section']);
     hide($content['language']);
+    hide($content['field_sellos']);
+    hide($content['field_hoteles_posicion']);
     print render($content);
   ?>
-
-  <?php if (!empty($content['field_tags']) && !$is_front): ?>
-    <?php print render($content['field_tags']) ?>
-  <?php endif; ?>
-
-  <?php print render($content['links']); ?>
 
 </article>
