@@ -10131,13 +10131,6 @@ footer .block-menu-menu-sitemap-menu ul.menu li:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-/* line 45, ../scss/components/_blocks.scss */
-.field-name-field-imagen-logo {
-  text-align: center;
-  outline: 1px solid gray;
-  margin: 2px 0;
-}
-
 /* line 4, ../scss/components/_type.scss */
 #l-title, .title {
   background: #0047ba;
@@ -12186,6 +12179,27 @@ td.single-day .inner {
 /**	
  * Transporte
  */
+/* line 5, ../scss/components/_proveedores.scss */
+.field-name-field-imagen-logo {
+  text-align: center;
+  outline: 1px solid gray;
+  margin: 2px 0;
+  padding: 10px 0;
+}
+
+/* line 13, ../scss/components/_proveedores.scss */
+.group-info-general .fieldset-wrapper .field {
+  margin-bottom: 10px;
+}
+/* line 18, ../scss/components/_proveedores.scss */
+.group-info-general .field-name-field-to-telefonos a {
+  display: block;
+}
+/* line 24, ../scss/components/_proveedores.scss */
+.group-info-general .field-name-field-to-email a {
+  display: block;
+}
+
 /* line 1, ../scss/theme/_sponsors.scss */
 #sponsored {
   margin: 10px auto;

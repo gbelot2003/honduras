@@ -1,6 +1,28 @@
 /**	
  * Transporte
  */
-.field-name-field-to-email{
+
+.field-name-field-imagen-logo {
+	text-align: center;
+	outline: 1px solid gray;
+	margin: 2px 0;
+	padding: 10px 0;
+}
+
+.group-info-general {
+	.fieldset-wrapper .field {
+		margin-bottom: 10px;
+	}
 	
+	.field-name-field-to-telefonos{
+		a{
+			display: block;
+		}
+	}
+
+	.field-name-field-to-email{
+		a{
+			display: block;
+		}
+	}
 }
