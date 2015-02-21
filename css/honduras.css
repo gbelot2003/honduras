@@ -9503,31 +9503,31 @@ options {
 }
 
 /* line 25, ../scss/layout/_main.scss */
-.section-bay-island .l-slider {
+.section-bay-island .l-slider, .section-islas-de-la-baiha .l-slider {
   background: url("../images/sections/bg_islas.jpg");
   background-size: cover;
 }
 /* line 28, ../scss/layout/_main.scss */
-.section-bay-island .l-slider .guara, .section-bay-island .l-slider .mportal {
+.section-bay-island .l-slider .guara, .section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .guara, .section-islas-de-la-baiha .l-slider .mportal {
   text-shadow: 2px 2px 2px #012f2f;
 }
 /* line 31, ../scss/layout/_main.scss */
-.section-bay-island .l-slider .mportal {
+.section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .mportal {
   color: #efc644;
 }
 
 /* line 36, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider {
+.section-copan-ruinas-and-west .l-slider, .section-copan-ruinas-y-occidente .l-slider {
   background: url("../images/sections/bg_occidente.jpg");
   background-size: cover;
 }
 /* line 39, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider .mportal {
+.section-copan-ruinas-and-west .l-slider .mportal, .section-copan-ruinas-y-occidente .l-slider .mportal {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px black;
 }
 /* line 44, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider .portal {
+.section-copan-ruinas-and-west .l-slider .portal, .section-copan-ruinas-y-occidente .l-slider .portal {
   color: #fca027;
 }
 
@@ -9547,18 +9547,18 @@ options {
 }
 
 /* line 60, ../scss/layout/_main.scss */
-.section-lake-yojoa .l-slider {
+.section-lake-yojoa .l-slider, .section-lago-de-yojoa .l-slider {
   background: url("../images/sections/bg_yojoa.jpg");
   background-size: cover;
   background-position: center bottom;
 }
 /* line 64, ../scss/layout/_main.scss */
-.section-lake-yojoa .l-slider .front-title {
+.section-lake-yojoa .l-slider .front-title, .section-lago-de-yojoa .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #5c2629;
 }
 /* line 68, ../scss/layout/_main.scss */
-.section-lake-yojoa .l-slider .portal {
+.section-lake-yojoa .l-slider .portal, .section-lago-de-yojoa .l-slider .portal {
   text-shadow: 2px 2px 1px #5c2629;
 }
 
