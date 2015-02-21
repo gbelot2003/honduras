@@ -9273,19 +9273,27 @@ options {
 .section-bay-island #header-top,
 .section-bay-island .top-bar-section .left li a:not(.button),
 .section-bay-island #l-title,
-.section-bay-island .title {
+.section-bay-island .title,
+.section-islas-de-la-baiha #header-top,
+.section-islas-de-la-baiha .top-bar-section .left li a:not(.button),
+.section-islas-de-la-baiha #l-title,
+.section-islas-de-la-baiha .title {
   background: #efc644 !important;
 }
 
-/* line 19, ../scss/layout/_header.scss */
+/* line 23, ../scss/layout/_header.scss */
 .section-copan-ruinas-and-west #header-top,
 .section-copan-ruinas-and-west .top-bar-section .left li a:not(.button),
 .section-copan-ruinas-and-west #l-title,
-.section-copan-ruinas-and-west .title {
+.section-copan-ruinas-and-west .title,
+.section-copan-ruinas-y-occidente #header-top,
+.section-copan-ruinas-y-occidente .top-bar-section .left li a:not(.button),
+.section-copan-ruinas-y-occidente #l-title,
+.section-copan-ruinas-y-occidente .title {
   background: #cc7c1a !important;
 }
 
-/* line 27, ../scss/layout/_header.scss */
+/* line 35, ../scss/layout/_header.scss */
 .section-san-pedro-sula #header-top,
 .section-san-pedro-sula .top-bar-section .left li a:not(.button),
 .section-san-pedro-sula #l-title,
@@ -9293,15 +9301,19 @@ options {
   background: #b1639f !important;
 }
 
-/* line 35, ../scss/layout/_header.scss */
+/* line 43, ../scss/layout/_header.scss */
 .section-lake-yojoa #header-top,
 .section-lake-yojoa .top-bar-section .left li a:not(.button),
 .section-lake-yojoa #l-title,
-.section-lake-yojoa .title {
+.section-lake-yojoa .title,
+.section-lago-de-yojoa #header-top,
+.section-lago-de-yojoa .top-bar-section .left li a:not(.button),
+.section-lago-de-yojoa #l-title,
+.section-lago-de-yojoa .title {
   background: #009de0 !important;
 }
 
-/* line 43, ../scss/layout/_header.scss */
+/* line 55, ../scss/layout/_header.scss */
 .section-tegucigalpa #header-top,
 .section-tegucigalpa .top-bar-section .left li a:not(.button),
 .section-tegucigalpa #l-title,
@@ -9309,7 +9321,7 @@ options {
   background: #597303 !important;
 }
 
-/* line 51, ../scss/layout/_header.scss */
+/* line 63, ../scss/layout/_header.scss */
 .section-others #header-top,
 .section-others .top-bar-section .left li a:not(.button),
 .section-others #l-title,
@@ -9317,52 +9329,52 @@ options {
   background: #769899 !important;
 }
 
-/* line 61, ../scss/layout/_header.scss */
+/* line 73, ../scss/layout/_header.scss */
 .l-header {
   height: 8rem;
 }
-/* line 63, ../scss/layout/_header.scss */
+/* line 75, ../scss/layout/_header.scss */
 .l-header #social-icons {
   padding-top: 0.3rem;
 }
-/* line 65, ../scss/layout/_header.scss */
+/* line 77, ../scss/layout/_header.scss */
 .l-header #social-icons a {
   color: white !important;
   font-size: 1.2rem;
 }
 
-/* line 72, ../scss/layout/_header.scss */
+/* line 84, ../scss/layout/_header.scss */
 .l-main {
   clear: both;
 }
 
-/* line 76, ../scss/layout/_header.scss */
+/* line 88, ../scss/layout/_header.scss */
 #header-top {
   background: #0047ba;
 }
 
 /***************************/
-/* line 83, ../scss/layout/_header.scss */
+/* line 95, ../scss/layout/_header.scss */
 .contain-to-grid {
   background: white;
 }
 
-/* line 87, ../scss/layout/_header.scss */
+/* line 99, ../scss/layout/_header.scss */
 .fixed .main-nav i {
   display: none !important;
 }
 
-/* line 90, ../scss/layout/_header.scss */
+/* line 102, ../scss/layout/_header.scss */
 .fixed .top-bar-section .main-nav > li > a:not(.button).has-icon {
   line-height: 5rem;
 }
 
-/* line 95, ../scss/layout/_header.scss */
+/* line 107, ../scss/layout/_header.scss */
 .top-bar {
   background: white;
   z-index: 10;
 }
-/* line 102, ../scss/layout/_header.scss */
+/* line 114, ../scss/layout/_header.scss */
 .top-bar .name h1 a {
   display: inline-block;
   width: 165px;
@@ -9372,23 +9384,23 @@ options {
   background: url("../images/logo2.png") top center no-repeat;
 }
 
-/* line 124, ../scss/layout/_header.scss */
+/* line 136, ../scss/layout/_header.scss */
 .top-bar .toggle-topbar.menu-icon a span {
   box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
   color: #777;
 }
 
-/* line 129, ../scss/layout/_header.scss */
+/* line 141, ../scss/layout/_header.scss */
 .top-bar-section .left li a:not(.button) {
   background: #0047ba 50%;
 }
 
-/* line 133, ../scss/layout/_header.scss */
+/* line 145, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button).has-icon {
   text-align: center;
 }
 
-/* line 137, ../scss/layout/_header.scss */
+/* line 149, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
   font-weight: 300;
   font-size: .72857em;
@@ -9396,7 +9408,7 @@ options {
   padding: 0 2rem;
 }
 
-/* line 144, ../scss/layout/_header.scss */
+/* line 156, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -9404,37 +9416,37 @@ options {
   text-align: center;
 }
 
-/* line 151, ../scss/layout/_header.scss */
+/* line 163, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a {
   background: white !important;
   color: black;
 }
 
-/* line 156, ../scss/layout/_header.scss */
+/* line 168, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a:hover {
   text-decoration: underline;
   background: silver !important;
   color: red;
 }
 
-/* line 162, ../scss/layout/_header.scss */
+/* line 174, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 168, ../scss/layout/_header.scss */
+  /* line 180, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 172, ../scss/layout/_header.scss */
+  /* line 184, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 175, ../scss/layout/_header.scss */
+  /* line 187, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -9443,14 +9455,14 @@ options {
    * Icon Area
    * @type {[type]}
    */
-  /* line 183, ../scss/layout/_header.scss */
+  /* line 195, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 189, ../scss/layout/_header.scss */
+  /* line 201, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9459,7 +9471,7 @@ options {
     font-size: 2.1rem;
   }
 
-  /* line 197, ../scss/layout/_header.scss */
+  /* line 209, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }

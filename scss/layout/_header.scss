@@ -11,7 +11,11 @@
 .section-bay-island #header-top, 
 .section-bay-island .top-bar-section .left li a:not(.button),
 .section-bay-island #l-title, 
-.section-bay-island .title
+.section-bay-island .title,
+.section-islas-de-la-baiha #header-top, 
+.section-islas-de-la-baiha .top-bar-section .left li a:not(.button),
+.section-islas-de-la-baiha #l-title, 
+.section-islas-de-la-baiha .title
 {
 	background: $color-islas !important;
 }
@@ -19,7 +23,11 @@
 .section-copan-ruinas-and-west #header-top, 
 .section-copan-ruinas-and-west .top-bar-section .left li a:not(.button),
 .section-copan-ruinas-and-west #l-title, 
-.section-copan-ruinas-and-west .title
+.section-copan-ruinas-and-west .title,
+.section-copan-ruinas-y-occidente #header-top,
+.section-copan-ruinas-y-occidente .top-bar-section .left li a:not(.button),
+.section-copan-ruinas-y-occidente #l-title, 
+.section-copan-ruinas-y-occidente .title
 {
 	background: $color-occidente !important;
 }
@@ -35,7 +43,11 @@
 .section-lake-yojoa #header-top, 
 .section-lake-yojoa .top-bar-section .left li a:not(.button),
 .section-lake-yojoa #l-title, 
-.section-lake-yojoa .title
+.section-lake-yojoa .title,
+.section-lago-de-yojoa #header-top, 
+.section-lago-de-yojoa .top-bar-section .left li a:not(.button),
+.section-lago-de-yojoa #l-title, 
+.section-lago-de-yojoa .title
 {
 	background: $color-lago !important;
 }
