@@ -10012,10 +10012,10 @@ options {
   overflow: hidden;
 }
 /* line 97, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlay,
-.view-display-id-block_2 .front-image .overlay,
-.view-display-id-block_3 .front-image .overlay,
-.view-display-id-block_5 .front-image .overlay {
+.view-display-id-block .front-image .overlays,
+.view-display-id-block_2 .front-image .overlays,
+.view-display-id-block_3 .front-image .overlays,
+.view-display-id-block_5 .front-image .overlays {
   position: absolute;
   text-align: center;
   width: 100%;
@@ -10028,18 +10028,18 @@ options {
   -moz-transition: opacity .25s ease;
 }
 /* line 108, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlay p,
-.view-display-id-block_2 .front-image .overlay p,
-.view-display-id-block_3 .front-image .overlay p,
-.view-display-id-block_5 .front-image .overlay p {
+.view-display-id-block .front-image .overlays p,
+.view-display-id-block_2 .front-image .overlays p,
+.view-display-id-block_3 .front-image .overlays p,
+.view-display-id-block_5 .front-image .overlays p {
   color: white;
   text-align: justify;
 }
 /* line 112, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlay span,
-.view-display-id-block_2 .front-image .overlay span,
-.view-display-id-block_3 .front-image .overlay span,
-.view-display-id-block_5 .front-image .overlay span {
+.view-display-id-block .front-image .overlays span,
+.view-display-id-block_2 .front-image .overlays span,
+.view-display-id-block_3 .front-image .overlays span,
+.view-display-id-block_5 .front-image .overlays span {
   color: white;
 }
 
