@@ -54,7 +54,6 @@ function honduras_form_alter(&$form, &$form_state, $form_id){
   }
 }
 
-
 /**
  * [honduras_block_list_alter description]
  * @param  [type] &$blocks [description]
@@ -75,11 +74,9 @@ function honduras_block_list_alter(&$blocks) {
   }
 }
 
-
 /**
  * Implements hook_preprocess_page
  */
-
 function honduras_preprocess_page(&$variables) {
   
   /**
@@ -163,15 +160,12 @@ function honduras_preprocess_page(&$variables) {
     $variables['link_diving'] = 'with-whom/diving-centers';
     $variables['link_tours'] = 'with-whom/tour-operators';
   } else {
-    $variables['link_hotels'] = '';
-    $variables['link_restaurants'] = '';
-    $variables['link_transports'] = '';
+    $variables['link_hotels'] = 'con-quien/hoteles';
+    $variables['link_restaurants'] = 'con-quien/restaurantes';
+    $variables['link_transports'] = 'con-quien/transportes';
     $variables['link_diving'] = '';
-    $variables['link_tours'] = '';
+    $variables['link_tours'] = 'con-quien/tour-operadores';
   }
-
-
-  
 }
 
 /**

@@ -169,8 +169,6 @@
 
       <a id="main-content"></a>
 
-    
-
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
         <?php if (!empty($tabs2)): print render($tabs2); endif; ?>
