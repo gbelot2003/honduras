@@ -8980,6 +8980,81 @@ button.large, .button.large {
     display: inline-block;
   }
 }
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   css3-prefix             - arguments: Property, Value
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-horizontal   - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   background-opacity      - arguments: Color: #000, Opacity: .85
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Right: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transform-style         - arguments: Style: preserve-3d
+    -   transition              - Default arguments: What: all, Length: 1s, Easing: ease-in-out
+    -                            - Examples: @include transition (all 2s ease-in-out);
+    -                                        @include transition (opacity 1s ease-in 2s, width 2s ease-out);
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+    -   keyframes               - arguments: Animation name
+                                - content:   Animation css
+    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
+                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
+
+------------------------------------------------------------- */
+/* ADDS A BROWSER PREFIX TO THE PROPERTY */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND HORIZONTAL */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BACKGROUND COLOR OPACITY */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSFORM STYLE */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+/* KEYFRAMES */
+/* ANIMATION */
 @font-face {
   font-family: 'Hondurean';
   src: url("../fonts/hondurean/Hondurean.eot?") format("eot"), url("../fonts/hondurean/Hondurean.woff") format("woff"), url("../fonts/hondurean/Hondurean.ttf") format("truetype"), url("../fonts/hondurean/Hondurean.svg#Hondurean") format("svg");
@@ -12200,12 +12275,60 @@ td.single-day .inner {
   display: block;
 }
 
-/* line 1, ../scss/components/_overlays.scss */
+/* ============================================================
+    CARD STYLE - VIEWS
+============================================================ */
+/* line 5, ../scss/components/_overlays.scss */
+.card {
+  -webkit-box-shadow: 2px 2px 5px #888888;
+  -khtml-box-shadow: 2px 2px 5px #888888;
+  -moz-box-shadow: 2px 2px 5px #888888;
+  -ms-box-shadow: 2px 2px 5px #888888;
+  -o-box-shadow: 2px 2px 5px #888888;
+  box-shadow: 2px 2px 5px #888888;
+  margin-bottom: 5px;
+}
+/* line 8, ../scss/components/_overlays.scss */
+.card .card-title {
+  padding: 0.8rem 0.3rem 0.5rem 0.5rem;
+}
+/* line 10, ../scss/components/_overlays.scss */
+.card .card-title a {
+  color: #646464;
+}
+/* line 13, ../scss/components/_overlays.scss */
+.card .card-title a:hover {
+  color: #0047ba;
+  text-decoration: underline;
+}
+/* line 20, ../scss/components/_overlays.scss */
+.card .card-section {
+  padding: 0.5rem 0.3rem 0.5rem 0.5rem;
+}
+/* line 22, ../scss/components/_overlays.scss */
+.card .card-section a {
+  font-size: 0.8rem;
+  color: #0073c4;
+}
+/* line 28, ../scss/components/_overlays.scss */
+.card .card-body {
+  padding: 0.8rem 0.3rem;
+  font-size: 0.9rem;
+}
+/* line 33, ../scss/components/_overlays.scss */
+.card .card-image {
+  margin: 0 5px 5px 5px;
+}
+
+/* ============================================================
+  Global - SLIDE IN BOTTOM
+============================================================ */
+/* line 41, ../scss/components/_overlays.scss */
 .effects {
   padding-left: 15px;
 }
 
-/* line 4, ../scss/components/_overlays.scss */
+/* line 44, ../scss/components/_overlays.scss */
 .effects .img {
   position: relative;
   float: left;
@@ -12213,22 +12336,22 @@ td.single-day .inner {
   overflow: hidden;
 }
 
-/* line 10, ../scss/components/_overlays.scss */
+/* line 50, ../scss/components/_overlays.scss */
 .effects .img:nth-child(n) {
   margin-right: 5px;
 }
 
-/* line 13, ../scss/components/_overlays.scss */
+/* line 53, ../scss/components/_overlays.scss */
 .effects .img:first-child {
   margin-left: -15px;
 }
 
-/* line 16, ../scss/components/_overlays.scss */
+/* line 56, ../scss/components/_overlays.scss */
 .effects .img:last-child {
   margin-right: 0;
 }
 
-/* line 19, ../scss/components/_overlays.scss */
+/* line 59, ../scss/components/_overlays.scss */
 .effects .img img {
   display: block;
   margin: 0;
@@ -12237,7 +12360,7 @@ td.single-day .inner {
   height: auto;
 }
 
-/* line 27, ../scss/components/_overlays.scss */
+/* line 67, ../scss/components/_overlays.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -12247,7 +12370,7 @@ td.single-day .inner {
   transition: all 0.5s;
 }
 
-/* line 36, ../scss/components/_overlays.scss */
+/* line 76, ../scss/components/_overlays.scss */
 a.close-overlay {
   display: block;
   position: absolute;
@@ -12265,31 +12388,31 @@ a.close-overlay {
   cursor: pointer;
 }
 
-/* line 52, ../scss/components/_overlays.scss */
+/* line 92, ../scss/components/_overlays.scss */
 a.close-overlay.hidden {
   display: none;
 }
 
-/* line 56, ../scss/components/_overlays.scss */
+/* line 96, ../scss/components/_overlays.scss */
 a.expand {
   display: block;
   position: absolute;
   z-index: 100;
-  width: 60px;
+  /* width: 60px; */
   height: 60px;
-  border: solid 5px #fff;
+  /* border: solid 5px #fff; */
   text-align: center;
   color: #fff;
-  line-height: 50px;
+  /* line-height: 50px; */
   font-weight: 700;
-  font-size: 30px;
+  /* font-size: 30px; */
   border-radius: 30px;
 }
 
 /* ============================================================
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
-/* line 74, ../scss/components/_overlays.scss */
+/* line 113, ../scss/components/_overlays.scss */
 .overlay {
   bottom: 0;
   left: 0;
@@ -12298,7 +12421,7 @@ a.expand {
   height: 0;
 }
 
-/* line 81, ../scss/components/_overlays.scss */
+/* line 120, ../scss/components/_overlays.scss */
 .overlay a.expand {
   left: 0;
   right: 0;
@@ -12306,7 +12429,7 @@ a.expand {
   margin: 0 auto -30px auto;
 }
 
-/* line 87, ../scss/components/_overlays.scss */
+/* line 126, ../scss/components/_overlays.scss */
 .img.hover .overlay {
   height: 100%;
 }

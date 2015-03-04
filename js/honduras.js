@@ -54,7 +54,7 @@
         });
 
         $(document).ready(function(){
-
+            $('.card .overlay a:first-child').addClass('expand');
             if (Modernizr.touch) {
                 // show the close overlay button
                 $(".close-overlay").removeClass("hidden");

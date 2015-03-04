@@ -1,3 +1,43 @@
+/* ============================================================
+    CARD STYLE - VIEWS
+============================================================ */
+
+.card {
+  @include box-shadow(2px, 2px, 5px, #888888);
+  margin-bottom: 5px;
+  .card-title {
+    padding: 0.8rem 0.3rem 0.5rem 0.5rem;
+    a{
+      color: #646464;
+    }
+    a:hover{
+      color: $color-honduras;
+      text-decoration: underline;
+    }
+
+  }
+
+  .card-section{
+    padding: 0.5rem 0.3rem 0.5rem 0.5rem;
+    a{
+      font-size:0.8rem;
+      color:$aviturismo;
+    }
+  }
+
+  .card-body{
+    padding: 0.8rem 0.3rem;
+    font-size: 0.9rem;
+  }
+
+  .card-image{
+    margin: 0 5px 5px 5px;
+  }
+}
+
+/* ============================================================
+  Global - SLIDE IN BOTTOM
+============================================================ */
 .effects {
   padding-left: 15px;
 }
@@ -57,17 +97,16 @@ a.expand {
   display: block;
   position: absolute;
   z-index: 100;
-  width: 60px;
+  /* width: 60px; */
   height: 60px;
-  border: solid 5px #fff;
+  /* border: solid 5px #fff; */
   text-align: center;
   color: #fff;
-  line-height: 50px;
+  /* line-height: 50px; */
   font-weight: 700;
-  font-size: 30px;
+  /* font-size: 30px; */
   border-radius: 30px;
 }
-
 /* ============================================================
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
