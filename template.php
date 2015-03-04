@@ -27,7 +27,9 @@ function honduras_preprocess_html(&$variables) {
     if (module_exists('color')) {
       _color_page_alter($variables);
     }
-    
+
+	$variables['styles'] = preg_replace('/\.css\?.*"/','.css"', $variables['styles']);
+
     // Add conditional CSS for IE. To use uncomment below and add IE css file
     drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
     // Need legacy support for IE downgrade to Foundation 2 or use JS file below
@@ -78,7 +80,8 @@ function honduras_block_list_alter(&$blocks) {
  * Implements hook_preprocess_page
  */
 function honduras_preprocess_page(&$variables) {
-  
+
+
   /**
   ** Init Lang Variable
   **/
@@ -166,7 +169,7 @@ function honduras_preprocess_page(&$variables) {
     $variables['link_diving'] = '';
     $variables['link_tours'] = 'es/con-quien/tour-operadores';
   }
-	$variables['styles'] = preg_replace('/\.css\?.*"/','.css"', $variables['styles']);
+
 }
 
 /**
