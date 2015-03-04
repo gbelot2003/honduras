@@ -199,6 +199,10 @@
 		font-size: 1.6rem;
 	}
 
+    .top-bar-section .main-nav>li>a:not(.button) {
+        width:100%;
+    }
+
 	.top-bar-section .main-nav>li>a:not(.button) i{
 		text-align: left;
 		display: inline;
