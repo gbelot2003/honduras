@@ -19,21 +19,22 @@ function honduras_theme() {
  * Implamentation of hook_preprocess_html
 * @param $variables
  */
-function honduras_preprocess_html(&$variables) {
+
+function honduras_preprocess_html(&$variables, $styles) {
+
     /**
      * Add Color module hooks
      */
-    if (module_exists('color')) {
-      _color_page_alter($variables);
-    }
-
-	$variables['styles'] = preg_replace('/\.css\?[^"]+/','.css', $variables['styles']);
 
     // Add conditional CSS for IE. To use uncomment below and add IE css file
     drupal_add_css(path_to_theme() . '/css/ie.css', ['weight' => CSS_THEME, 'browsers' => ['!IE' => FALSE], 'preprocess' => FALSE]);
     // Need legacy support for IE downgrade to Foundation 2 or use JS file below
     drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
 
+}
+
+function honduras_process_html(&$variables){
+	$variables['styles'] = preg_replace('/\.css\?[^"]+/','.css', $variables['styles']);
 }
 
 /**
