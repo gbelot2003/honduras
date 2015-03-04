@@ -9965,7 +9965,7 @@ options {
 }
 
 /**
- * Overlay images 
+ * Overlays images
  */
 /**
  * Main image title stile
@@ -10044,12 +10044,12 @@ options {
 }
 
 /* line 124, ../scss/layout/_views.scss */
-.view-display-id-block:hover .front-image .overlay,
-.view-display-id-block_2 .views-column-1:hover .front-image .overlay,
-.view-display-id-block_2 .views-column-3:hover .front-image .overlay,
-.view-display-id-block_5 .views-column-1:hover .front-image .overlay,
-.view-display-id-block_5 .views-column-3:hover .front-image .overlay,
-.view-display-id-block_3:hover .front-image .overlay {
+.view-display-id-block:hover .front-image .overlays,
+.view-display-id-block_2 .views-column-1:hover .front-image .overlays,
+.view-display-id-block_2 .views-column-3:hover .front-image .overlays,
+.view-display-id-block_5 .views-column-1:hover .front-image .overlays,
+.view-display-id-block_5 .views-column-3:hover .front-image .overlays,
+.view-display-id-block_3:hover .front-image .overlays {
   opacity: 1;
 }
 
