@@ -192,6 +192,32 @@ function honduras_preprocess_node(&$variables){
     }
 }
 
+
+
+/**
+ * Override theme image style to remove query string.
+ */
+function honduras_image_style($variables) {
+// Determine the dimensions of the styled image.
+	$dimensions = array(
+		'width' => $variables['width'],
+		'height' => $variables['height'],
+	);
+
+	image_style_transform_dimensions($variables['style_name'], $dimensions);
+
+	$variables['width'] = $dimensions['width'];
+	$variables['height'] = $dimensions['height'];
+
+// Determine the URL for the styled image.
+	$variables['path'] = image_style_url($variables['style_name'], $variables['path']);
+// Remove query string for image.
+	$variables['path'] = preg_replace('/\?.*/', '', $variables['path']);
+
+	return theme('image', $variables);
+}
+
+
 /**
  * Implements theme_links() targeting the main menu specifically.
  * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html
