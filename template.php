@@ -166,6 +166,7 @@ function honduras_preprocess_page(&$variables) {
     $variables['link_diving'] = '';
     $variables['link_tours'] = 'es/con-quien/tour-operadores';
   }
+	$variables['styles'] = preg_replace('/\.css\?.*"/','.css"', $variables['styles']);
 }
 
 /**
