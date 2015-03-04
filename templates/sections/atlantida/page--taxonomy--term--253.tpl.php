@@ -186,8 +186,7 @@
           <div id="l-row-image" class="large-6 columns">
              <h3 class="page-title front"><?php print t('Destinations') ?></h3>
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
-             <?php print views_embed_view('front_page', $display_id = 'block_3');  ?>
-             <?php print views_embed_view('front_page', $display_id = 'block_5'); ?>
+			  <?php print render($page['front_first']); ?>
              <div id="link-servicios" class="">
               <h3 class="page-title front"><?php print t("Trust turism services lists") ?></h3>
               <p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>
