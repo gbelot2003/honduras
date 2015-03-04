@@ -6,20 +6,19 @@
  */
 
 function honduras_theme() {
-  $return = array();
+  $return = [];
 
-  $return['honduras_menu_link'] = array(
-    'variables' => array('link' => NULL),
+  $return['honduras_menu_link'] = [
+    'variables' => ['link' => NULL],
     'function' => 'theme_honduras_menu_link',
-  );
+  ];
   return $return;
 }
 
 /**
- * Implements template_preprocess_html().
- *
+ * Implamentation of hook_preprocess_html
+* @param $variables
  */
-
 function honduras_preprocess_html(&$variables) {
     /**
      * Add Color module hooks
@@ -28,10 +27,10 @@ function honduras_preprocess_html(&$variables) {
       _color_page_alter($variables);
     }
 
-	$variables['styles'] = preg_replace('/\.css\?.*"/','.css"', $variables['styles']);
+	$variables['styles'] = preg_replace('/\.css\?[^"]+/','.css', $variables['styles']);
 
     // Add conditional CSS for IE. To use uncomment below and add IE css file
-    drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
+    drupal_add_css(path_to_theme() . '/css/ie.css', ['weight' => CSS_THEME, 'browsers' => ['!IE' => FALSE], 'preprocess' => FALSE]);
     // Need legacy support for IE downgrade to Foundation 2 or use JS file below
     drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
 
@@ -290,7 +289,7 @@ function _honduras_render_link($link) {
     }
 
     if (!isset($rendered_link)) {
-      $rendered_link = theme('honduras_menu_link', array('link' => $link));
+      $rendered_link = theme('honduras_menu_link', ['link' => $link]);
     }
 
     // Test for localization options and apply them if they exist.
@@ -348,21 +347,21 @@ function theme_honduras_menu_link($variables) {
 
 function honduras_links__locale_block(&$variables) {
   // an array of list items
-  $items = array();
+  $items = [];
   foreach($variables['links'] as $language => $info) 
   {
     $name = $info['language']->native;
     $href = isset($info['href']) ? $info['href'] : '';
-    $li_classes = array('list-inline');
-    $link_classes = array('link-class1');
-    $options = array('attributes' => array('class' => $link_classes), 'language' => $info['language'], 'html' => true);
+    $li_classes = ['list-inline'];
+    $link_classes = ['link-class1'];
+    $options = ['attributes' => ['class' => $link_classes], 'language' => $info['language'], 'html' => true];
     $link = l($name, $href, $options);
     // display only translated links
-    if ($href) $items[] = array('data' => $link, 'class' => $li_classes);
+    if ($href) $items[] = ['data' => $link, 'class' => $li_classes];
   }
     // output
-    $attributes = array('class' => array('horizontal-list-right'));   
-    $output = theme_item_list(array('items' => $items, 'title' => '', 'type'  => 'ul', 'attributes' => $attributes ));
+    $attributes = ['class' => ['horizontal-list-right']];
+    $output = theme_item_list(['items' => $items, 'title' => '', 'type'  => 'ul', 'attributes' => $attributes ]);
     return $output;
 }
 
@@ -372,7 +371,7 @@ function honduras_links__locale_block(&$variables) {
 
 function block_render($module, $block_id) {
   $block = block_load($module, $block_id);
-  $block_content = _block_render_blocks(array($block));
+  $block_content = _block_render_blocks([$block]);
   $build = _block_get_renderable_array($block_content);
   $block_rendered = drupal_render($build);
   return $block_rendered;
