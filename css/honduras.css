@@ -10118,11 +10118,11 @@ options {
   }
 
   /* line 179, ../scss/layout/_views.scss */
-  .front-image .overlay {
+  .front-image .overlays {
     padding: 0.5rem !important;
   }
   /* line 181, ../scss/layout/_views.scss */
-  .front-image .overlay p {
+  .front-image .overlays p {
     font-size: 8px;
     font-size: 0.8rem;
   }
