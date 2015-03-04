@@ -9463,12 +9463,12 @@ options {
     font-size: 1.6rem;
   }
 
-  /* line 201, ../scss/layout/_header.scss */
-  .top-bar-section .main-nav > li > a:not(.button) {
+  /* line 202, ../scss/layout/_header.scss */
+  .top-bar-section .main-nav > li > a:not(.button).has-icon {
     width: 100%;
   }
 
-  /* line 204, ../scss/layout/_header.scss */
+  /* line 206, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9477,7 +9477,7 @@ options {
     font-size: 2.1rem;
   }
 
-  /* line 212, ../scss/layout/_header.scss */
+  /* line 214, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }
