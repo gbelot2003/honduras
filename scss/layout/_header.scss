@@ -147,16 +147,17 @@
 }
 
 .top-bar-section .main-nav>li>a:not(.button) {
-	font-weight: 300;
-	font-size: .72857em;
-	text-transform: uppercase;
-	padding: 0 2rem;
+  font-weight: 500;
+  font-size: 0.50em;
+  text-transform: uppercase;
+  padding: 0.5px 2.3rem;
+  width: 8rem;
 }
 
 .top-bar-section .main-nav>li>a:not(.button) i{
 	display: block;
 	padding: 20px 0 0 0;
-	font-size: 2.5em;
+    font-size: 3.5em;
 	text-align: center;
 }
 

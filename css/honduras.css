@@ -9402,51 +9402,52 @@ options {
 
 /* line 149, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
-  font-weight: 300;
-  font-size: .72857em;
+  font-weight: 500;
+  font-size: 0.50em;
   text-transform: uppercase;
-  padding: 0 2rem;
+  padding: 0.5px 2.3rem;
+  width: 8rem;
 }
 
-/* line 156, ../scss/layout/_header.scss */
+/* line 157, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: center;
 }
 
-/* line 163, ../scss/layout/_header.scss */
+/* line 164, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a {
   background: white !important;
   color: black;
 }
 
-/* line 168, ../scss/layout/_header.scss */
+/* line 169, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a:hover {
   text-decoration: underline;
   background: silver !important;
   color: red;
 }
 
-/* line 174, ../scss/layout/_header.scss */
+/* line 175, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 180, ../scss/layout/_header.scss */
+  /* line 181, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 184, ../scss/layout/_header.scss */
+  /* line 185, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 187, ../scss/layout/_header.scss */
+  /* line 188, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -9455,14 +9456,14 @@ options {
    * Icon Area
    * @type {[type]}
    */
-  /* line 195, ../scss/layout/_header.scss */
+  /* line 196, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 201, ../scss/layout/_header.scss */
+  /* line 202, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -9471,7 +9472,7 @@ options {
     font-size: 2.1rem;
   }
 
-  /* line 209, ../scss/layout/_header.scss */
+  /* line 210, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }
