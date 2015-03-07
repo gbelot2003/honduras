@@ -33,6 +33,10 @@ function honduras_preprocess_html(&$variables, $styles) {
 
 }
 
+/**
+ * Implement hook_process_html
+ * @param $variables
+ */
 function honduras_process_html(&$variables){
 	$variables['styles'] = preg_replace('/\.css\?[^"]+/','.css', $variables['styles']);
 }
@@ -199,10 +203,10 @@ function honduras_preprocess_node(&$variables){
  */
 function honduras_image_style($variables) {
 // Determine the dimensions of the styled image.
-	$dimensions = array(
+	$dimensions = [
 		'width' => $variables['width'],
 		'height' => $variables['height'],
-	);
+	];
 
 	image_style_transform_dimensions($variables['style_name'], $dimensions);
 
