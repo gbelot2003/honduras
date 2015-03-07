@@ -9598,17 +9598,17 @@ options {
 }
 
 /* line 36, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider, .section-copan-ruinas-y-occidente .l-slider {
+.section-copan-ruinas-and-west-honduras .l-slider, .section-copan-ruinas-y-occidente .l-slider {
   background: url("../images/sections/bg_occidente.jpg");
   background-size: cover;
 }
 /* line 39, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider .mportal, .section-copan-ruinas-y-occidente .l-slider .mportal {
+.section-copan-ruinas-and-west-honduras .l-slider .mportal, .section-copan-ruinas-y-occidente .l-slider .mportal {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px black;
 }
 /* line 44, ../scss/layout/_main.scss */
-.section-copan-ruinas-and-west .l-slider .portal, .section-copan-ruinas-y-occidente .l-slider .portal {
+.section-copan-ruinas-and-west-honduras .l-slider .portal, .section-copan-ruinas-y-occidente .l-slider .portal {
   color: #fca027;
 }
 
