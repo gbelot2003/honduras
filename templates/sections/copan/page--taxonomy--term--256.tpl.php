@@ -115,7 +115,7 @@
   <div class="l-slider">     
     <div class="front-message">
       <h2 class="front-title"><span class="mportal"><?php print t("Copan Ruinas and West") ?></span></h2>
-      <h5 class="portal"><?php print t("cultures and nature") ?></h5>
+      <h5 class="portal honduras"><?php print t("cultures and nature") ?></h5>
       <div class="hash">
         <div class="row">
           <div class="large-12 columns text-center">

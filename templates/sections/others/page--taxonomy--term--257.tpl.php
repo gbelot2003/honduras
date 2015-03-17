@@ -115,7 +115,7 @@
   <div class="l-slider">     
     <div class="front-message">
       <h2 class="front-title"><span><?php print t('Discover Other Destinations') ?></span></h2>
-      <h5 class="portal"><?php print t("much more Honduras") ?></h5>
+      <h5 class="portal honduras"><?php print t("much more Honduras") ?></h5>
       <div class="hash">
         <div class="row">
           <div class="large-12 columns text-center">

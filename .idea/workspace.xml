@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51609f48-9451-41b0-9e78-4e1be3f2c098" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/base/_elements.scss" afterPath="$PROJECT_DIR$/scss/base/_elements.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/block.tpl.php" afterPath="$PROJECT_DIR$/templates/blocks/block.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/honduras.css" afterPath="$PROJECT_DIR$/css/honduras.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/page--transportes.tpl.php" afterPath="$PROJECT_DIR$/templates/pages/page--transportes.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/page.tpl.php" afterPath="$PROJECT_DIR$/templates/pages/page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/page--front.tpl.php" afterPath="$PROJECT_DIR$/templates/pages/page--front.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/islas/page--taxonomy--term--254.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/islas/page--taxonomy--term--254.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/lake/page--taxonomy--term--255.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/lake/page--taxonomy--term--255.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/others/page--taxonomy--term--257.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/others/page--taxonomy--term--257.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/sanpedro/page--taxonomy--term--258.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/sanpedro/page--taxonomy--term--258.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/tegucigalpa/page--taxonomy--term--259.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/tegucigalpa/page--taxonomy--term--259.tpl.php" />
     </list>
     <ignored path="honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,6 +34,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-65.40741" vertical-offset="286" max-vertical-offset="5994">
+              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9636364" vertical-offset="1816" max-vertical-offset="5994">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--254.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/islas/page--taxonomy--term--254.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.9454546" vertical-offset="1798" max-vertical-offset="5994">
+              <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--255.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/lake/page--taxonomy--term--255.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5976">
+              <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--257.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/others/page--taxonomy--term--257.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5994">
+              <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--258.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/sanpedro/page--taxonomy--term--258.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5994">
+              <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--259.tpl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sections/tegucigalpa/page--taxonomy--term--259.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51954025" vertical-offset="1816" max-vertical-offset="5994">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="honduras.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/honduras.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,31 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--transportes.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page--transportes.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/page--transportes.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4610245" vertical-offset="2646" max-vertical-offset="5328">
-              <caret line="170" column="29" selection-start-line="170" selection-start-column="29" selection-end-line="170" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_overlays.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/components/_overlays.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="2556">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="honduras.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/honduras.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            <state vertical-scroll-proportion="-13.333333" vertical-offset="2646" max-vertical-offset="5328">
+              <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -93,7 +146,6 @@
         <option value="$PROJECT_DIR$/../../../default/settings.php" />
         <option value="$PROJECT_DIR$/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/honduras.info" />
-        <option value="$PROJECT_DIR$/templates/pages/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/scss/base/_animations.scss" />
         <option value="$PROJECT_DIR$/scss/layout/_main.scss" />
         <option value="$PROJECT_DIR$/scss/honduras.scss" />
@@ -105,6 +157,14 @@
         <option value="$PROJECT_DIR$/scss/base/_elements.scss" />
         <option value="$PROJECT_DIR$/templates/pages/page.tpl.php" />
         <option value="$PROJECT_DIR$/templates/pages/page--transportes.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/pages/page--front.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/islas/page--taxonomy--term--254.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/lake/page--taxonomy--term--255.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/others/page--taxonomy--term--257.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/sanpedro/page--taxonomy--term--258.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/tegucigalpa/page--taxonomy--term--259.tpl.php" />
       </list>
     </option>
   </component>
@@ -187,7 +247,143 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tegucigalpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sanpedro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="others" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="islas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantida" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,14 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2045977" vertical-offset="2554" max-vertical-offset="5994">
-          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/layout/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.233809" vertical-offset="1605" max-vertical-offset="4644">
@@ -466,8 +654,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/page--transportes.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4610245" vertical-offset="2646" max-vertical-offset="5328">
-          <caret line="170" column="29" selection-start-line="170" selection-start-column="29" selection-end-line="170" selection-end-column="29" />
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="2646" max-vertical-offset="5328">
+          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5011136" vertical-offset="1890" max-vertical-offset="5958">
+          <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-65.40741" vertical-offset="286" max-vertical-offset="5994">
+          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9636364" vertical-offset="1816" max-vertical-offset="5994">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/islas/page--taxonomy--term--254.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9454546" vertical-offset="1798" max-vertical-offset="5994">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/lake/page--taxonomy--term--255.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5976">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/others/page--taxonomy--term--257.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5994">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/sanpedro/page--taxonomy--term--258.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2727275" vertical-offset="1816" max-vertical-offset="5994">
+          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/tegucigalpa/page--taxonomy--term--259.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51954025" vertical-offset="1816" max-vertical-offset="5994">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
