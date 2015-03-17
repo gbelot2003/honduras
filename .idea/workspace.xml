@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51609f48-9451-41b0-9e78-4e1be3f2c098" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/base/_elements.scss" afterPath="$PROJECT_DIR$/scss/base/_elements.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/base/_init.scss" afterPath="$PROJECT_DIR$/scss/base/_init.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/scss/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/honduras.css" afterPath="$PROJECT_DIR$/css/honduras.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/honduras.scss" afterPath="$PROJECT_DIR$/scss/honduras.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,26 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.407406" vertical-offset="826" max-vertical-offset="5994">
-              <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_drupal.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/base/_drupal.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="702">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_init.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/base/_init.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,41 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_elements.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_elements.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/base/_elements.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43468717" vertical-offset="216" max-vertical-offset="1548">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="1548">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="honduras.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/honduras.scss">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.230769" vertical-offset="698" max-vertical-offset="1584">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.555555" vertical-offset="1479" max-vertical-offset="4644">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/materialize/components/_variables.scss">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="58.25926" vertical-offset="1573" max-vertical-offset="2484">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="honduras.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/honduras.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.3227223" vertical-offset="1038" max-vertical-offset="3996">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -109,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/../../../default/settings.php" />
         <option value="$PROJECT_DIR$/templates/html.tpl.php" />
         <option value="$PROJECT_DIR$/honduras.info" />
@@ -135,6 +101,7 @@
         <option value="$PROJECT_DIR$/scss/honduras.scss" />
         <option value="$PROJECT_DIR$/scss/base/_init.scss" />
         <option value="$PROJECT_DIR$/scss/base/_elements.scss" />
+        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
       </list>
     </option>
   </component>
@@ -217,6 +184,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -230,7 +233,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/var/www/html/kumbia" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="l-slider&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value=".l-header&#9;null&#9;null&#10;l-slider&#9;null&#9;null" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -278,11 +281,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="28" width="1928" height="1056" extended-state="7" />
+    <frame x="-4" y="28" width="1928" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2603834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25026625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -370,13 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8068056" vertical-offset="2971" max-vertical-offset="3996">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5948827" vertical-offset="0" max-vertical-offset="1026">
@@ -402,14 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.019758508" vertical-offset="0" max-vertical-offset="911">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.233809" vertical-offset="1605" max-vertical-offset="4644">
-          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -502,34 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33295584" vertical-offset="11568" max-vertical-offset="24786">
-          <caret line="659" column="42" selection-start-line="659" selection-start-column="36" selection-end-line="659" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_materialize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.666666" vertical-offset="0" max-vertical-offset="792">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/base/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.666666" vertical-offset="594" max-vertical-offset="2016">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -582,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/materialize/components/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="58.25926" vertical-offset="1573" max-vertical-offset="2484">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/base/_init.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.074074" vertical-offset="223" max-vertical-offset="1134">
@@ -606,10 +562,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_type.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06695939" vertical-offset="1105" max-vertical-offset="2016">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7387487" vertical-offset="1998" max-vertical-offset="7344">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="20.079275" vertical-offset="540" max-vertical-offset="24786">
+          <caret line="1015" column="34" selection-start-line="1015" selection-start-column="33" selection-end-line="1015" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/materialize/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.726674" vertical-offset="1573" max-vertical-offset="2484">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/base/_elements.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43468717" vertical-offset="216" max-vertical-offset="1548">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="1548">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.555555" vertical-offset="1479" max-vertical-offset="4644">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3227223" vertical-offset="1038" max-vertical-offset="3996">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
           <folding />
         </state>
       </provider>
