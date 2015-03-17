@@ -1,7 +1,7 @@
 /* ============================================================
     CARD STYLE - VIEWS
 ============================================================ */
-
+/*
 .card {
   @include box-shadow(2px, 2px, 5px, #888888);
   margin-bottom: 5px;
@@ -32,6 +32,15 @@
 
   .card-image{
     margin: 0 5px 5px 5px;
+  }
+}
+*/
+.card {
+  a {
+    margin-right: 1px !important;
+  }
+  .card-title{
+    font-size: 14px !important;
   }
 }
 

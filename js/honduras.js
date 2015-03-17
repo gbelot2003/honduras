@@ -6,8 +6,7 @@
     		/**
     		 * Some styling classes
     		 */
-
-    		$('#block-locale-language a:contains("Español")').addClass('esp');
+            $('#block-locale-language a:contains("Español")').addClass('esp');
     		$('#block-locale-language a:contains("English")').addClass('eng');
 
         });
@@ -16,6 +15,8 @@
             /**
             ** Add ico classes to views hotels taxonomy
             */
+
+            $('span.active img').addClass('activator');
             $('.field-name-field-ref-servicios li').addClass('list-inline');
             $('.field-name-field-ref-servicios a:contains("Air Conditioning")').prepend("<i class='icon fa-air'></i>");
             $('.field-name-field-ref-servicios a:contains("Aire Acondicionado")').prepend("<i class='icon fa-air'></i>");

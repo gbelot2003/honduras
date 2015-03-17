@@ -44,6 +44,8 @@
 // Styling for elements.
 @import "base/colors";
 @import "base/elements";
+// Animations for css and js effects
+@import "base/animations";
 //
 
 // Layout
@@ -73,7 +75,7 @@
 
 @import "theme/sponsors";
 @import "theme/icons-colors";
-
+@import "materialize";
 // Themes
 // @import "theme/button-light";
 // IE8 Grid Support
