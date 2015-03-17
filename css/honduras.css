@@ -12259,47 +12259,13 @@ td.single-day .inner {
 }
 
 /* ============================================================
-    CARD STYLE - VIEWS
+    CARD CUSTOM STYLE  - VIEWS
 ============================================================ */
-/*
-.card {
-  @include box-shadow(2px, 2px, 5px, #888888);
-  margin-bottom: 5px;
-  .card-title {
-    padding: 0.8rem 0.3rem 0.5rem 0.5rem;
-    a{
-      color: #646464;
-    }
-    a:hover{
-      color: $color-honduras;
-      text-decoration: underline;
-    }
-
-  }
-
-  .card-section{
-    padding: 0.5rem 0.3rem 0.5rem 0.5rem;
-    a{
-      font-size:0.8rem;
-      color:$aviturismo;
-    }
-  }
-
-  .card-body{
-    padding: 0.8rem 0.3rem;
-    font-size: 0.9rem;
-  }
-
-  .card-image{
-    margin: 0 5px 5px 5px;
-  }
-}
-*/
-/* line 39, ../scss/components/_overlays.scss */
+/* line 6, ../scss/components/_overlays.scss */
 .card a {
   margin-right: 1px !important;
 }
-/* line 42, ../scss/components/_overlays.scss */
+/* line 9, ../scss/components/_overlays.scss */
 .card .card-title {
   font-size: 14px !important;
   line-height: 21px !important;
@@ -12308,12 +12274,12 @@ td.single-day .inner {
 /* ============================================================
   Global - SLIDE IN BOTTOM
 ============================================================ */
-/* line 51, ../scss/components/_overlays.scss */
+/* line 18, ../scss/components/_overlays.scss */
 .effects {
   padding-left: 15px;
 }
 
-/* line 54, ../scss/components/_overlays.scss */
+/* line 21, ../scss/components/_overlays.scss */
 .effects .img {
   position: relative;
   float: left;
@@ -12321,22 +12287,22 @@ td.single-day .inner {
   overflow: hidden;
 }
 
-/* line 60, ../scss/components/_overlays.scss */
+/* line 27, ../scss/components/_overlays.scss */
 .effects .img:nth-child(n) {
   margin-right: 5px;
 }
 
-/* line 63, ../scss/components/_overlays.scss */
+/* line 30, ../scss/components/_overlays.scss */
 .effects .img:first-child {
   margin-left: -15px;
 }
 
-/* line 66, ../scss/components/_overlays.scss */
+/* line 33, ../scss/components/_overlays.scss */
 .effects .img:last-child {
   margin-right: 0;
 }
 
-/* line 69, ../scss/components/_overlays.scss */
+/* line 36, ../scss/components/_overlays.scss */
 .effects .img img {
   display: block;
   margin: 0;
@@ -12345,7 +12311,7 @@ td.single-day .inner {
   height: auto;
 }
 
-/* line 77, ../scss/components/_overlays.scss */
+/* line 44, ../scss/components/_overlays.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -12355,7 +12321,7 @@ td.single-day .inner {
   transition: all 0.5s;
 }
 
-/* line 86, ../scss/components/_overlays.scss */
+/* line 53, ../scss/components/_overlays.scss */
 a.close-overlay {
   display: block;
   position: absolute;
@@ -12373,12 +12339,12 @@ a.close-overlay {
   cursor: pointer;
 }
 
-/* line 102, ../scss/components/_overlays.scss */
+/* line 69, ../scss/components/_overlays.scss */
 a.close-overlay.hidden {
   display: none;
 }
 
-/* line 106, ../scss/components/_overlays.scss */
+/* line 73, ../scss/components/_overlays.scss */
 a.expand {
   display: block;
   position: absolute;
@@ -12397,7 +12363,7 @@ a.expand {
 /* ============================================================
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
-/* line 123, ../scss/components/_overlays.scss */
+/* line 90, ../scss/components/_overlays.scss */
 .overlay {
   bottom: 0;
   left: 0;
@@ -12406,7 +12372,7 @@ a.expand {
   height: 0;
 }
 
-/* line 130, ../scss/components/_overlays.scss */
+/* line 97, ../scss/components/_overlays.scss */
 .overlay a.expand {
   left: 0;
   right: 0;
@@ -12414,7 +12380,7 @@ a.expand {
   margin: 0 auto -30px auto;
 }
 
-/* line 136, ../scss/components/_overlays.scss */
+/* line 103, ../scss/components/_overlays.scss */
 .img.hover .overlay {
   height: 100%;
 }

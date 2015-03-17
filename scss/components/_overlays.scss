@@ -1,40 +1,7 @@
 /* ============================================================
-    CARD STYLE - VIEWS
+    CARD CUSTOM STYLE  - VIEWS
 ============================================================ */
-/*
-.card {
-  @include box-shadow(2px, 2px, 5px, #888888);
-  margin-bottom: 5px;
-  .card-title {
-    padding: 0.8rem 0.3rem 0.5rem 0.5rem;
-    a{
-      color: #646464;
-    }
-    a:hover{
-      color: $color-honduras;
-      text-decoration: underline;
-    }
 
-  }
-
-  .card-section{
-    padding: 0.5rem 0.3rem 0.5rem 0.5rem;
-    a{
-      font-size:0.8rem;
-      color:$aviturismo;
-    }
-  }
-
-  .card-body{
-    padding: 0.8rem 0.3rem;
-    font-size: 0.9rem;
-  }
-
-  .card-image{
-    margin: 0 5px 5px 5px;
-  }
-}
-*/
 .card {
   a {
     margin-right: 1px !important;
