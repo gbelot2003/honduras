@@ -9097,31 +9097,51 @@ table {
   margin: 0 auto;
 }
 
+/* line 52, ../scss/base/_common.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 56, ../scss/base/_common.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 60, ../scss/base/_common.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 64, ../scss/base/_common.scss */
+.text-right {
+  text-align: right;
+}
+
 /**
  * Icons default 
 **/
-/* line 56, ../scss/base/_common.scss */
+/* line 72, ../scss/base/_common.scss */
 .icon {
   font-size: 2.5rem;
 }
 
-/* line 60, ../scss/base/_common.scss */
+/* line 76, ../scss/base/_common.scss */
 .fa-air {
   font-size: 2.5rem !important;
 }
 
-/* line 64, ../scss/base/_common.scss */
+/* line 80, ../scss/base/_common.scss */
 .views-responsive-grid .icon {
   font-size: 1.5rem;
 }
 
-/* line 69, ../scss/base/_common.scss */
+/* line 85, ../scss/base/_common.scss */
 ul.horizontal-list {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 74, ../scss/base/_common.scss */
+/* line 90, ../scss/base/_common.scss */
 ul.horizontal-list-right {
   text-align: right;
   margin-bottom: 0px;
@@ -9130,13 +9150,13 @@ ul.horizontal-list-right {
 /**
  *  lazy images on body
  */
-/* line 83, ../scss/base/_common.scss */
+/* line 99, ../scss/base/_common.scss */
 .main .lazyloader-icon {
   width: 5% !important;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 88, ../scss/base/_common.scss */
+  /* line 104, ../scss/base/_common.scss */
   ul.horizontal-list-right {
     text-align: center;
   }
@@ -9175,28 +9195,10 @@ h4.honduras, h5.honduras {
 }
 
 /* line 44, ../scss/base/_elements.scss */
-select {
-  top: 0;
-  height: 2.3125em;
-  margin-bottom: 1.25em;
-  margin-top: 0px;
-  padding: 0px;
-  width: 100%;
-  line-height: 30px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  font-size: 0.875em;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border: 1px solid #ccc;
-}
-
-/* line 61, ../scss/base/_elements.scss */
 .views-exposed-widget {
   width: 100%;
 }
-/* line 63, ../scss/base/_elements.scss */
+/* line 46, ../scss/base/_elements.scss */
 .views-exposed-widget label {
   color: gray;
   font-style: italic;
@@ -9204,12 +9206,12 @@ select {
   font-weight: bold;
 }
 
-/* line 71, ../scss/base/_elements.scss */
+/* line 54, ../scss/base/_elements.scss */
 .form-item-field-tipo-de-transporte-value select {
   margin-bottom: 0.2rem !important;
 }
 
-/* line 75, ../scss/base/_elements.scss */
+/* line 58, ../scss/base/_elements.scss */
 .description {
   color: #ff7600;
   font-style: italic;
@@ -9218,7 +9220,7 @@ select {
 }
 
 /* We use this to get basic styling on all basic form elements */
-/* line 84, ../scss/base/_elements.scss */
+/* line 67, ../scss/base/_elements.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -9257,7 +9259,7 @@ textarea {
   background: #DDDDDD;
 }
 
-/* line 121, ../scss/base/_elements.scss */
+/* line 104, ../scss/base/_elements.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="date"]:focus,
@@ -9278,7 +9280,7 @@ textarea:focus {
   border-color: #999999;
 }
 
-/* line 139, ../scss/base/_elements.scss */
+/* line 122, ../scss/base/_elements.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="date"]:focus,
@@ -9298,7 +9300,7 @@ textarea:focus {
   outline: none;
 }
 
-/* line 156, ../scss/base/_elements.scss */
+/* line 139, ../scss/base/_elements.scss */
 input[type="text"][disabled],
 input[type="password"][disabled],
 input[type="date"][disabled],
@@ -9314,25 +9316,6 @@ input[type="time"][disabled],
 input[type="url"][disabled],
 textarea[disabled] {
   background-color: #dddddd;
-}
-
-/* line 172, ../scss/base/_elements.scss */
-options {
-  display: none;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 0;
-  z-index: 999;
-  margin: 0 0;
-  padding: 0 0;
-  list-style: none;
-  border: 1px solid #ccc;
-  background-color: white;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
 }
 
 /****** Animatios ********/
@@ -12319,17 +12302,18 @@ td.single-day .inner {
 /* line 42, ../scss/components/_overlays.scss */
 .card .card-title {
   font-size: 14px !important;
+  line-height: 21px !important;
 }
 
 /* ============================================================
   Global - SLIDE IN BOTTOM
 ============================================================ */
-/* line 50, ../scss/components/_overlays.scss */
+/* line 51, ../scss/components/_overlays.scss */
 .effects {
   padding-left: 15px;
 }
 
-/* line 53, ../scss/components/_overlays.scss */
+/* line 54, ../scss/components/_overlays.scss */
 .effects .img {
   position: relative;
   float: left;
@@ -12337,22 +12321,22 @@ td.single-day .inner {
   overflow: hidden;
 }
 
-/* line 59, ../scss/components/_overlays.scss */
+/* line 60, ../scss/components/_overlays.scss */
 .effects .img:nth-child(n) {
   margin-right: 5px;
 }
 
-/* line 62, ../scss/components/_overlays.scss */
+/* line 63, ../scss/components/_overlays.scss */
 .effects .img:first-child {
   margin-left: -15px;
 }
 
-/* line 65, ../scss/components/_overlays.scss */
+/* line 66, ../scss/components/_overlays.scss */
 .effects .img:last-child {
   margin-right: 0;
 }
 
-/* line 68, ../scss/components/_overlays.scss */
+/* line 69, ../scss/components/_overlays.scss */
 .effects .img img {
   display: block;
   margin: 0;
@@ -12361,7 +12345,7 @@ td.single-day .inner {
   height: auto;
 }
 
-/* line 76, ../scss/components/_overlays.scss */
+/* line 77, ../scss/components/_overlays.scss */
 .overlay {
   display: block;
   position: absolute;
@@ -12371,7 +12355,7 @@ td.single-day .inner {
   transition: all 0.5s;
 }
 
-/* line 85, ../scss/components/_overlays.scss */
+/* line 86, ../scss/components/_overlays.scss */
 a.close-overlay {
   display: block;
   position: absolute;
@@ -12389,12 +12373,12 @@ a.close-overlay {
   cursor: pointer;
 }
 
-/* line 101, ../scss/components/_overlays.scss */
+/* line 102, ../scss/components/_overlays.scss */
 a.close-overlay.hidden {
   display: none;
 }
 
-/* line 105, ../scss/components/_overlays.scss */
+/* line 106, ../scss/components/_overlays.scss */
 a.expand {
   display: block;
   position: absolute;
@@ -12413,7 +12397,7 @@ a.expand {
 /* ============================================================
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
-/* line 122, ../scss/components/_overlays.scss */
+/* line 123, ../scss/components/_overlays.scss */
 .overlay {
   bottom: 0;
   left: 0;
@@ -12422,7 +12406,7 @@ a.expand {
   height: 0;
 }
 
-/* line 129, ../scss/components/_overlays.scss */
+/* line 130, ../scss/components/_overlays.scss */
 .overlay a.expand {
   left: 0;
   right: 0;
@@ -12430,7 +12414,7 @@ a.expand {
   margin: 0 auto -30px auto;
 }
 
-/* line 135, ../scss/components/_overlays.scss */
+/* line 136, ../scss/components/_overlays.scss */
 .img.hover .overlay {
   height: 100%;
 }
@@ -15285,7 +15269,7 @@ ul li {
 }
 
 /* line 60, ../scss/materialize/components/_global.scss */
-.z-depth-1, .card-panel, .card, .btn, .btn-large, .btn-floating, .collapsible {
+.z-depth-1, .card-panel, .card, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -16017,7 +16001,7 @@ span.badge.new:after {
 }
 
 /* line 608, ../scss/materialize/components/_global.scss */
-.no-select {
+.no-select, input[type=range], input[type=range] + .thumb {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -20480,6 +20464,37 @@ small {
   font-size: 1.6rem;
 }
 
+/* line 1, ../scss/materialize/components/_dropdown.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  margin: 0px;
+  min-width: 100px;
+  z-index: 1000;
+  max-height: 70%;
+  opacity: 0;
+  overflow-y: hidden;
+  will-change: width, height;
+}
+/* line 15, ../scss/materialize/components/_dropdown.scss */
+.dropdown-content li {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.5rem;
+}
+/* line 21, ../scss/materialize/components/_dropdown.scss */
+.dropdown-content li:hover, .dropdown-content li.active {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+/* line 25, ../scss/materialize/components/_dropdown.scss */
+.dropdown-content li > a, .dropdown-content li > span {
+  display: block;
+  padding: 1rem 1rem;
+  color: #e9e9e9;
+}
+
 /*!
  * Waves v0.6.0
  * http://fian.my.id/Waves
@@ -20703,6 +20718,886 @@ ul.side-nav .collapsible-body li a {
 /* line 78, ../scss/materialize/components/_collapsible.scss */
 li.no-padding {
   padding: 0 !important;
+}
+
+/* Remove Focus Boxes */
+/* line 2, ../scss/materialize/components/_form.scss */
+select:focus {
+  outline: 1px solid #f8c1c3;
+}
+
+/* line 5, ../scss/materialize/components/_form.scss */
+button:focus {
+  outline: none;
+  background-color: white;
+}
+
+/* line 10, ../scss/materialize/components/_form.scss */
+label {
+  font-size: 0.8rem;
+  color: #cccccc;
+}
+
+/***************************
+   Text Inputs + Textarea
+****************************/
+/* line 19, ../scss/materialize/components/_form.scss */
+.input-field {
+  position: relative;
+  margin-top: 1rem;
+}
+/* line 23, ../scss/materialize/components/_form.scss */
+.input-field label {
+  color: #cccccc;
+  position: absolute;
+  top: 0.8rem;
+  left: 0.75rem;
+  font-size: 1rem;
+  cursor: text;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+/* line 32, ../scss/materialize/components/_form.scss */
+.input-field label.active {
+  font-size: 0.8rem;
+  -webkit-transform: translateY(-140%);
+  -moz-transform: translateY(-140%);
+  -ms-transform: translateY(-140%);
+  -o-transform: translateY(-140%);
+  transform: translateY(-140%);
+}
+/* line 37, ../scss/materialize/components/_form.scss */
+.input-field input[type=text]:focus + label,
+.input-field input[type=password]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=url]:focus + label,
+.input-field input[type=date]:focus + label,
+.input-field input[type=tel]:focus + label,
+.input-field input[type=number]:focus + label,
+.input-field input[type=search]:focus + label,
+.input-field textarea:focus.materialize-textarea + label {
+  color: #e9e9e9;
+}
+/* line 49, ../scss/materialize/components/_form.scss */
+.input-field input[type=text].valid,
+.input-field input[type=password].valid,
+.input-field input[type=email].valid,
+.input-field input[type=url].valid,
+.input-field input[type=date].valid,
+.input-field input[type=tel].valid,
+.input-field input[type=number].valid,
+.input-field input[type=search].valid,
+.input-field textarea.materialize-textarea.valid {
+  border-bottom: 1px solid #5da423;
+  -webkit-box-shadow: 0 1px 0 0 #5da423;
+  -moz-box-shadow: 0 1px 0 0 #5da423;
+  box-shadow: 0 1px 0 0 #5da423;
+}
+/* line 62, ../scss/materialize/components/_form.scss */
+.input-field input[type=text].invalid,
+.input-field input[type=password].invalid,
+.input-field input[type=email].invalid,
+.input-field input[type=url].invalid,
+.input-field input[type=date].invalid,
+.input-field input[type=tel].invalid,
+.input-field input[type=number].invalid,
+.input-field input[type=search].invalid,
+.input-field textarea.materialize-textarea.invalid {
+  border-bottom: 1px solid #f44336;
+  -webkit-box-shadow: 0 1px 0 0 #f44336;
+  -moz-box-shadow: 0 1px 0 0 #f44336;
+  box-shadow: 0 1px 0 0 #f44336;
+}
+/* line 76, ../scss/materialize/components/_form.scss */
+.input-field .prefix {
+  position: absolute;
+  width: 3rem;
+  font-size: 2rem;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 82, ../scss/materialize/components/_form.scss */
+.input-field .prefix.active {
+  color: #e9e9e9;
+}
+/* line 84, ../scss/materialize/components/_form.scss */
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea {
+  margin-left: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem);
+}
+/* line 90, ../scss/materialize/components/_form.scss */
+.input-field .prefix ~ textarea {
+  padding-top: .8rem;
+}
+/* line 91, ../scss/materialize/components/_form.scss */
+.input-field .prefix ~ label {
+  margin-left: 3rem;
+}
+@media only screen and (max-width: 1280px) {
+  /* line 94, ../scss/materialize/components/_form.scss */
+  .input-field .prefix ~ input {
+    width: 86%;
+    width: calc(100% - 3rem);
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 100, ../scss/materialize/components/_form.scss */
+  .input-field .prefix ~ input {
+    width: 80%;
+    width: calc(100% - 3rem);
+  }
+}
+
+/* line 109, ../scss/materialize/components/_form.scss */
+textarea {
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+}
+
+/* line 115, ../scss/materialize/components/_form.scss */
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=date],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 15px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 139, ../scss/materialize/components/_form.scss */
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=date]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+textarea:focus.materialize-textarea {
+  border-bottom: 1px solid #e9e9e9;
+  -webkit-box-shadow: 0 1px 0 0 #e9e9e9;
+  -moz-box-shadow: 0 1px 0 0 #e9e9e9;
+  box-shadow: 0 1px 0 0 #e9e9e9;
+}
+
+/* line 152, ../scss/materialize/components/_form.scss */
+textarea.materialize-textarea {
+  overflow-y: hidden;
+  /* prevents scroll bar flash */
+  padding: 1.6rem 0;
+  /* prevents text jump on Enter keypress */
+  resize: none;
+  min-height: 3rem;
+}
+
+/* line 160, ../scss/materialize/components/_form.scss */
+.hiddendiv {
+  display: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  /* future version of deprecated 'word-wrap' */
+  padding-top: 1.2rem;
+  /* prevents text jump on Enter keypress */
+}
+
+/***************
+  Radio Buttons
+***************/
+/* Remove default Radio Buttons */
+/* line 174, ../scss/materialize/components/_form.scss */
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 180, ../scss/materialize/components/_form.scss */
+[type="radio"]:not(:checked) + label,
+[type="radio"]:checked + label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  font-size: 1rem;
+  -webkit-transition: 0.28s ease;
+  -moz-transition: 0.28s ease;
+  -o-transition: 0.28s ease;
+  -ms-transition: 0.28s ease;
+  transition: 0.28s ease;
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* webkit (konqueror) browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+/* line 197, ../scss/materialize/components/_form.scss */
+[type="radio"] + label:before,
+[type="radio"] + label:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 4px;
+  width: 16px;
+  height: 16px;
+  z-index: 0;
+  -webkit-transition: 0.28s ease;
+  -moz-transition: 0.28s ease;
+  -o-transition: 0.28s ease;
+  -ms-transition: 0.28s ease;
+  transition: 0.28s ease;
+}
+
+/* Unchecked styles */
+/* line 212, ../scss/materialize/components/_form.scss */
+[type="radio"]:not(:checked) + label:before {
+  border-radius: 50%;
+  border: 2px solid #5a5a5a;
+}
+
+/* line 216, ../scss/materialize/components/_form.scss */
+[type="radio"]:not(:checked) + label:after {
+  border-radius: 50%;
+  border: 2px solid #5a5a5a;
+  z-index: -1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+/* Checked styles */
+/* line 225, ../scss/materialize/components/_form.scss */
+[type="radio"]:checked + label:before {
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+/* line 229, ../scss/materialize/components/_form.scss */
+[type="radio"]:checked + label:after {
+  border-radius: 50%;
+  border: 2px solid #e9e9e9;
+  background-color: #e9e9e9;
+  z-index: 0;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+/* Radio With gap */
+/* line 238, ../scss/materialize/components/_form.scss */
+[type="radio"].with-gap:checked + label:before {
+  border-radius: 50%;
+  border: 2px solid #e9e9e9;
+}
+
+/* line 242, ../scss/materialize/components/_form.scss */
+[type="radio"].with-gap:checked + label:after {
+  border-radius: 50%;
+  border: 2px solid #e9e9e9;
+  background-color: #e9e9e9;
+  z-index: 0;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+/* Disabled style */
+/* line 251, ../scss/materialize/components/_form.scss */
+[type="radio"]:disabled:not(:checked) + label:before,
+[type="radio"]:disabled:checked + label:before {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 256, ../scss/materialize/components/_form.scss */
+[type="radio"]:disabled + label {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 259, ../scss/materialize/components/_form.scss */
+[type="radio"]:disabled:not(:checked) + label:hover:before {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+/***************
+   Checkboxes
+***************/
+/* CUSTOM CSS CHECKBOXES */
+/* line 269, ../scss/materialize/components/_form.scss */
+form p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* line 273, ../scss/materialize/components/_form.scss */
+form p:last-child {
+  margin-bottom: 0px;
+}
+
+/* Remove default checkbox */
+/* line 278, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 283, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* webkit (konqueror) browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+/* checkbox aspect */
+/* line 300, ../scss/materialize/components/_form.scss */
+[type="checkbox"] + label:before {
+  content: '';
+  position: absolute;
+  margin-top: 2px;
+  left: 0;
+  z-index: 0;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  background-clip: padding-box;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* Unchecked styles */
+/* line 310, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:not(:checked) + label:before {
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #5a5a5a;
+}
+
+/* Checked styles */
+/* line 317, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:checked + label:before {
+  left: -3px;
+  top: -4px;
+  width: 12px;
+  height: 22px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #e9e9e9;
+  border-bottom: 2px solid #e9e9e9;
+  -webkit-transform: rotateZ(40deg);
+  -moz-transform: rotateZ(40deg);
+  -ms-transform: rotateZ(40deg);
+  -o-transform: rotateZ(40deg);
+  transform: rotateZ(40deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+/* disabled checkbox */
+/* line 332, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:disabled:not(:checked) + label:before {
+  top: 0;
+  left: 0;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.26);
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.26);
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+/* line 342, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:disabled:checked + label:before {
+  left: -3px;
+  top: -4px;
+  width: 12px;
+  height: 22px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid rgba(0, 0, 0, 0.26);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+  -webkit-transform: rotateZ(40deg);
+  -moz-transform: rotateZ(40deg);
+  -ms-transform: rotateZ(40deg);
+  -o-transform: rotateZ(40deg);
+  transform: rotateZ(40deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+/* line 355, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:disabled:checked + label {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 358, ../scss/materialize/components/_form.scss */
+[type="checkbox"]:disabled:not(:checked) + label:hover:before {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 364, ../scss/materialize/components/_form.scss */
+.switch,
+.switch * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 370, ../scss/materialize/components/_form.scss */
+.switch label {
+  cursor: pointer;
+}
+
+/* line 373, ../scss/materialize/components/_form.scss */
+.switch label input[type=checkbox]:first-child {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* line 378, ../scss/materialize/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever {
+  background-color: #7bc5be;
+}
+
+/* line 381, ../scss/materialize/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  background-color: #009587;
+}
+
+/* line 384, ../scss/materialize/components/_form.scss */
+.switch label .lever,
+.switch label input[type=checkbox][disabled]:first-child + .lever {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  height: 15px;
+  background-color: #818181;
+  border-radius: 15px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+  margin: 0px 16px;
+}
+
+/* line 397, ../scss/materialize/components/_form.scss */
+.switch label .lever:after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+  left: -5px;
+  top: -2px;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+}
+
+/* line 411, ../scss/materialize/components/_form.scss */
+input[type=checkbox]:first-child:checked:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 149, 135, 0.1);
+}
+
+/* line 414, ../scss/materialize/components/_form.scss */
+input[type=checkbox]:first-child:not(:disabled) ~ .lever:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* line 419, ../scss/materialize/components/_form.scss */
+.switch label input[type=checkbox][disabled]:first-child + .lever:after,
+.switch label input[type=checkbox][disabled]:checked:first-child + .lever:after {
+  background-color: #BDBDBD;
+}
+
+/* line 424, ../scss/materialize/components/_form.scss */
+.switch label input[type=checkbox]:first-child:checked + .lever:after {
+  left: 30px;
+}
+
+/***************
+  Select Field
+***************/
+/* line 436, ../scss/materialize/components/_form.scss */
+.select-label {
+  position: absolute;
+}
+
+/* line 440, ../scss/materialize/components/_form.scss */
+.select-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+/* line 444, ../scss/materialize/components/_form.scss */
+.select-wrapper input.select-dropdown {
+  position: relative;
+  cursor: pointer;
+  color: #444;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline: none;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 15px 0;
+  padding: 0;
+  display: block;
+}
+/* line 460, ../scss/materialize/components/_form.scss */
+.select-wrapper .mdi-navigation-arrow-drop-down {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 23px;
+}
+
+/* line 468, ../scss/materialize/components/_form.scss */
+select {
+  display: none;
+}
+
+/* line 469, ../scss/materialize/components/_form.scss */
+select.browser-default {
+  display: block;
+}
+
+/* line 473, ../scss/materialize/components/_form.scss */
+select:disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 476, ../scss/materialize/components/_form.scss */
+.select-wrapper input.select-dropdown:disabled {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* line 480, ../scss/materialize/components/_form.scss */
+.select-wrapper i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 483, ../scss/materialize/components/_form.scss */
+.select-dropdown li.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+/* line 486, ../scss/materialize/components/_form.scss */
+.select-dropdown li.disabled:hover {
+  background-color: transparent;
+}
+
+/*********************
+      File Input
+**********************/
+/* line 493, ../scss/materialize/components/_form.scss */
+.file-field {
+  position: relative;
+  overflow: hidden;
+}
+/* line 497, ../scss/materialize/components/_form.scss */
+.file-field input.file-path {
+  margin-left: 100px;
+}
+/* line 501, ../scss/materialize/components/_form.scss */
+.file-field .btn, .file-field .btn-large {
+  position: absolute;
+  top: 0;
+  height: 3rem;
+  line-height: 3rem;
+}
+/* line 508, ../scss/materialize/components/_form.scss */
+.file-field span {
+  cursor: pointer;
+}
+/* line 512, ../scss/materialize/components/_form.scss */
+.file-field input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/***************
+      Range
+***************/
+/* line 534, ../scss/materialize/components/_form.scss */
+.range-field {
+  position: relative;
+}
+
+/* line 538, ../scss/materialize/components/_form.scss */
+input[type=range], input[type=range] + .thumb {
+  cursor: pointer;
+}
+
+/* line 543, ../scss/materialize/components/_form.scss */
+input[type=range] {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 15px 0px;
+  padding: 0;
+}
+
+/* line 552, ../scss/materialize/components/_form.scss */
+input[type=range] + .thumb {
+  position: absolute;
+  border: none;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+  top: 10px;
+  margin-left: -6px;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 565, ../scss/materialize/components/_form.scss */
+input[type=range] + .thumb .value {
+  display: block;
+  width: 30px;
+  text-align: center;
+  color: #e9e9e9;
+  font-size: 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 574, ../scss/materialize/components/_form.scss */
+input[type=range] + .thumb.active {
+  border-radius: 50% 50% 50% 0;
+}
+/* line 577, ../scss/materialize/components/_form.scss */
+input[type=range] + .thumb.active .value {
+  color: #fff;
+  margin-left: -1px;
+  margin-top: 8px;
+  font-size: 10px;
+}
+
+/* line 587, ../scss/materialize/components/_form.scss */
+input[type=range]:focus {
+  outline: none;
+}
+
+/* line 594, ../scss/materialize/components/_form.scss */
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+/* line 598, ../scss/materialize/components/_form.scss */
+input[type=range]::-webkit-slider-runnable-track {
+  height: 3px;
+  background: #c2c0c2;
+  border: none;
+}
+
+/* line 604, ../scss/materialize/components/_form.scss */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+  transform-origin: 50% 50%;
+  margin: -5px 0 0 0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 616, ../scss/materialize/components/_form.scss */
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+/* line 621, ../scss/materialize/components/_form.scss */
+input[type=range] {
+  /* fix for FF unable to apply focus style bug  */
+  border: 1px solid white;
+  /*required for proper track sizing in FF*/
+}
+
+/* line 628, ../scss/materialize/components/_form.scss */
+input[type=range]::-moz-range-track {
+  height: 3px;
+  background: #ddd;
+  border: none;
+}
+
+/* line 634, ../scss/materialize/components/_form.scss */
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #e9e9e9;
+  margin-top: -5px;
+}
+
+/*hide the outline behind the border*/
+/* line 644, ../scss/materialize/components/_form.scss */
+input[type=range]:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+
+/* line 649, ../scss/materialize/components/_form.scss */
+input[type=range]:focus::-moz-range-track {
+  background: #ccc;
+}
+
+/* line 654, ../scss/materialize/components/_form.scss */
+input[type=range]::-ms-track {
+  height: 3px;
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+  /*remove default tick marks*/
+  color: transparent;
+}
+
+/* line 667, ../scss/materialize/components/_form.scss */
+input[type=range]::-ms-fill-lower {
+  background: #777;
+}
+
+/* line 670, ../scss/materialize/components/_form.scss */
+input[type=range]::-ms-fill-upper {
+  background: #ddd;
+}
+
+/* line 673, ../scss/materialize/components/_form.scss */
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #e9e9e9;
+}
+
+/* line 680, ../scss/materialize/components/_form.scss */
+input[type=range]:focus::-ms-fill-lower {
+  background: #888;
+}
+
+/* line 683, ../scss/materialize/components/_form.scss */
+input[type=range]:focus::-ms-fill-upper {
+  background: #ccc;
+}
+
+/***************************
+   Text Inputs + Textarea
+****************************/
+/* line 691, ../scss/materialize/components/_form.scss */
+select {
+  background-color: #fffafa;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  height: 3rem;
 }
 
 /***************

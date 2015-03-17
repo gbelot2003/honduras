@@ -6,6 +6,7 @@
     		/**
     		 * Some styling classes
     		 */
+            $('select').material_select();
             $('#block-locale-language a:contains("Español")').addClass('esp');
     		$('#block-locale-language a:contains("English")').addClass('eng');
 
