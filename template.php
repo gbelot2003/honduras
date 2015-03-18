@@ -260,7 +260,7 @@ function honduras_links__system_explore_honduras_menu(&$variables){
   $output = '';
 
   foreach ($variables['links'] as $link) {
-    dpm($links);
+    //dpm($links);
   }
   return $output;
 }

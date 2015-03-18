@@ -18914,13 +18914,15 @@ a {
   color: #474aa3;
 }
 
-/* line 9, ../scss/layout/_aside.scss */
-.sidebar-first .block-menu-menu-explore-honduras ul.menu li, .sidebar-first .block-menu-menu-with-whom ul.menu li {
+/* line 10, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li, .sidebar-first .block-menu-menu-with-whom ul.menu li,
+.sidebar-first .block-menu-menu-news-categories ul.menu li, .sidebar-first .block-menu-menu-news-categories ul.menu li {
   list-style: none;
   list-style-type: none;
 }
-/* line 12, ../scss/layout/_aside.scss */
-.sidebar-first .block-menu-menu-explore-honduras ul.menu li a, .sidebar-first .block-menu-menu-with-whom ul.menu li a {
+/* line 13, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li a, .sidebar-first .block-menu-menu-with-whom ul.menu li a,
+.sidebar-first .block-menu-menu-news-categories ul.menu li a, .sidebar-first .block-menu-menu-news-categories ul.menu li a {
   display: block;
   width: 100%;
   border-bottom: 1px solid silver;
@@ -18929,8 +18931,9 @@ a {
   -moz-transition: all .25s ease;
   transition: all .25s ease;
 }
-/* line 21, ../scss/layout/_aside.scss */
-.sidebar-first .block-menu-menu-explore-honduras ul.menu li a:hover, .sidebar-first .block-menu-menu-with-whom ul.menu li a:hover {
+/* line 22, ../scss/layout/_aside.scss */
+.sidebar-first .block-menu-menu-explore-honduras ul.menu li a:hover, .sidebar-first .block-menu-menu-with-whom ul.menu li a:hover,
+.sidebar-first .block-menu-menu-news-categories ul.menu li a:hover, .sidebar-first .block-menu-menu-news-categories ul.menu li a:hover {
   background: rgba(0, 71, 186, 0.3);
   color: white;
 }
