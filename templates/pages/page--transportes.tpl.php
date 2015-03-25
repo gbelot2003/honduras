@@ -136,7 +136,7 @@
       <div class="contain-to-grid">
         <?php if ($title && !$is_front): ?>
           <?php print render($title_prefix); ?>
-          <h1 id="page-title" class="title"><?php print $title; ?></h1>
+          <h2 id="page-title" class="title"><?php print $title; ?></h2>
           <?php print render($title_suffix); ?>
         <?php endif; ?>
       </div>
