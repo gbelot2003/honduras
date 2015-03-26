@@ -18340,10 +18340,15 @@ a {
 }
 
 /* line 59, ../scss/base/_elements.scss */
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-image: none;
+}
+
+/* line 63, ../scss/base/_elements.scss */
 .views-exposed-widget {
   width: 100%;
 }
-/* line 61, ../scss/base/_elements.scss */
+/* line 65, ../scss/base/_elements.scss */
 .views-exposed-widget label {
   color: gray;
   font-style: italic;
@@ -18351,12 +18356,12 @@ a {
   font-weight: bold;
 }
 
-/* line 69, ../scss/base/_elements.scss */
+/* line 73, ../scss/base/_elements.scss */
 .form-item-field-tipo-de-transporte-value select {
   margin-bottom: 0.2rem !important;
 }
 
-/* line 73, ../scss/base/_elements.scss */
+/* line 77, ../scss/base/_elements.scss */
 .description {
   color: #ff7600;
   font-style: italic;
