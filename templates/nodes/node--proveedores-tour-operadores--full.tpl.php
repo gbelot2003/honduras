@@ -91,6 +91,7 @@
     hide($content['links']);
     hide($content['field_tags']);
     hide($content['field_operador_slogan']);
+  	hide($content['field_ref_tipo_actividad']);
     hide($content['group_paquetes']);
     hide($content['field_imagen_logo']);
     hide($content['group_contact_info']);
