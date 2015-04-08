@@ -12,10 +12,16 @@
 .field-name-field-relacion-sellos{
   display: block;
   clear: both;
+
   h2 {
     display: none;
   }
+
   .field-label{
+    display: none;
+  }
+
+  .taxonomy-term-description{
     display: none;
   }
   .vocabulary-sellos{

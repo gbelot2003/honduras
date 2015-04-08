@@ -123,6 +123,10 @@
             <?php print render($content['field_operador_slogan']); ?>
           </div>
 
+		  <div class="large-12 columns">
+            <?php print render($content['field_ref_tipo_actividad']); ?>
+          </div>
+
 
         </div>
       </div>

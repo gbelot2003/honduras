@@ -21305,33 +21305,37 @@ td.single-day .inner {
   display: block;
   clear: both;
 }
-/* line 15, ../scss/components/_proveedores.scss */
+/* line 16, ../scss/components/_proveedores.scss */
 .field-name-field-relacion-sellos h2 {
   display: none;
 }
-/* line 18, ../scss/components/_proveedores.scss */
+/* line 20, ../scss/components/_proveedores.scss */
 .field-name-field-relacion-sellos .field-label {
   display: none;
 }
-/* line 21, ../scss/components/_proveedores.scss */
+/* line 24, ../scss/components/_proveedores.scss */
+.field-name-field-relacion-sellos .taxonomy-term-description {
+  display: none;
+}
+/* line 27, ../scss/components/_proveedores.scss */
 .field-name-field-relacion-sellos .vocabulary-sellos {
   display: inline;
   float: left;
 }
 
-/* line 28, ../scss/components/_proveedores.scss */
+/* line 34, ../scss/components/_proveedores.scss */
 .group-info-general div, .field-group-fieldset div {
   margin-bottom: 1rem;
 }
-/* line 31, ../scss/components/_proveedores.scss */
+/* line 37, ../scss/components/_proveedores.scss */
 .group-info-general .fieldset-wrapper .field, .field-group-fieldset .fieldset-wrapper .field {
   margin-bottom: 10px;
 }
-/* line 36, ../scss/components/_proveedores.scss */
+/* line 42, ../scss/components/_proveedores.scss */
 .group-info-general .field-name-field-to-telefonos a, .field-group-fieldset .field-name-field-to-telefonos a {
   display: block;
 }
-/* line 42, ../scss/components/_proveedores.scss */
+/* line 48, ../scss/components/_proveedores.scss */
 .group-info-general .field-name-field-to-email a, .field-group-fieldset .field-name-field-to-email a {
   display: block;
 }
