@@ -9,7 +9,25 @@
 	padding: 10px 0;
 }
 
-.group-info-general {
+.field-name-field-relacion-sellos{
+  display: block;
+  clear: both;
+  h2 {
+    display: none;
+  }
+  .field-label{
+    display: none;
+  }
+  .vocabulary-sellos{
+    display: inline;
+    float: left;
+  }
+}
+
+.group-info-general, .field-group-fieldset {
+    div {
+      margin-bottom:1rem;
+    }
 	.fieldset-wrapper .field {
 		margin-bottom: 10px;
 	}

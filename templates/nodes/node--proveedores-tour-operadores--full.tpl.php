@@ -97,6 +97,7 @@
     hide($content['field_type_operator']);
     hide($content['body']);
     hide($content['field_turistic_section']);
+    hide($content['field_relacion_sellos']);
     hide($content['language']);
     print render($content);
   ?>
@@ -121,30 +122,29 @@
           <div class="large-12 columns">
             <?php print render($content['field_operador_slogan']); ?>
           </div>
-          
-          <div class="large-12 columns">
-            <?php print render($content['body']); ?>
-          </div>
 
-          <div class="large-12 columns">
-            <?php print render($content['group_contact_info']); ?>
-          </div>
 
         </div>
       </div>
       
       <div class="columns large-7">
         <div class="row">
+			<?php if($content['field_relacion_sellos']): ?>
+			<div class="large-12 columns">
+				<h6><?php print t('Seals: ') ?></h6>
+				<?php print render($content['field_relacion_sellos']) ?>
+				<hr />
+			</div>
+			<?php endif ?>
 
-          <div class="columns large-12">
-            <span><?php print t('Type: ') ?></span>
-            <?php print render($content['field_type_operator']); ?>  
-          </div>
+			<div class="large-12 columns">
+				<?php print render($content['body']); ?>
+			</div>
 
-          <div class="columns large-12">
-            <?php print render($content['group_paquetes']); ?>  
-          </div>
-        
+			<div class="large-12 columns">
+				<?php print render($content['group_contact_info']); ?>
+			</div>
+
         </div>
 
       </div>
