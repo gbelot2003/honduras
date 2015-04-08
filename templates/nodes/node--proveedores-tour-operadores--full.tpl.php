@@ -121,7 +121,7 @@
           </div>
           
           <div class="large-12 columns">
-            <?php print render($content['field_operador_slogan']); ?>
+            <blockquote><?php print render($content['field_operador_slogan']); ?></blockquote>
           </div>
 
 		  <div class="large-12 columns">
