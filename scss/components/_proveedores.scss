@@ -9,7 +9,7 @@
 	padding: 10px 0;
 }
 
-.field-name-field-relacion-sellos{
+.field-type-taxonomy-term-reference, .field-type-entityreference{
   display: block;
   clear: both;
 
@@ -18,6 +18,10 @@
   }
 
   .field-label{
+    display: none;
+  }
+
+  .form-type-item{
     display: none;
   }
 

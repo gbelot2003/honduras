@@ -21301,41 +21301,45 @@ td.single-day .inner {
 }
 
 /* line 12, ../scss/components/_proveedores.scss */
-.field-name-field-relacion-sellos {
+.field-type-taxonomy-term-reference, .field-type-entityreference {
   display: block;
   clear: both;
 }
 /* line 16, ../scss/components/_proveedores.scss */
-.field-name-field-relacion-sellos h2 {
+.field-type-taxonomy-term-reference h2, .field-type-entityreference h2 {
   display: none;
 }
 /* line 20, ../scss/components/_proveedores.scss */
-.field-name-field-relacion-sellos .field-label {
+.field-type-taxonomy-term-reference .field-label, .field-type-entityreference .field-label {
   display: none;
 }
 /* line 24, ../scss/components/_proveedores.scss */
-.field-name-field-relacion-sellos .taxonomy-term-description {
+.field-type-taxonomy-term-reference .form-type-item, .field-type-entityreference .form-type-item {
   display: none;
 }
-/* line 27, ../scss/components/_proveedores.scss */
-.field-name-field-relacion-sellos .vocabulary-sellos {
+/* line 28, ../scss/components/_proveedores.scss */
+.field-type-taxonomy-term-reference .taxonomy-term-description, .field-type-entityreference .taxonomy-term-description {
+  display: none;
+}
+/* line 31, ../scss/components/_proveedores.scss */
+.field-type-taxonomy-term-reference .vocabulary-sellos, .field-type-entityreference .vocabulary-sellos {
   display: inline;
   float: left;
 }
 
-/* line 34, ../scss/components/_proveedores.scss */
+/* line 38, ../scss/components/_proveedores.scss */
 .group-info-general div, .field-group-fieldset div {
   margin-bottom: 1rem;
 }
-/* line 37, ../scss/components/_proveedores.scss */
+/* line 41, ../scss/components/_proveedores.scss */
 .group-info-general .fieldset-wrapper .field, .field-group-fieldset .fieldset-wrapper .field {
   margin-bottom: 10px;
 }
-/* line 42, ../scss/components/_proveedores.scss */
+/* line 46, ../scss/components/_proveedores.scss */
 .group-info-general .field-name-field-to-telefonos a, .field-group-fieldset .field-name-field-to-telefonos a {
   display: block;
 }
-/* line 48, ../scss/components/_proveedores.scss */
+/* line 52, ../scss/components/_proveedores.scss */
 .group-info-general .field-name-field-to-email a, .field-group-fieldset .field-name-field-to-email a {
   display: block;
 }
