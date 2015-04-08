@@ -21322,7 +21322,7 @@ td.single-day .inner {
   display: none;
 }
 /* line 31, ../scss/components/_proveedores.scss */
-.field-type-taxonomy-term-reference .vocabulary-sellos, .field-type-entityreference .vocabulary-sellos {
+.field-type-taxonomy-term-reference .vocabulary-sellos, .field-type-taxonomy-term-reference .field-type-image, .field-type-entityreference .vocabulary-sellos, .field-type-entityreference .field-type-image {
   display: inline;
   float: left;
 }
