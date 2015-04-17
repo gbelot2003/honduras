@@ -18593,124 +18593,129 @@ a {
     background: white !important;
   }
 }
-/* line 3, ../scss/layout/_main.scss */
+/* line 2, ../scss/layout/_main.scss */
+body {
+  background: url("../images/bg_parrot5.jpg") no-repeat -20rem 10.5rem fixed;
+}
+
+/* line 6, ../scss/layout/_main.scss */
 .l-main {
   margin-bottom: 1.5rem;
 }
 
-/* line 7, ../scss/layout/_main.scss */
+/* line 10, ../scss/layout/_main.scss */
 .section-atlantida .l-slider {
   background: url("../images/sections/bg_atlantida.jpg");
   background-size: cover;
 }
-/* line 10, ../scss/layout/_main.scss */
+/* line 13, ../scss/layout/_main.scss */
 .section-atlantida .l-slider .front-title {
   color: #00b1d3;
   text-shadow: 2px 2px 2px #45272f;
 }
-/* line 14, ../scss/layout/_main.scss */
+/* line 17, ../scss/layout/_main.scss */
 .section-atlantida .l-slider h5.guara {
   font-size: 3rem !important;
   font-weight: 300 !important;
 }
-/* line 19, ../scss/layout/_main.scss */
+/* line 22, ../scss/layout/_main.scss */
 .section-atlantida .l-slider .guara {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #45272f;
 }
 
-/* line 25, ../scss/layout/_main.scss */
+/* line 28, ../scss/layout/_main.scss */
 .section-bay-island .l-slider, .section-islas-de-la-baiha .l-slider {
   background: url("../images/sections/bg_islas.jpg");
   background-size: cover;
 }
-/* line 28, ../scss/layout/_main.scss */
+/* line 31, ../scss/layout/_main.scss */
 .section-bay-island .l-slider .guara, .section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .guara, .section-islas-de-la-baiha .l-slider .mportal {
   text-shadow: 2px 2px 2px #012f2f;
 }
-/* line 31, ../scss/layout/_main.scss */
+/* line 34, ../scss/layout/_main.scss */
 .section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .mportal {
   color: #efc644;
 }
 
-/* line 36, ../scss/layout/_main.scss */
+/* line 39, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider, .section-copan-ruinas-y-occidente .l-slider {
   background: url("../images/sections/bg_occidente.jpg");
   background-size: cover;
 }
-/* line 39, ../scss/layout/_main.scss */
+/* line 42, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider .mportal, .section-copan-ruinas-y-occidente .l-slider .mportal {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px black;
 }
-/* line 44, ../scss/layout/_main.scss */
+/* line 47, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider .portal, .section-copan-ruinas-y-occidente .l-slider .portal {
   color: #fca027;
 }
 
-/* line 48, ../scss/layout/_main.scss */
+/* line 51, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider {
   background: url("../images/sections/bg_sanpedro.jpg");
   background-size: cover;
 }
-/* line 51, ../scss/layout/_main.scss */
+/* line 54, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider .front-title {
   color: #b1639f;
   text-shadow: 2px 2px 2px black;
 }
-/* line 55, ../scss/layout/_main.scss */
+/* line 58, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider .portal {
   color: #cc7c1a;
 }
 
-/* line 60, ../scss/layout/_main.scss */
+/* line 63, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider, .section-lago-de-yojoa .l-slider {
   background: url("../images/sections/bg_yojoa.jpg");
   background-size: cover;
   background-position: center bottom;
 }
-/* line 64, ../scss/layout/_main.scss */
+/* line 67, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider .front-title, .section-lago-de-yojoa .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #5c2629;
 }
-/* line 68, ../scss/layout/_main.scss */
+/* line 71, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider .portal, .section-lago-de-yojoa .l-slider .portal {
   text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 73, ../scss/layout/_main.scss */
+/* line 76, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider {
   background: url("../images/sections/bg_tegus.jpg");
   background-size: cover;
 }
-/* line 76, ../scss/layout/_main.scss */
+/* line 79, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 1px white;
 }
-/* line 81, ../scss/layout/_main.scss */
+/* line 84, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider h5.portal .guara {
   font-size: 3rem !important;
   font-weight: 300 !important;
 }
 
-/* line 87, ../scss/layout/_main.scss */
+/* line 90, ../scss/layout/_main.scss */
 .section-others .l-slider {
   background: url("../images/sections/bg_otros.jpg");
   background-size: cover;
 }
-/* line 90, ../scss/layout/_main.scss */
+/* line 93, ../scss/layout/_main.scss */
 .section-others .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #5c2629;
 }
-/* line 94, ../scss/layout/_main.scss */
+/* line 97, ../scss/layout/_main.scss */
 .section-others .l-slider .portal {
   text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 100, ../scss/layout/_main.scss */
+/* line 103, ../scss/layout/_main.scss */
 .l-slider {
   background: url("../images/bgs_2.jpg");
   background-size: cover;
@@ -18719,18 +18724,18 @@ a {
   display: block;
   margin-bottom: 2rem;
 }
-/* line 110, ../scss/layout/_main.scss */
+/* line 113, ../scss/layout/_main.scss */
 .l-slider .front-title {
   font-family: Hondurean;
   text-align: center;
   font-size: 4rem;
   margin-bottom: 0;
 }
-/* line 117, ../scss/layout/_main.scss */
+/* line 120, ../scss/layout/_main.scss */
 .l-slider .front-message {
   padding: 90px 0;
 }
-/* line 121, ../scss/layout/_main.scss */
+/* line 124, ../scss/layout/_main.scss */
 .l-slider .guara {
   /*color: rgb(0, 71, 186) !important;*/
   font-size: 4.5rem !important;
@@ -18741,7 +18746,7 @@ a {
   margin-bottom: 0;
   text-shadow: 2px 2px 1px black;
 }
-/* line 132, ../scss/layout/_main.scss */
+/* line 135, ../scss/layout/_main.scss */
 .l-slider .guara span {
   display: inline-block;
   height: 0px;
@@ -18751,11 +18756,11 @@ a {
   width: 195px;
   margin-top: -50px;
 }
-/* line 142, ../scss/layout/_main.scss */
+/* line 145, ../scss/layout/_main.scss */
 .l-slider .explora {
   color: #0047ba;
 }
-/* line 146, ../scss/layout/_main.scss */
+/* line 149, ../scss/layout/_main.scss */
 .l-slider .portal {
   /*color:rgb(0,71,186)!important;
   /*Color del portal*/
@@ -18765,7 +18770,7 @@ a {
   text-shadow: 2px 2px 1px black;
 }
 
-/* line 157, ../scss/layout/_main.scss */
+/* line 160, ../scss/layout/_main.scss */
 .breadcrumbs {
   border-style: none;
   border: none;
@@ -18777,7 +18782,7 @@ a {
  * 	Detinos Turisticos
  * 
  */
-/* line 176, ../scss/layout/_main.scss */
+/* line 179, ../scss/layout/_main.scss */
 .image a {
   display: inline !important;
 }
@@ -18787,48 +18792,48 @@ a {
  * 	Atracciones Turisticas
  * 
  */
-/* line 186, ../scss/layout/_main.scss */
+/* line 189, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 191, ../scss/layout/_main.scss */
+/* line 194, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
 }
 
-/* line 195, ../scss/layout/_main.scss */
+/* line 198, ../scss/layout/_main.scss */
 .rel-explorar {
   border-bottom: 1px solid silver;
   padding: 1rem;
   margin-bottom: 0.8rem;
 }
-/* line 207, ../scss/layout/_main.scss */
+/* line 210, ../scss/layout/_main.scss */
 .rel-explorar i {
   font-size: 2.5rem;
   font-weight: 100;
 }
 
-/* line 214, ../scss/layout/_main.scss */
+/* line 217, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li {
   display: inline-block;
   width: 112px;
   margin-bottom: 1rem;
 }
-/* line 218, ../scss/layout/_main.scss */
+/* line 221, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a {
   display: block;
   font-size: 0.8rem;
   text-align: center;
   color: #b1639f;
 }
-/* line 223, ../scss/layout/_main.scss */
+/* line 226, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a i {
   display: block;
   font-size: 3.1rem !important;
 }
-/* line 228, ../scss/layout/_main.scss */
+/* line 231, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a:hover {
   color: #00b1d3;
 }
@@ -18838,12 +18843,12 @@ a {
  * @return {[type]}            [description]
  */
 @media only screen and (max-width: 40em) {
-  /* line 241, ../scss/layout/_main.scss */
+  /* line 244, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 246, ../scss/layout/_main.scss */
+  /* line 249, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
