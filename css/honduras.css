@@ -21615,5 +21615,11 @@ a.expand {
   margin: 0 10px 10px 0;
   z-index: 1;
 }
+/* line 43, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .embedded-video {
+  width: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
 
 /* Welcome to Compass. Use this file to write IE specific override styles. */
