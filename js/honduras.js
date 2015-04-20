@@ -1,4 +1,12 @@
 (function ($, Drupal) {
+    Drupal.behaviors.ajaxShow = {
+        attach: function (context) {
+            //sharethis
+            if (typeof(stButtons) != "undefined") {
+                stButtons.locateElements();
+            }
+        }
+    }
 
   Drupal.behaviors.honduras = {
     attach: function(context, settings) {

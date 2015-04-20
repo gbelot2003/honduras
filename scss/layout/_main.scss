@@ -1,10 +1,14 @@
 // Non-modular or client styles for the .l-content region.
 body{
-  background: url("../images/bg_parrot5.jpg") no-repeat -20rem 10.5rem fixed;
+  background: url("../images/bg_parrot5.jpg") no-repeat -20rem 0.5rem fixed;
+}
+.page{
+
 }
 
 .l-main {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: rgba(247,247,247,0.8);
 }
 
 .section-atlantida .l-slider{
@@ -23,6 +27,7 @@ body{
 		color: $color-occidente;
 		text-shadow: 2px 2px 2px rgb(69,39,47);		
 	}
+    z-index: 10;
 }
 
 .section-bay-island .l-slider, .section-islas-de-la-baiha .l-slider{

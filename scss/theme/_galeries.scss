@@ -1,0 +1,43 @@
+/***** Estilos para galerias ********/
+
+/** inside colorbox styles **/
+
+#colorboxNodeLoading {
+  background: url('../images/loading.gif') no-repeat center center;
+}
+
+#cboxLoadedContent {
+
+  .field-group-html5{
+    background: rgba(0,0,0,0.5);
+    padding: 5px 0 5px 5px;
+    position: absolute;
+    width: 98.5%;
+    z-index: 10;
+    .field-name-title{
+      h5{
+        a{
+          color: whitesmoke;
+          border-left: #c0c0c0 solid 1px;
+          padding-left: 5px;
+        }
+        a:hover{
+          color: $aventura;
+        }
+      }
+    }
+  }
+
+  .field-name-social{
+    float: left;
+    margin-right: 0.8rem;
+    display: block;
+  }
+
+  .field-name-field-image-galery-size {
+    float: left;
+    display: inline !important;
+    margin: 0 10px 10px 0;
+    z-index: 1;
+  }
+}

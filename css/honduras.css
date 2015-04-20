@@ -18443,49 +18443,50 @@ a {
 /* line 73, ../scss/layout/_header.scss */
 .l-header {
   height: 8.4rem;
+  background: white;
 }
-/* line 75, ../scss/layout/_header.scss */
+/* line 76, ../scss/layout/_header.scss */
 .l-header #social-icons {
   padding-top: 0.3rem;
 }
-/* line 77, ../scss/layout/_header.scss */
+/* line 78, ../scss/layout/_header.scss */
 .l-header #social-icons a {
   color: white !important;
   font-size: 1.2rem;
 }
 
-/* line 84, ../scss/layout/_header.scss */
+/* line 85, ../scss/layout/_header.scss */
 .l-main {
   clear: both;
 }
 
-/* line 88, ../scss/layout/_header.scss */
+/* line 89, ../scss/layout/_header.scss */
 #header-top {
   background: #0047ba;
 }
 
 /***************************/
-/* line 95, ../scss/layout/_header.scss */
+/* line 96, ../scss/layout/_header.scss */
 .contain-to-grid {
   background: white;
 }
 
-/* line 99, ../scss/layout/_header.scss */
+/* line 100, ../scss/layout/_header.scss */
 .fixed .main-nav i {
   display: none !important;
 }
 
-/* line 102, ../scss/layout/_header.scss */
+/* line 103, ../scss/layout/_header.scss */
 .fixed .top-bar-section .main-nav > li > a:not(.button).has-icon {
   line-height: 5rem;
 }
 
-/* line 107, ../scss/layout/_header.scss */
+/* line 108, ../scss/layout/_header.scss */
 .top-bar {
   background: white;
   z-index: 10;
 }
-/* line 114, ../scss/layout/_header.scss */
+/* line 115, ../scss/layout/_header.scss */
 .top-bar .name h1 a {
   display: inline-block;
   width: 165px;
@@ -18495,23 +18496,23 @@ a {
   background: url("../images/marca4.png") top center no-repeat;
 }
 
-/* line 136, ../scss/layout/_header.scss */
+/* line 137, ../scss/layout/_header.scss */
 .top-bar .toggle-topbar.menu-icon a span {
   box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
   color: #777;
 }
 
-/* line 141, ../scss/layout/_header.scss */
+/* line 142, ../scss/layout/_header.scss */
 .top-bar-section .left li a:not(.button) {
   background: #0047ba 50%;
 }
 
-/* line 145, ../scss/layout/_header.scss */
+/* line 146, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button).has-icon {
   text-align: center;
 }
 
-/* line 149, ../scss/layout/_header.scss */
+/* line 150, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) {
   font-weight: 500;
   font-size: 0.50em;
@@ -18520,7 +18521,7 @@ a {
   width: 9rem;
 }
 
-/* line 157, ../scss/layout/_header.scss */
+/* line 158, ../scss/layout/_header.scss */
 .top-bar-section .main-nav > li > a:not(.button) i {
   display: block;
   padding: 20px 0 0 0;
@@ -18528,37 +18529,37 @@ a {
   text-align: center;
 }
 
-/* line 164, ../scss/layout/_header.scss */
+/* line 165, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a {
   background: white !important;
   color: black;
 }
 
-/* line 169, ../scss/layout/_header.scss */
+/* line 170, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a:hover {
   text-decoration: underline;
   background: silver !important;
   color: red;
 }
 
-/* line 175, ../scss/layout/_header.scss */
+/* line 176, ../scss/layout/_header.scss */
 #secondary-menu li a {
   background: white;
   color: black;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 181, ../scss/layout/_header.scss */
+  /* line 182, ../scss/layout/_header.scss */
   .fixed .main-nav i {
     display: inline !important;
   }
 
-  /* line 185, ../scss/layout/_header.scss */
+  /* line 186, ../scss/layout/_header.scss */
   .top-bar, .title-area {
     height: 4rem;
   }
 
-  /* line 188, ../scss/layout/_header.scss */
+  /* line 189, ../scss/layout/_header.scss */
   .top-bar .name h1 a {
     background: url("../images/logo3.png") no-repeat;
   }
@@ -18567,19 +18568,19 @@ a {
    * Icon Area
    * @type {[type]}
    */
-  /* line 196, ../scss/layout/_header.scss */
+  /* line 197, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     text-align: left;
     padding: 0.3rem 0.3rem;
     font-size: 1.6rem;
   }
 
-  /* line 202, ../scss/layout/_header.scss */
+  /* line 203, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button).has-icon {
     width: 100%;
   }
 
-  /* line 206, ../scss/layout/_header.scss */
+  /* line 207, ../scss/layout/_header.scss */
   .top-bar-section .main-nav > li > a:not(.button) i {
     text-align: left;
     display: inline;
@@ -18588,134 +18589,136 @@ a {
     font-size: 2.1rem;
   }
 
-  /* line 214, ../scss/layout/_header.scss */
+  /* line 215, ../scss/layout/_header.scss */
   .top-bar.expanded .title-area {
     background: white !important;
   }
 }
 /* line 2, ../scss/layout/_main.scss */
 body {
-  background: url("../images/bg_parrot5.jpg") no-repeat -20rem 10.5rem fixed;
+  background: url("../images/bg_parrot5.jpg") no-repeat -20rem 0.5rem fixed;
 }
 
-/* line 6, ../scss/layout/_main.scss */
+/* line 9, ../scss/layout/_main.scss */
 .l-main {
   margin-bottom: 1.5rem;
+  background: rgba(247, 247, 247, 0.8);
 }
 
-/* line 10, ../scss/layout/_main.scss */
+/* line 14, ../scss/layout/_main.scss */
 .section-atlantida .l-slider {
   background: url("../images/sections/bg_atlantida.jpg");
   background-size: cover;
+  z-index: 10;
 }
-/* line 13, ../scss/layout/_main.scss */
+/* line 17, ../scss/layout/_main.scss */
 .section-atlantida .l-slider .front-title {
   color: #00b1d3;
   text-shadow: 2px 2px 2px #45272f;
 }
-/* line 17, ../scss/layout/_main.scss */
+/* line 21, ../scss/layout/_main.scss */
 .section-atlantida .l-slider h5.guara {
   font-size: 3rem !important;
   font-weight: 300 !important;
 }
-/* line 22, ../scss/layout/_main.scss */
+/* line 26, ../scss/layout/_main.scss */
 .section-atlantida .l-slider .guara {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #45272f;
 }
 
-/* line 28, ../scss/layout/_main.scss */
+/* line 33, ../scss/layout/_main.scss */
 .section-bay-island .l-slider, .section-islas-de-la-baiha .l-slider {
   background: url("../images/sections/bg_islas.jpg");
   background-size: cover;
 }
-/* line 31, ../scss/layout/_main.scss */
+/* line 36, ../scss/layout/_main.scss */
 .section-bay-island .l-slider .guara, .section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .guara, .section-islas-de-la-baiha .l-slider .mportal {
   text-shadow: 2px 2px 2px #012f2f;
 }
-/* line 34, ../scss/layout/_main.scss */
+/* line 39, ../scss/layout/_main.scss */
 .section-bay-island .l-slider .mportal, .section-islas-de-la-baiha .l-slider .mportal {
   color: #efc644;
 }
 
-/* line 39, ../scss/layout/_main.scss */
+/* line 44, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider, .section-copan-ruinas-y-occidente .l-slider {
   background: url("../images/sections/bg_occidente.jpg");
   background-size: cover;
 }
-/* line 42, ../scss/layout/_main.scss */
+/* line 47, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider .mportal, .section-copan-ruinas-y-occidente .l-slider .mportal {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px black;
 }
-/* line 47, ../scss/layout/_main.scss */
+/* line 52, ../scss/layout/_main.scss */
 .section-copan-ruinas-and-west-honduras .l-slider .portal, .section-copan-ruinas-y-occidente .l-slider .portal {
   color: #fca027;
 }
 
-/* line 51, ../scss/layout/_main.scss */
+/* line 56, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider {
   background: url("../images/sections/bg_sanpedro.jpg");
   background-size: cover;
 }
-/* line 54, ../scss/layout/_main.scss */
+/* line 59, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider .front-title {
   color: #b1639f;
   text-shadow: 2px 2px 2px black;
 }
-/* line 58, ../scss/layout/_main.scss */
+/* line 63, ../scss/layout/_main.scss */
 .section-san-pedro-sula .l-slider .portal {
   color: #cc7c1a;
 }
 
-/* line 63, ../scss/layout/_main.scss */
+/* line 68, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider, .section-lago-de-yojoa .l-slider {
   background: url("../images/sections/bg_yojoa.jpg");
   background-size: cover;
   background-position: center bottom;
 }
-/* line 67, ../scss/layout/_main.scss */
+/* line 72, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider .front-title, .section-lago-de-yojoa .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #5c2629;
 }
-/* line 71, ../scss/layout/_main.scss */
+/* line 76, ../scss/layout/_main.scss */
 .section-lake-yojoa .l-slider .portal, .section-lago-de-yojoa .l-slider .portal {
   text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 76, ../scss/layout/_main.scss */
+/* line 81, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider {
   background: url("../images/sections/bg_tegus.jpg");
   background-size: cover;
 }
-/* line 79, ../scss/layout/_main.scss */
+/* line 84, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 1px white;
 }
-/* line 84, ../scss/layout/_main.scss */
+/* line 89, ../scss/layout/_main.scss */
 .section-tegucigalpa .l-slider h5.portal .guara {
   font-size: 3rem !important;
   font-weight: 300 !important;
 }
 
-/* line 90, ../scss/layout/_main.scss */
+/* line 95, ../scss/layout/_main.scss */
 .section-others .l-slider {
   background: url("../images/sections/bg_otros.jpg");
   background-size: cover;
 }
-/* line 93, ../scss/layout/_main.scss */
+/* line 98, ../scss/layout/_main.scss */
 .section-others .l-slider .front-title {
   color: #cc7c1a;
   text-shadow: 2px 2px 2px #5c2629;
 }
-/* line 97, ../scss/layout/_main.scss */
+/* line 102, ../scss/layout/_main.scss */
 .section-others .l-slider .portal {
   text-shadow: 2px 2px 1px #5c2629;
 }
 
-/* line 103, ../scss/layout/_main.scss */
+/* line 108, ../scss/layout/_main.scss */
 .l-slider {
   background: url("../images/bgs_2.jpg");
   background-size: cover;
@@ -18724,18 +18727,18 @@ body {
   display: block;
   margin-bottom: 2rem;
 }
-/* line 113, ../scss/layout/_main.scss */
+/* line 118, ../scss/layout/_main.scss */
 .l-slider .front-title {
   font-family: Hondurean;
   text-align: center;
   font-size: 4rem;
   margin-bottom: 0;
 }
-/* line 120, ../scss/layout/_main.scss */
+/* line 125, ../scss/layout/_main.scss */
 .l-slider .front-message {
   padding: 90px 0;
 }
-/* line 124, ../scss/layout/_main.scss */
+/* line 129, ../scss/layout/_main.scss */
 .l-slider .guara {
   /*color: rgb(0, 71, 186) !important;*/
   font-size: 4.5rem !important;
@@ -18746,7 +18749,7 @@ body {
   margin-bottom: 0;
   text-shadow: 2px 2px 1px black;
 }
-/* line 135, ../scss/layout/_main.scss */
+/* line 140, ../scss/layout/_main.scss */
 .l-slider .guara span {
   display: inline-block;
   height: 0px;
@@ -18756,11 +18759,11 @@ body {
   width: 195px;
   margin-top: -50px;
 }
-/* line 145, ../scss/layout/_main.scss */
+/* line 150, ../scss/layout/_main.scss */
 .l-slider .explora {
   color: #0047ba;
 }
-/* line 149, ../scss/layout/_main.scss */
+/* line 154, ../scss/layout/_main.scss */
 .l-slider .portal {
   /*color:rgb(0,71,186)!important;
   /*Color del portal*/
@@ -18770,7 +18773,7 @@ body {
   text-shadow: 2px 2px 1px black;
 }
 
-/* line 160, ../scss/layout/_main.scss */
+/* line 165, ../scss/layout/_main.scss */
 .breadcrumbs {
   border-style: none;
   border: none;
@@ -18782,7 +18785,7 @@ body {
  * 	Detinos Turisticos
  * 
  */
-/* line 179, ../scss/layout/_main.scss */
+/* line 184, ../scss/layout/_main.scss */
 .image a {
   display: inline !important;
 }
@@ -18792,48 +18795,48 @@ body {
  * 	Atracciones Turisticas
  * 
  */
-/* line 189, ../scss/layout/_main.scss */
+/* line 194, ../scss/layout/_main.scss */
 .node-type-destinos-turisticos .group-top {
   padding: 0.5rem 0 0.5rem 0;
   margin-bottom: 1rem;
 }
 
-/* line 194, ../scss/layout/_main.scss */
+/* line 199, ../scss/layout/_main.scss */
 .group-top .image a {
   display: inline !important;
 }
 
-/* line 198, ../scss/layout/_main.scss */
+/* line 203, ../scss/layout/_main.scss */
 .rel-explorar {
   border-bottom: 1px solid silver;
   padding: 1rem;
   margin-bottom: 0.8rem;
 }
-/* line 210, ../scss/layout/_main.scss */
+/* line 215, ../scss/layout/_main.scss */
 .rel-explorar i {
   font-size: 2.5rem;
   font-weight: 100;
 }
 
-/* line 217, ../scss/layout/_main.scss */
+/* line 222, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li {
   display: inline-block;
   width: 112px;
   margin-bottom: 1rem;
 }
-/* line 221, ../scss/layout/_main.scss */
+/* line 226, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a {
   display: block;
   font-size: 0.8rem;
   text-align: center;
   color: #b1639f;
 }
-/* line 226, ../scss/layout/_main.scss */
+/* line 231, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a i {
   display: block;
   font-size: 3.1rem !important;
 }
-/* line 231, ../scss/layout/_main.scss */
+/* line 236, ../scss/layout/_main.scss */
 .field-name-field-ref-servicios li a:hover {
   color: #00b1d3;
 }
@@ -18843,12 +18846,12 @@ body {
  * @return {[type]}            [description]
  */
 @media only screen and (max-width: 40em) {
-  /* line 244, ../scss/layout/_main.scss */
+  /* line 249, ../scss/layout/_main.scss */
   .l-slider .front-message {
     padding: 70px 0;
   }
 
-  /* line 249, ../scss/layout/_main.scss */
+  /* line 254, ../scss/layout/_main.scss */
   .flexslider {
     width: 100%;
     float: none;
@@ -21572,6 +21575,45 @@ a.expand {
 /* line 50, ../scss/theme/_icons-colors.scss */
 .fa-tours {
   color: #ffb900;
+}
+
+/***** Estilos para galerias ********/
+/** inside colorbox styles **/
+/* line 5, ../scss/theme/_galeries.scss */
+#colorboxNodeLoading {
+  background: url("../images/loading.gif") no-repeat center center;
+}
+
+/* line 11, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .field-group-html5 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 0 5px 5px;
+  position: absolute;
+  width: 98.5%;
+  z-index: 10;
+}
+/* line 19, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .field-group-html5 .field-name-title h5 a {
+  color: whitesmoke;
+  border-left: #c0c0c0 solid 1px;
+  padding-left: 5px;
+}
+/* line 24, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .field-group-html5 .field-name-title h5 a:hover {
+  color: #ff7600;
+}
+/* line 31, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .field-name-social {
+  float: left;
+  margin-right: 0.8rem;
+  display: block;
+}
+/* line 37, ../scss/theme/_galeries.scss */
+#cboxLoadedContent .field-name-field-image-galery-size {
+  float: left;
+  display: inline !important;
+  margin: 0 10px 10px 0;
+  z-index: 1;
 }
 
 /* Welcome to Compass. Use this file to write IE specific override styles. */
