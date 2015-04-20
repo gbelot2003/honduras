@@ -32,8 +32,8 @@
       <file leaf-file-name="_galeries.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/theme/_galeries.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7399679" vertical-offset="115" max-vertical-offset="954">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.7110754" vertical-offset="169" max-vertical-offset="972">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -233,7 +233,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429488438500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gallery links colors">
+      <created>1429513814908</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1429513814908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -278,7 +284,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="creation for logic and styles on image gallerys on gallerys system, videos yet to configurate" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation for logic and styles on image gallerys on gallerys system, videos yet to configurate" />
+    <MESSAGE value="Gallery links colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gallery links colors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -329,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/theme/_galeries.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7399679" vertical-offset="115" max-vertical-offset="954">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.7110754" vertical-offset="169" max-vertical-offset="972">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
         </state>
       </provider>
