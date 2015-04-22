@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d5bc4f8-73cd-4c47-aa0f-aebaee02a299" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/honduras.js" afterPath="$PROJECT_DIR$/js/honduras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.php" afterPath="$PROJECT_DIR$/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="honduras.iws" />
@@ -28,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.1454544" vertical-offset="3136" max-vertical-offset="10044">
-              <caret line="195" column="21" selection-start-line="195" selection-start-column="21" selection-end-line="195" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="honduras.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/honduras.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5086342" vertical-offset="0" max-vertical-offset="1890">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.72164947" vertical-offset="2820" max-vertical-offset="10152">
+              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +51,8 @@
         <option value="$PROJECT_DIR$/scss/layout/_main.scss" />
         <option value="$PROJECT_DIR$/scss/theme/_galeries.scss" />
         <option value="$PROJECT_DIR$/../../modules/leaflet/leaflet.drupal.js" />
-        <option value="$PROJECT_DIR$/template.php" />
         <option value="$PROJECT_DIR$/js/honduras.js" />
+        <option value="$PROJECT_DIR$/template.php" />
       </list>
     </option>
   </component>
@@ -222,7 +212,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429689571047</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify honduras.js due avoid materializ to load on destinis_turisticos due conflict with jquery_tabs">
+      <created>1429689955036</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1429689955036</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -270,7 +266,8 @@
     <MESSAGE value="Gallery links colors" />
     <MESSAGE value="service link lined with title text" />
     <MESSAGE value="avoid materializ to load on destinis_turisticos due conflict with jquery_tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="avoid materializ to load on destinis_turisticos due conflict with jquery_tabs" />
+    <MESSAGE value="modify honduras.js due avoid materializ to load on destinis_turisticos due conflict with jquery_tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify honduras.js due avoid materializ to load on destinis_turisticos due conflict with jquery_tabs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -364,18 +361,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
+    <entry file="file://$PROJECT_DIR$/js/honduras.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1454544" vertical-offset="3136" max-vertical-offset="10044">
-          <caret line="195" column="21" selection-start-line="195" selection-start-column="21" selection-end-line="195" selection-end-column="21" />
+        <state vertical-scroll-proportion="-0.27158555" vertical-offset="497" max-vertical-offset="1890">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/honduras.js">
+    <entry file="file://$PROJECT_DIR$/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5086342" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.72164947" vertical-offset="2820" max-vertical-offset="10152">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
       </provider>

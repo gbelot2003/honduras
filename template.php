@@ -173,6 +173,14 @@ function honduras_preprocess_page(&$variables) {
     $variables['link_tours'] = 'es/con-quien/tour-operadores';
   }
 
+
+	if($variables['node']->type != 'destinos_turisticos')
+	{
+		drupal_add_js(drupal_get_path('theme', 'honduras') . "/js/materialize.js");
+	}
+
+
+
 }
 
 /**
@@ -185,7 +193,7 @@ function honduras_preprocess_node(&$variables){
    /**
    * Adding secction clases to body 
    */
-  
+
     $node = $variables["node"];
     if(isset($node->field_turistic_section['und'][0]["taxonomy_term"])){
       foreach ($node->field_turistic_section["und"] as $foo){
@@ -193,9 +201,7 @@ function honduras_preprocess_node(&$variables){
         $variables["classes_array"][] = "term-" . str_replace(" ", "-", strtolower($term->name));
       }
     }
-	if($node->type != 'destinos_turisticos'){
-		drupal_add_js(drupal_get_path('theme', 'honduras') ."/js/materialize.js");
-	}
+
 }
 
 
