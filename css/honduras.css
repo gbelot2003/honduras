@@ -21623,4 +21623,12 @@ a.expand {
   margin-top: 1rem;
 }
 
+/*****************************/
+/* line 53, ../scss/theme/_galeries.scss */
+.node-type-galerias .field-type-text-with-summary {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
 /* Welcome to Compass. Use this file to write IE specific override styles. */
