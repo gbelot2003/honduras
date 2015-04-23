@@ -18530,16 +18530,16 @@ a {
 }
 
 /* line 165, ../scss/layout/_header.scss */
-.top-bar-section .dropdown li a {
+.top-bar-section .dropdown li a, .top-bar-section .dropdown li a:active {
   background: white !important;
-  color: black;
+  color: black !important;
 }
 
 /* line 170, ../scss/layout/_header.scss */
 .top-bar-section .dropdown li a:hover {
   text-decoration: underline;
   background: silver !important;
-  color: red;
+  color: red !important;
 }
 
 /* line 176, ../scss/layout/_header.scss */
