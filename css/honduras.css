@@ -18976,7 +18976,7 @@ body {
 }
 
 /* line 23, ../scss/layout/_views.scss */
-.view-display-id-block,
+.view-id-front_page,
 .view-display-id-block_2,
 .view-display-id-block_3,
 .view-display-id-block_5 {
@@ -19023,7 +19023,7 @@ body {
 }
 
 /* line 67, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title,
+.view-id-front_page .views-field-title,
 .view-display-id-block_2 .views-column-1 .views-field-title,
 .view-display-id-block_2 .views-column-3 .views-field-title,
 .view-display-id-block_5 .views-column-1 .views-field-title,
@@ -19044,13 +19044,13 @@ body {
 }
 
 /* line 86, ../scss/layout/_views.scss */
-.view-display-id-block:hover .views-field-title,
+.view-id-front_page:hover .views-field-title,
 .view-display-id-block_3:hover .views-field-title {
   opacity: 0;
 }
 
 /* line 91, ../scss/layout/_views.scss */
-.view-display-id-block .front-image,
+.view-id-front_page .front-image,
 .view-display-id-block_2 .front-image,
 .view-display-id-block_3 .front-image,
 .view-display-id-block_5 .front-image {
@@ -19058,7 +19058,7 @@ body {
   overflow: hidden;
 }
 /* line 97, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlays,
+.view-id-front_page .front-image .overlays,
 .view-display-id-block_2 .front-image .overlays,
 .view-display-id-block_3 .front-image .overlays,
 .view-display-id-block_5 .front-image .overlays {
@@ -19074,7 +19074,7 @@ body {
   -moz-transition: opacity .25s ease;
 }
 /* line 108, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlays p,
+.view-id-front_page .front-image .overlays p,
 .view-display-id-block_2 .front-image .overlays p,
 .view-display-id-block_3 .front-image .overlays p,
 .view-display-id-block_5 .front-image .overlays p {
@@ -19082,7 +19082,7 @@ body {
   text-align: justify;
 }
 /* line 112, ../scss/layout/_views.scss */
-.view-display-id-block .front-image .overlays span,
+.view-id-front_page .front-image .overlays span,
 .view-display-id-block_2 .front-image .overlays span,
 .view-display-id-block_3 .front-image .overlays span,
 .view-display-id-block_5 .front-image .overlays span {
@@ -19090,7 +19090,7 @@ body {
 }
 
 /* line 124, ../scss/layout/_views.scss */
-.view-display-id-block:hover .front-image .overlays,
+.view-id-front_page:hover .front-image .overlays,
 .view-display-id-block_2 .views-column-1:hover .front-image .overlays,
 .view-display-id-block_2 .views-column-3:hover .front-image .overlays,
 .view-display-id-block_5 .views-column-1:hover .front-image .overlays,
@@ -19100,7 +19100,7 @@ body {
 }
 
 /* line 129, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title h3,
+.view-id-front_page .views-field-title h3,
 .view-display-id-block_3 .views-field-title h3 {
   color: #2795B6;
   padding: 0 0 0 0.5rem;
@@ -19108,23 +19108,23 @@ body {
 }
 
 /* line 136, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title h3:hover,
+.view-id-front_page .views-field-title h3:hover,
 .view-display-id-block_3 .views-field-title h3:hover {
   text-decoration: underline;
 }
 
 /* line 141, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title p,
+.view-id-front_page .views-field-title p,
 .view-display-id-block_3 .views-field-title p {
   padding: 0 0 0 0.5rem;
 }
 /* line 144, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title p a,
+.view-id-front_page .views-field-title p a,
 .view-display-id-block_3 .views-field-title p a {
   color: white;
 }
 /* line 147, ../scss/layout/_views.scss */
-.view-display-id-block .views-field-title p i,
+.view-id-front_page .views-field-title p i,
 .view-display-id-block_3 .views-field-title p i {
   color: #e60000;
 }
@@ -21216,6 +21216,34 @@ td.single-day .inner {
 /* line 155, ../scss/components/_calendar.scss */
 .ui-dialog-title {
   font-family: hondurean;
+}
+
+/*************************************/
+/* line 161, ../scss/components/_calendar.scss */
+.view-new-calendar .card {
+  margin: 0.1rem 0 0.2rem 0;
+}
+/* line 162, ../scss/components/_calendar.scss */
+.view-new-calendar .card span.day, .view-new-calendar .card span.mes {
+  display: block;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+}
+/* line 168, ../scss/components/_calendar.scss */
+.view-new-calendar .card span.day {
+  color: #2C47BA;
+}
+/* line 171, ../scss/components/_calendar.scss */
+.view-new-calendar .card .fecha {
+  padding: 2rem 0 0 0;
+}
+/* line 175, ../scss/components/_calendar.scss */
+.view-new-calendar .card h3 {
+  font-size: 1rem;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;
 }
 
 /* line 2, ../scss/components/_jquery-tabs.scss */
