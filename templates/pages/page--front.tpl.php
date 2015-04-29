@@ -221,6 +221,11 @@
 
 							</ul>
 						</div>
+						<?php if($page['front_map']): ?>
+							<div id="frontmap">
+								<?php print render($page['front_map']); ?>
+							</div>
+						<?php endif ?>
 					</div>
 
 					<div id="l-row-news" class="large-6 columns">
