@@ -18864,22 +18864,30 @@ body {
 }
 
 /* line 11, ../scss/layout/_front.scss */
+.card h3 {
+  font-size: 1rem;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+/* line 20, ../scss/layout/_front.scss */
 #link-servicios ul {
   text-align: center;
 }
-/* line 13, ../scss/layout/_front.scss */
+/* line 22, ../scss/layout/_front.scss */
 #link-servicios ul li {
   display: inline-block;
   width: 6.7rem;
   margin: 0 0.7rem 0 0;
 }
-/* line 17, ../scss/layout/_front.scss */
+/* line 26, ../scss/layout/_front.scss */
 #link-servicios ul li div {
   display: inline;
   width: 150%;
   text-align: center;
 }
-/* line 21, ../scss/layout/_front.scss */
+/* line 30, ../scss/layout/_front.scss */
 #link-servicios ul li div a {
   color: gray;
   padding: 0.5rem;
@@ -18891,7 +18899,7 @@ body {
   -moz-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
-/* line 31, ../scss/layout/_front.scss */
+/* line 40, ../scss/layout/_front.scss */
 #link-servicios ul li div a i {
   display: block;
   font-size: 5.5rem;
@@ -18901,28 +18909,28 @@ body {
   -moz-transition: all 0.8s ease;
   transition: all 0.8s ease;
 }
-/* line 44, ../scss/layout/_front.scss */
+/* line 53, ../scss/layout/_front.scss */
 #link-servicios div a:hover {
   background: white;
   color: #ff751a;
 }
-/* line 47, ../scss/layout/_front.scss */
+/* line 56, ../scss/layout/_front.scss */
 #link-servicios div a:hover i.fa-hoteles {
   color: #0072c0;
 }
-/* line 51, ../scss/layout/_front.scss */
+/* line 60, ../scss/layout/_front.scss */
 #link-servicios div a:hover i.fa-restaurantes {
   color: #00ad9f;
 }
-/* line 55, ../scss/layout/_front.scss */
+/* line 64, ../scss/layout/_front.scss */
 #link-servicios div a:hover i.fa-transporte {
   color: #00b800;
 }
-/* line 59, ../scss/layout/_front.scss */
+/* line 68, ../scss/layout/_front.scss */
 #link-servicios div a:hover i.fa-tours {
   color: #ffb900;
 }
-/* line 63, ../scss/layout/_front.scss */
+/* line 72, ../scss/layout/_front.scss */
 #link-servicios div a:hover i.fa-buceo {
   color: #474aa3;
 }
@@ -21219,31 +21227,39 @@ td.single-day .inner {
 }
 
 /*************************************/
-/* line 161, ../scss/components/_calendar.scss */
+/* line 163, ../scss/components/_calendar.scss */
+.view-new-calendar .card:hover {
+  background: #c3c3c3;
+}
+/* line 166, ../scss/components/_calendar.scss */
 .view-new-calendar .card {
   margin: 0.1rem 0 0.2rem 0;
 }
-/* line 162, ../scss/components/_calendar.scss */
+/* line 167, ../scss/components/_calendar.scss */
 .view-new-calendar .card span.day, .view-new-calendar .card span.mes {
   display: block;
   font-size: 1.8rem;
   text-align: center;
   width: 100%;
 }
-/* line 168, ../scss/components/_calendar.scss */
+/* line 173, ../scss/components/_calendar.scss */
 .view-new-calendar .card span.day {
   color: #2C47BA;
 }
-/* line 171, ../scss/components/_calendar.scss */
+/* line 176, ../scss/components/_calendar.scss */
 .view-new-calendar .card .fecha {
   padding: 2rem 0 0 0;
 }
-/* line 175, ../scss/components/_calendar.scss */
+/* line 180, ../scss/components/_calendar.scss */
 .view-new-calendar .card h3 {
   font-size: 1rem;
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   margin: 0 auto;
+}
+/* line 187, ../scss/components/_calendar.scss */
+.view-new-calendar .card .datos strong {
+  color: #2C47BA;
 }
 
 /* line 2, ../scss/components/_jquery-tabs.scss */
