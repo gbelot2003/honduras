@@ -222,7 +222,7 @@
 							</ul>
 						</div>
 						<?php if($page['front_map']): ?>
-							<div id="frontmap">
+							<div id="front-map">
 								<?php print render($page['front_map']); ?>
 							</div>
 						<?php endif ?>
