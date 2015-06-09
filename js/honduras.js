@@ -30,7 +30,7 @@
             $('.field-name-field-ref-servicios a:contains("Aire Acondicionado")').prepend("<i class='icon fa-air'></i>");
 
             $('.field-name-field-ref-servicios a:contains("Bar/Restaurant")').prepend("<i class='icon fa-bar'></i>");
-            $('.field-name-field-ref-servicios a:contains("Bar/Restaurante")').prepend("<i class='icon fa-bar'></i>");
+            $('.field-name-field-ref-servicios a:contains("Bar-Restaurante")').prepend("<i class='icon fa-bar'></i>");
 
             $('.field-name-field-ref-servicios a:contains("Boat Tours")').prepend("<i class='icon fa-boat'></i>");
             $('.field-name-field-ref-servicios a:contains("Paseos en Lancha")').prepend("<i class='icon fa-boat'></i>");
@@ -45,7 +45,7 @@
             $('.field-name-field-ref-servicios a:contains("Parqueo")').prepend("<i class='icon fa-parking'></i>");
 
             $('.field-name-field-ref-servicios a:contains("Pool")').prepend("<i class='icon fa-pool'></i>");
-            $('.field-name-field-ref-servicios a:contains("Pisina")').prepend("<i class='icon fa-pool'></i>");
+            $('.field-name-field-ref-servicios a:contains("Piscina")').prepend("<i class='icon fa-pool'></i>");
 
             $('.field-name-field-ref-servicios a:contains("Room Service")').prepend("<i class='icon fa-room'></i>");
             $('.field-name-field-ref-servicios a:contains("Servicio a la Habitación")').prepend("<i class='icon fa-room'></i>");
