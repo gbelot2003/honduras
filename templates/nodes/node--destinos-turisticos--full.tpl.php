@@ -106,7 +106,12 @@
     </div>
     <div class="row">
       <div class="large-6 columns">
-        <?php print render($content['field_informacion_util']); ?>        
+        <?php print render($content['field_informacion_util']); ?>
+		  <hr/>
+		<?php
+			$viewName = 'atracciones_contextio';
+			print views_embed_view($viewName);
+		?>
       </div>
       <div class="large-6 columns">
         <?php print render($content['field_geolocalizaci_n']); ?>
