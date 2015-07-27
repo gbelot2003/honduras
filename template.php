@@ -166,11 +166,11 @@ function honduras_preprocess_page(&$variables) {
     $variables['link_diving'] = 'with-whom/diving-centers';
     $variables['link_tours'] = 'with-whom/tour-operators';
   } else {
-    $variables['link_hotels'] = 'es/con-quien/hoteles';
-    $variables['link_restaurants'] = 'es/con-quien/restaurantes';
-    $variables['link_transports'] = 'es/con-quien/transportes';
+    $variables['link_hotels'] = 'con-quien/hoteles';
+    $variables['link_restaurants'] = 'con-quien/restaurantes';
+    $variables['link_transports'] = 'con-quien/transportes';
     $variables['link_diving'] = '';
-    $variables['link_tours'] = 'es/con-quien/tour-operadores';
+    $variables['link_tours'] = 'con-quien/tour-operadores';
   }
 
 
