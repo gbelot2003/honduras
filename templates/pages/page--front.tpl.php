@@ -189,7 +189,7 @@
 						<p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
 						<?php print render($page['front_first']); ?>
 						<div id="link-servicios" class="">
-							<h3 class="page-title front"><?php print t("Trust turism services lists") ?></h3>
+							<h3 class="page-title front"><?php print t("Trusted tourism services lists") ?></h3>
 							<p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>
 							<ul class="inline">
 
