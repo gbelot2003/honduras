@@ -192,8 +192,9 @@
                   <script type = 'text/javascript' id='sp_widget' data-hash='_b77823812116' data-container='b_container' data-size='570x134' data-tpncy='false' src='https://aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js'></script>
                 </div>
               </div>
-             <div id="link-servicios" class="">
-             <div class="large-6 columns">
+
+            <div id="link-servicios" class="">
+
               <h3 class="page-title front"><?php print t("Trusted tourism services lists") ?></h3>
               <p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>
                 <ul class="inline">
@@ -225,8 +226,8 @@
                   </li>
 
                </ul>
-             </div>
-          </div>
+
+            </div>
 
           <div id="l-row-news" class="large-6 columns">
             <h3 class="page-title front"><?php print t('News') ?></h3>
