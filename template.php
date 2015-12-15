@@ -186,7 +186,6 @@ function honduras_preprocess_page(&$variables) {
 /**
  * [honduras_preprocess_node description]
  * @param  [type] &$variables [description]
- * @return [type]             [description]
  */
 function honduras_preprocess_node(&$variables){
    
