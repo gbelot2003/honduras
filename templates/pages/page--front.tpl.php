@@ -191,7 +191,7 @@
 
 						<div class="large-6 columns">
 							<div id='b_container'>
-								<script type = 'text/javascript' id='sp_widget' data-hash='_b77823812116' data-container='b_container' data-size='570x134' data-tpncy='false' src='https://aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js'></script>
+								<script type = 'text/javascript' id='sp_widget' data-hash='_b77823812116' data-container='b_container' data-size='570x134' data-tpncy='false' src='https://aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js?cc1=hn'></script>							
 							</div>
 						</div>
 
