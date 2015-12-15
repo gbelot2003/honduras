@@ -190,6 +190,12 @@
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
 			  <?php print render($page['front_first']); ?>
 
+              <div class="large-6 columns">
+                  <div id='b_container'>
+                      <script type = 'text/javascript' id='sp_widget' data-hash='_b77823812116' data-container='b_container' data-size='570x134' data-tpncy='false' src='https://aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js'></script>
+                  </div>
+              </div>
+
              <div id="link-servicios" class="">
 
               <h3 class="page-title front"><?php print t("Trusted tourism services lists") ?></h3>
@@ -227,7 +233,7 @@
           </div>
 
           <div id="l-row-news" class="large-6 columns">
-            <h3 class="page-title front"><?php print t('News') ?></h3>
+            <h3 class=s"page-title front"><?php print t('News') ?></h3>
             <p class="description"><?php print t('Intresting news and tips for travelers') ?></p>
             <?php print views_embed_view('front_page', $display_id = 'block_4');  ?>
 			  <!-- Calendar Block -->

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d5bc4f8-73cd-4c47-aa0f-aebaee02a299" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/page--front.tpl.php" afterPath="$PROJECT_DIR$/templates/pages/page--front.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
     </list>
     <ignored path="honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page--taxonomy--term--253.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page--taxonomy--term--253.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4101942">
-              <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+            <state vertical-scroll-proportion="-4.509091">
+              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="193" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7169812">
-              <caret line="197" column="58" selection-start-line="197" selection-start-column="24" selection-end-line="197" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.2915717">
+              <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -79,9 +68,9 @@
         <option value="$PROJECT_DIR$/scss/base/_elements.scss" />
         <option value="$PROJECT_DIR$/honduras.info" />
         <option value="$PROJECT_DIR$/theme-settings.php" />
-        <option value="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
         <option value="$PROJECT_DIR$/templates/pages/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
       </list>
     </option>
   </component>
@@ -394,7 +383,19 @@
       <option name="project" value="LOCAL" />
       <updated>1450185547381</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changes on layout">
+      <created>1450185806121</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1450185806121</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test changes on page">
+      <created>1450186035740</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1450186035740</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -472,7 +473,9 @@
     <MESSAGE value="ajusting boxing size" />
     <MESSAGE value="retirando script" />
     <MESSAGE value="redoing script" />
-    <option name="LAST_COMMIT_MESSAGE" value="redoing script" />
+    <MESSAGE value="changes on layout" />
+    <MESSAGE value="test changes on page" />
+    <option name="LAST_COMMIT_MESSAGE" value="test changes on page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,6 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,26 +726,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7169812">
-          <caret line="197" column="58" selection-start-line="197" selection-start-column="24" selection-end-line="197" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.2746479">
+          <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4101942">
-          <caret line="199" column="35" selection-start-line="199" selection-start-column="35" selection-end-line="199" selection-end-column="35" />
+        <state vertical-scroll-proportion="-4.509091">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="193" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2915717">
+          <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
           <folding />
         </state>
       </provider>
