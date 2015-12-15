@@ -29,8 +29,8 @@
       <file leaf-file-name="page--taxonomy--term--253.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9506173">
-              <caret line="198" column="32" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="32" />
+            <state vertical-scroll-proportion="-4.3950615">
+              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4715262">
-              <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.38952163">
+              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
         <option value="$PROJECT_DIR$/scss/base/_elements.scss" />
         <option value="$PROJECT_DIR$/honduras.info" />
         <option value="$PROJECT_DIR$/theme-settings.php" />
-        <option value="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
         <option value="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
+        <option value="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
       </list>
     </option>
   </component>
@@ -348,7 +348,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450185056207</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ajusting boxing size">
+      <created>1450185197834</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1450185197834</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,7 +429,8 @@
     <MESSAGE value="color to dates descriptions" />
     <MESSAGE value="adding front map area and variable" />
     <MESSAGE value="changes on secctions, adding script of booking" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes on secctions, adding script of booking" />
+    <MESSAGE value="ajusting boxing size" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajusting boxing size" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -682,16 +689,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9506173">
-          <caret line="198" column="32" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.3950615">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4715262">
-          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.38952163">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
           <folding />
         </state>
       </provider>
