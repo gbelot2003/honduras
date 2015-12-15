@@ -187,9 +187,12 @@
              <h3 class="page-title front"><?php print t('Destinations') ?></h3>
              <p class="description"><?php print t("Explore and discover Honduras in all it's splendor") ?></p>
 			  <?php print render($page['front_first']); ?>
-
+              <div class="large-6 columns">
+                <div id='b_container'>
+                  <script type = 'text/javascript' id='sp_widget' data-hash='_b77823812116' data-container='b_container' data-size='570x134' data-tpncy='false' src='https://aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js'></script>
+                </div>
+              </div>
              <div id="link-servicios" class="">
-
              <div class="large-6 columns">
               <h3 class="page-title front"><?php print t("Trusted tourism services lists") ?></h3>
               <p class="description"><?php print  t('You will find all of the certify services to trust as Hotels or transports at Honduras, just fallow the links below') ?></p>

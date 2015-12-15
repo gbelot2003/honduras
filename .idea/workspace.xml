@@ -4,7 +4,6 @@
     <list default="true" id="8d5bc4f8-73cd-4c47-aa0f-aebaee02a299" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" afterPath="$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php" />
     </list>
     <ignored path="honduras.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page--taxonomy--term--253.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page--taxonomy--term--253.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3950615">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3446602">
+              <caret line="196" column="98" selection-start-line="196" selection-start-column="98" selection-end-line="196" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.666667">
+              <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="194" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page--taxonomy--term--256.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38952163">
-              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.333333">
+              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,6 +219,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="honduras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -354,7 +381,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450185197834</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="retirando script">
+      <created>1450185302186</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1450185302186</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +463,8 @@
     <MESSAGE value="adding front map area and variable" />
     <MESSAGE value="changes on secctions, adding script of booking" />
     <MESSAGE value="ajusting boxing size" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajusting boxing size" />
+    <MESSAGE value="retirando script" />
+    <option name="LAST_COMMIT_MESSAGE" value="retirando script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -655,14 +689,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3967136">
-          <caret line="191" column="30" selection-start-line="190" selection-start-column="8" selection-end-line="194" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme-settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.225">
@@ -687,18 +713,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
+    <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3950615">
+        <state vertical-scroll-proportion="-11.333333">
           <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/copan/page--taxonomy--term--256.tpl.php">
+    <entry file="file://$PROJECT_DIR$/templates/pages/page--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38952163">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="194" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/atlantida/page--taxonomy--term--253.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3446602">
+          <caret line="196" column="98" selection-start-line="196" selection-start-column="98" selection-end-line="196" selection-end-column="98" />
           <folding />
         </state>
       </provider>
